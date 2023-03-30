@@ -113,7 +113,7 @@ function Sponsors() {
         </div>
       </section>
 
-      <section className="general-sponsors mb-96">
+      <section className="general-sponsors mb-24">
         <h2 className="h5 mb-8">
           <FormattedMessage
             id="sponsors.additional_thanks_to"
@@ -180,7 +180,6 @@ function Sponsors() {
     </Layout>
   )
 }
-
 export default Sponsors
 
 export const getStaticProps = withDefaultStaticProps()

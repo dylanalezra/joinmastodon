@@ -42,10 +42,10 @@ const LinkButton = ({
     <Link href={href}>
       <a
         className={classnames(
-          "flex items-center justify-center rounded-md border-2 p-4 text-center !font-semibold transition-colors focus:outline-none hocus:border-blurple-600 hocus:bg-blurple-600 hocus:text-white",
-          borderless ? "border-white" : "border-blurple-500",
+          "flex items-center justify-center rounded-md border-2 p-4 text-center !font-semibold transition-colors focus:outline-none hocus:border-white hocus:bg-chakragreen-400 hocus:text-white",
+          borderless ? "border-white" : "border-white",
           fullWidth ? "w-full" : "w-max",
-          light ? "bg-white text-blurple-500" : "bg-blurple-500 text-white",
+          light ? "bg-chakragrey-300 text-navy" : "bg-chakragreen-300 text-white",
           size === "small" && "b3 h-10",
           size === "medium" && "b3 h-12",
           size === "large" && "b3 md:b1 h-12 md:h-16 md:px-6"

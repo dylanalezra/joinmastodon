@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { FormattedMessage, useIntl } from "react-intl"
 
-import mastodonLogo from "../public/logos/wordmark-white-text.svg"
+import mastodonLogo from "../public/logos/logo_brand.svg"
 import Image from "next/image"
 import { useState, useEffect, useRef, useId } from "react"
 import classNames from "classnames"
@@ -60,23 +60,24 @@ const Header = ({ transparent = true }: HeaderProps) => {
         title: <FormattedMessage id="nav.code.title" defaultMessage="Source code" />,
         description: <FormattedMessage id="nav.code.description" defaultMessage="Mastodon is free and open-source software" />,
       },
-    }, {
-      key: "locale",
-      label: <span aria-label={intl.formatMessage({
-        id: "translate_site",
-        defaultMessage: "文A, Translate site",
-      })}>文A</span>,
-      compact: true,
-      childItems: locales.map((locale) => ({
-        key: locale.code,
-        locale: locale.code,
-        scroll: false,
-        small: true,
-        value: "", // current page
-        label: locale.language,
-        active: router.locale === locale.code,
-      })),
-    }
+    }, 
+    // {
+    //   key: "locale",
+    //   label: <span aria-label={intl.formatMessage({
+    //     id: "translate_site",
+    //     defaultMessage: "文A, Translate site",
+    //   })}>文A</span>,
+    //   compact: true,
+    //   childItems: locales.map((locale) => ({
+    //     key: locale.code,
+    //     locale: locale.code,
+    //     scroll: false,
+    //     small: true,
+    //     value: "", // current page
+    //     label: locale.language,
+    //     active: router.locale === locale.code,
+    //   })),
+    // }
   ]
     // set active status on links
     .map((item) => ({ ...item, active: router.asPath === item.value }))
@@ -105,8 +106,10 @@ const Header = ({ transparent = true }: HeaderProps) => {
     <header
       // background needs to be on the ::before for now to get around nested compositing bug in chrome
       className={classNames(
-        'full-width-bg sticky -top-[var(--header-offset)] z-20 -mb-[var(--header-area)] pt-[var(--header-offset)] text-white before:absolute before:inset-0 before:bg-nightshade-900/[0.9] before:backdrop-blur before:transition-opacity before:content-[""]',
-        pageScrolled || !transparent ? "before:opacity-100" : "before:opacity-0"
+        'full-width-bg sticky -top-[var(--header-offset)] z-20 -mb-[var(--header-area)] pt-[var(--header-offset)] text-black-md before:absolute before:inset-0 before:bg-white/[1] before:backdrop-blur before:transition-opacity before:content-[""]',
+        pageScrolled || !transparent ? "before:opacity-100" : "before:opacity-0",
+        pageScrolled ? "shadow-md" : ""
+
       )}
     >
       <div className="full-width-bg__inner flex h-[var(--header-height)] items-center justify-between">
@@ -168,7 +171,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
                               <a
                                 {...bindSecondaryMenuItem(child)}
                                 className={classNames(
-                                  "block rounded-md hover:md:bg-nightshade-50",
+                                  "block rounded-md hover:md:bg-chakragreen-300 hover:md:text-white text-grey",
                                   item.compact
                                     ? "py-2 px-5 md:px-4"
                                     : "py-3 px-5 md:px-4",
@@ -186,7 +189,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
                                 >
                                   {child.label}
                                 </span>
-                                <span className="mt-1 block font-extranormal text-gray-1">
+                                <span className="mt-1 block font-extranormal">
                                   {child.description}
                                 </span>
                               </a>
@@ -210,7 +213,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
                               </span>
                             </span>
 
-                            <span className="b3 hidden h-12 items-center justify-center rounded-md border-2 border-blurple-500 bg-blurple-500 p-4 !font-semibold text-white transition-colors group-hover:border-blurple-600 group-hover:bg-blurple-600 md:flex">
+                            <span className="b3 hidden h-12 items-center justify-center rounded-md border-2 border-chakragreen-300 bg-chakragreen-300 p-4 !font-semibold text-white transition-colors group-hover:border-chakragreen-400 group-hover:bg-chakragreen-400 md:flex shadow">
                               {item.footer.label}
                             </span>
                           </a>

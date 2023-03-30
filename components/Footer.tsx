@@ -3,14 +3,15 @@ import Link from "next/link"
 import { FormattedMessage } from "react-intl"
 import Image from "next/image"
 import footerImage from "../public/illustrations/footer.png"
-import LogoWhite from "../public/logos/logo-white.svg?inline"
+import LogoWhite from "../public/logos/logo_whito.svg?inline"
 import GitHub from "../public/ui/github.svg?inline"
+import { FaYoutube, FaDiscord, FaInstagram } from "react-icons/fa";
 
 /** Sitewide footer component */
 export const Footer = () => (
-  <footer className="full-width-bg relative mt-footer-offset bg-[#150118] pb-24 text-center text-white md:pt-24 md:text-start">
+  <footer className="full-width-bg relative mt-footer-offset bg-chakragreen-300 pb-24 text-center text-white md:pt-24 md:text-start">
     <div className="pointer-events-none absolute bottom-full left-1/2 z-0 ml-[-1px] h-48 w-full -translate-x-1/2 translate-y-[1px] md:bottom-footer-offset md:h-full">
-      <Image
+      {/* <Image
         src={footerImage}
         alt=""
         layout="fill"
@@ -18,7 +19,7 @@ export const Footer = () => (
         objectPosition="center top"
         placeholder="empty"
         unoptimized
-      />
+      /> */}
     </div>
 
     <nav className="full-width-bg__inner relative z-10">
@@ -177,7 +178,7 @@ export const Footer = () => (
           ].map((menu, i) => (
             <div className="flex flex-col gap-2" key={i}>
               <h2 className="h6 py-1">{menu.heading}</h2>
-              <ul className="b2 m-0 flex flex-col gap-2 p-0 text-nightshade-100">
+              <ul className="b2 m-0 flex flex-col gap-2 p-0 text-black">
                 {menu.links.map((link) => (
                   <li key={link.key}>{link}</li>
                 ))}
@@ -190,7 +191,7 @@ export const Footer = () => (
       <hr className="my-6 border-nightshade-600 sm:mx-auto lg:my-8" />
 
       <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-center text-nightshade-100 md:text-start">
+        <span className="text-center text-black md:text-start">
           Copyright © 2023 Mastodon gGmbH.{" "}
 
           <Link href="/trademark">
@@ -223,25 +224,31 @@ export const Footer = () => (
 
         <div className="mt-4 flex space-x-2 justify-center md:mt-0 md:space-x-6">
           <a
-            href="https://mastodon.social/@Mastodon"
+            href="https://github.com/mastodon"
             rel="me"
             className="text-nightshade-100 hover:text-nightshade-50"
           >
-            <LogoWhite className="h-5 w-5" fill="currentColor" />
+            <FaYoutube className="h-5 w-5" fill="currentColor" />
             <span className="sr-only">
-              <FormattedMessage
-                id="footer.follow_us_on_mastodon"
-                defaultMessage="Follow us on Mastodon"
-              />
+              GitHub
             </span>
           </a>
-
           <a
             href="https://github.com/mastodon"
             rel="me"
             className="text-nightshade-100 hover:text-nightshade-50"
           >
-            <GitHub className="h-5 w-5" fill="currentColor" />
+            <FaDiscord className="h-5 w-5" fill="currentColor" />
+            <span className="sr-only">
+              GitHub
+            </span>
+          </a>
+          <a
+            href="https://github.com/mastodon"
+            rel="me"
+            className="text-nightshade-100 hover:text-nightshade-50"
+          >
+            <FaInstagram className="h-5 w-5" fill="white" />
             <span className="sr-only">
               GitHub
             </span>

@@ -25,7 +25,7 @@ const SponsorCard = ({ sponsor, tier }) => {
       >
         <span
           className={classNames(
-            "b3 !leading-[1.5]",
+            "b3 !leading-[2]",
             tier === "generalHighlighted"
               ? "text-nightshade-100"
               : "text-gray-1"

@@ -69,6 +69,14 @@ const config = {
       },
       lime: "#baff3b",
       goldenrod: "#ffbe2e",
+      navy : "#2f3748",
+      chakragreen : {
+        300: "#4c9494",
+        400: "#487c7c"
+      },
+      chakragrey: {
+        300 :"#eef2f7",
+        400 : "#e2e8f0"}
     },
     extend: {
       fontFamily: {

@@ -9,7 +9,7 @@ const Trademark = () => (
   <Layout>
     <div dir="ltr" className="[unicode-bidi:plaintext]">
       <Hero homepage>
-        <h1 className="h2 mb-8 pt-16 text-center">Trademark Policy</h1>
+        <h1 className="h2 mb-8 text-center">Trademark Policy</h1>
         <p className="sh1 text-center">Last updated December 21, 2022</p>
       </Hero>
 

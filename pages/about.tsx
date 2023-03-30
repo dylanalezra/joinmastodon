@@ -24,7 +24,7 @@ const About = () => (
   <Layout>
     <div dir="ltr" className="[unicode-bidi:plaintext]">
       <Hero desktopImage={heroImage} mobileImage={heroImage}>
-        <h1 className="h1 mb-8 pt-16">We develop Mastodon</h1>
+        <h1 className="h1">We develop Mastodon</h1>
         <p className="sh1">Free, open-source decentralized social media</p>
       </Hero>
 

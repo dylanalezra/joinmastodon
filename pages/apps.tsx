@@ -30,7 +30,7 @@ const AppsPage = () => {
           <div className="container">
             <div className="app-intro__hero">
               <div className="app-intro__hero__unit">
-                <h1 className="h1 mb-5">
+                <h1 className="h1 ">
                   <FormattedMessage id="apps.title" defaultMessage="Apps" />
                 </h1>
 
@@ -49,35 +49,17 @@ const AppsPage = () => {
       <div className="grid justify-center gap-x-gutter gap-y-16 pt-10 pb-8 text-center md:grid-cols-12 md:text-start">
         <div className="md:col-span-6 lg:col-span-5 xl:col-span-4 xl:col-start-2">
           <h2 className="h4 mb-4">
-            <FormattedMessage
-              id="ios_and_android.download"
-              defaultMessage="Download the apps"
-            />
           </h2>
 
           <div className="grid grid-cols-2 justify-center gap-gutter md:justify-start">
             <a href="https://apps.apple.com/us/app/mastodon-for-iphone/id1571998974">
-              <Image
-                src={downloadOnAppStore}
-                alt="Download on the App Store"
-                layout="responsive"
-              />
             </a>
             <a href="https://play.google.com/store/apps/details?id=org.joinmastodon.android">
-              <Image
-                src={downloadOnGooglePlay}
-                alt="Get it on Google Play"
-                layout="responsive"
-              />
             </a>
           </div>
         </div>
         <div className="md:col-span-6 md:-mt-16 lg:col-span-5 lg:col-start-7 lg:-mt-32 xl:-mt-80">
           <div className="mx-auto max-w-xs md:max-w-none">
-            <Image
-              src={ios_android_apps}
-              alt="Screenshots of Mastodon on iOS and Android, showing an artist's profile, reblogging, and a poll"
-            />
           </div>
         </div>
       </div>
@@ -131,10 +113,10 @@ const AppsPage = () => {
         ]}
       />
       <AppsGrid apps={appsList} />
-      <AppHero
+      {/* <AppHero
         backgroundImage={footer_festival}
         backgroundImagePosition="left center"
-      />
+      /> */}
       <Head>
         <title>
           {intl.formatMessage({

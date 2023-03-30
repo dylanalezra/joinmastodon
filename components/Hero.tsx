@@ -43,14 +43,14 @@ const Hero = ({
   return (
     <section
       className={classNames(
-        "full-width-bg relative pt-[var(--header-area)] text-white",
+        "full-width-bg relative pt-[var(--header-area)] text-navy",
         noHeight ? "" : "h-[var(--mobile-hero-height)]",
         noHeight ? "" : (homepage ? "2xl:h-[var(--desktop-hero-height)]" : "xl:h-[var(--desktop-hero-height)]")
       )}
       style={
         {
-          "--desktop-hero-height": `${desktopImage.height / 2}px`,
-          "--mobile-hero-height": `${mobileImage.height / 2}px`,
+          "--desktop-hero-height": `${desktopImage.height / 2.8}px`,
+          "--mobile-hero-height": `${mobileImage.height / 2.8}px`,
         } as CSSProperties
       }
     >
@@ -58,15 +58,13 @@ const Hero = ({
         <div
           className={classNames(
             "full-width-bg__inner flex flex-col items-center justify-center py-20 text-center",
-            {
-              "drop-shadow-safe-text": safeTextShadow,
-            }
+            {            }
           )}
         >
           {children}
         </div>
       ) : (
-        <div className="full-width-bg__inner grid py-20 drop-shadow-safe-text lg:grid-cols-12 lg:justify-center lg:gap-x-gutter">
+        <div className="full-width-bg__inner grid py-20 lg:grid-cols-12 lg:justify-center lg:gap-x-gutter">
           <div className="col-span-12 lg:col-span-7 xl:col-span-5 xl:col-start-2">
             {children}
           </div>
@@ -74,6 +72,7 @@ const Hero = ({
       )}
 
       <div
+        style={{backgroundColor: "rgb(255 255 255 / 0.9)"}}
         className={classNames(
           "absolute inset-0 -z-10 h-[var(--mobile-hero-height)]",
           homepage ? "md:mis-[-25%] 2xl:hidden" : "xl:hidden",
@@ -81,19 +80,10 @@ const Hero = ({
           dir === "rtl" && "-scale-x-100"
         )}
       >
-        <Image
-          src={mobileImage}
-          alt=""
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center bottom"
-          placeholder="empty"
-          unoptimized
-          priority={true}
-        />
       </div>
 
       <div
+        style={{backgroundColor: "rgb(255 255 255/ 0.9)"}}
         className={classNames(
           "absolute inset-0 -z-10 hidden h-[var(--mobile-hero-height)]",
           homepage ? "2xl:block" : "xl:block",
@@ -103,7 +93,7 @@ const Hero = ({
       >
         <Image
           className="desktop-hero"
-          src={desktopImage}
+          src=''
           alt=""
           layout="fill"
           objectFit="cover"

@@ -32,16 +32,16 @@ const Careers = () => {
     <Layout>
       <div dir="ltr" className="[unicode-bidi:plaintext]">
         <Hero homepage>
-          <div className="b2 pt-6 !font-bold uppercase text-nightshade-100">
+          <div className="b2x !font-bold uppercase text-nightshade-100">
             Careers
           </div>
 
           <h1 className="h1 mb-4">Join our team</h1>
-
-          <p className="sh1 mb-11 max-w-[50ch]">
+{/* 
+          <p className="sh1 mb-8 max-w-[50ch]">
             We&apos;re building open source, decentralized social media that
             gives people back control over their data and their reach.
-          </p>
+          </p> */}
 
           <div className="flex justify-center">
             <LinkButton size="large" href="#open-positions">

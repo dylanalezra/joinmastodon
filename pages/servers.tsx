@@ -23,6 +23,7 @@ import SkeletonText from "../components/SkeletonText"
 import Head from "next/head"
 import Layout from "../components/Layout"
 import Link from "next/link"
+import servers1 from "../data/servers"
 
 const DUNBAR = Math.log(800)
 
@@ -152,17 +153,20 @@ const Servers = () => {
     }
   )
 
+  const filteredServers = servers1.data.filter(server =>
+    (!filters.language || server.language === filters.language) &&
+    (!filters.category || server.category === filters.category) &&
+    (!filters.region || server.region === filters.region)
+  );
+
   const servers = useQuery<Server[]>(
     [
       "servers",
       filters.language,
       filters.category,
-      filters.ownership,
-      filters.registrations,
       filters.region,
     ],
-    () => fetchEndpoint("servers", params),
-    queryOptions
+    () => Promise.resolve(filteredServers),queryOptions
   )
 
   const days = useQuery<Day[]>(
@@ -227,7 +231,7 @@ const Servers = () => {
     <Layout>
       <Hero mobileImage={serverHeroMobile} desktopImage={serverHeroDesktop}>
         <h1 className="h2 mb-5">
-          <FormattedMessage id="servers" defaultMessage="Servers" />
+          <FormattedMessage id="servers" defaultMessage="Economics for ECG" />
         </h1>
 
         <p className="sh1 mb-14 max-w-[36ch]">
@@ -241,7 +245,7 @@ const Servers = () => {
         </p>
       </Hero>
 
-      <div className="grid gap-20 pb-40">
+      <div className="grid gap-20 pb-40 mt-10">
         <GettingStartedCards />
         <div className="grid grid-cols-4 gap-gutter md:grid-cols-12">
           <div className="col-span-full mb-4 flex flex-wrap gap-gutter md:mb-2 md:justify-end">

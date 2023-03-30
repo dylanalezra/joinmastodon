@@ -88,7 +88,7 @@ const ServerCard = ({ server }: { server?: Server }) => {
             ) : (
               <FormattedMessage
                 id="servers.create_account"
-                defaultMessage="Create account"
+                defaultMessage="Access"
               />
             )}
           </LinkButton>

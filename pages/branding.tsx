@@ -83,7 +83,7 @@ const Branding = () => (
   <Layout>
     <div dir="ltr" className="[unicode-bidi:plaintext]">
       <Hero desktopImage={heroImage} mobileImage={heroImage}>
-        <h1 className="h1 mb-8 pt-16">Brand Toolkit</h1>
+        <h1 className="h1 mb-4">Brand Toolkit</h1>
         <p className="sh1">
           Learn our branding guidelines, download our logos and icons, or use
           our brand colors for&nbsp;your&nbsp;projects.

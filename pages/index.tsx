@@ -17,11 +17,11 @@ import { IconCard } from "../components/IconCard"
 import testimonials from "../data/testimonials"
 import { platinum, additionalFunding } from "../data/sponsors"
 
-import illoTimeline from "../public/illustrations/features_timeline.png"
-import illoAudience from "../public/illustrations/features_audience.png"
-import illoModeration from "../public/illustrations/features_moderation.png"
-import illoCustomization from "../public/illustrations/features_customization.png"
-import illoWorld from "../public/illustrations/home_sponsors_world.png"
+import illoTimeline from "../public/homepage/features_timeline.png"
+import illoAudience from "../public/homepage/features_audience.png"
+import illoModeration from "../public/homepage/features_moderation.png"
+import illoCustomization from "../public/homepage/features_customization.png"
+import illoWorld from "../public/homepage/features_timeline.png"
 
 import homeHeroMobile from "../public/illustrations/home_hero_mobile.webp"
 import homeHeroDesktop from "../public/illustrations/home_hero_desktop.png"
@@ -58,14 +58,14 @@ function Home() {
           <LinkButton size="large" href="/apps">
             <FormattedMessage
               id="home.get_the_app"
-              defaultMessage="Get the app"
+              defaultMessage="Accéder aux contenus"
             />
           </LinkButton>
 
           <LinkButton size="large" href="/servers" light borderless>
             <FormattedMessage
               id="home.create_account"
-              defaultMessage="Create account"
+              defaultMessage="Rejoindre Discord"
             />
           </LinkButton>
         </div>
