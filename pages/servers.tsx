@@ -26,17 +26,61 @@ import Link from "next/link"
 import servers1 from "../data/servers"
 
 const DUNBAR = Math.log(800)
+const Pagination = ({
+  currentPage,
+  setCurrentPage,
+  filteredServers,
+  serversPerPage,
+}) => {
+  const totalPages = Math.ceil(filteredServers.length / serversPerPage);
+
+  const handlePageChange = (newPage) => {
+    if (newPage >= 1 && newPage <= totalPages) {
+      setCurrentPage(newPage);
+    }
+  };
+
+  return (
+    <div className="flex justify-center items-center mt-8">
+      <button
+        onClick={() => handlePageChange(currentPage - 1)}
+        className={`${
+          currentPage === 1 ? "opacity-50 cursor-not-allowed" : ""
+        } bg-chakragreen-300 text-white py-2 px-4 rounded-l focus:outline-none`}
+        disabled={currentPage === 1}
+      >
+        Previous
+      </button>
+      <div className="border border-chakragreen-300 mx-1 w-16 text-center">
+        {currentPage}
+      </div>
+      <button
+        onClick={() => handlePageChange(currentPage + 1)}
+        className={`${
+          currentPage === totalPages ? "opacity-50 cursor-not-allowed" : ""
+        } bg-chakragreen-300 text-white py-2 px-4 rounded-r focus:outline-none`}
+        disabled={currentPage === totalPages}
+      >
+        Next
+      </button>
+    </div>
+  );
+};
+
 
 const Servers = () => {
   const intl = useIntl()
   const { locale } = useRouter()
   const [filters, setFilters] = useState({
     language: locale === "en" ? "en" : "",
-    category: "general",
+    category: "",
     region: "",
     ownership: "",
     registrations: "",
   })
+  const [searchTerm, setSearchTerm] = useState("");
+  const [currentPage, setCurrentPage] = useState(1);
+  const serversPerPage = 12; 
 
   const params = new URLSearchParams(filters)
 
@@ -156,7 +200,17 @@ const Servers = () => {
   const filteredServers = servers1.data.filter(server =>
     (!filters.language || server.language === filters.language) &&
     (!filters.category || server.category === filters.category) &&
-    (!filters.region || server.region === filters.region)
+    (!filters.region || server.region === filters.region) &&
+    (!filters.ownership || server.ownershipOptions === filters.ownership) &&
+    (!filters.registrations || server.registrationsOptions === filters.registrations) &&
+    (searchTerm === "" ||
+    server.domain.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    server.description.toLowerCase().includes(searchTerm.toLowerCase()))
+);
+
+const paginatedServers = filteredServers.slice(
+    (currentPage - 1) * serversPerPage,
+    Math.min(currentPage * serversPerPage, filteredServers.length)
   );
 
   const servers = useQuery<Server[]>(
@@ -164,10 +218,15 @@ const Servers = () => {
       "servers",
       filters.language,
       filters.category,
+      filters.ownership,
+      filters.registrations,
       filters.region,
     ],
     () => Promise.resolve(filteredServers),queryOptions
   )
+
+
+
 
   const days = useQuery<Day[]>(
     ["statistics"],
@@ -249,19 +308,16 @@ const Servers = () => {
         <GettingStartedCards />
         <div className="grid grid-cols-4 gap-gutter md:grid-cols-12">
           <div className="col-span-full mb-4 flex flex-wrap gap-gutter md:mb-2 md:justify-end">
-            <SelectMenu
-              label={
-                <FormattedMessage
-                  id="wizard.filter_by_language"
-                  defaultMessage="Language"
-                />
-              }
-              onChange={(v) => {
-                setFilters({ ...filters, language: v })
-              }}
-              value={filters.language}
-              options={apiLanguages.data || [defaultOption]}
-            />
+          <input
+  type="text"
+  placeholder={intl.formatMessage({
+    id: "search.placeholder",
+    defaultMessage: "Search...",
+  })}
+  value={searchTerm}
+  onChange={(e) => setSearchTerm(e.target.value)}
+  className="block w-full py-3 pl-3 pr-10 md:w-auto bg-chakragreen-1 rounded-md text-black-5 focus:outline-none focus:ring-2 focus:ring-chakragreen-300 z-10"
+/>
 
             <SelectMenu
               label={
@@ -321,7 +377,12 @@ const Servers = () => {
             <ServerStats days={days} />
           </div>
           <div className="col-span-4 md:col-start-4 md:col-end-13">
-            <ServerList servers={servers} />
+            <ServerList servers={paginatedServers} />
+             <Pagination
+              currentPage={currentPage}
+              setCurrentPage={setCurrentPage}
+              filteredServers={filteredServers}
+              serversPerPage={serversPerPage}/>
           </div>
         </div>
       </div>
@@ -448,54 +509,43 @@ const GettingStartedCards = () => {
 }
 
 const ServerList = ({ servers }) => {
-  if (servers.isError) {
+  
+  if (servers.length === 0) {
     return (
-      <p>
-        <FormattedMessage
-          id="wizard.error"
-          defaultMessage="Oops, something went wrong. Try refreshing the page."
-        />
-      </p>
-    )
+      <div className="b2 flex justify-center rounded bg-gray-5 p-4 text-gray-1 md:p-8 md:py-20">
+        <p className="max-w-[48ch] text-center">
+          <FormattedMessage
+            id="wizard.no_results"
+            defaultMessage="Seems like there are currently no servers that fit your search criteria. Mind that we only display a curated set of servers that currently accept new sign-ups."
+          />
+        </p>
+      </div>
+    );
   }
-
+  
   return (
     <div className="col-span-4 md:col-start-4 md:col-end-13">
-      {servers.data?.length === 0 ? (
-        <div className="b2 flex justify-center rounded bg-gray-5 p-4 text-gray-1 md:p-8 md:py-20">
-          <p className="max-w-[48ch] text-center">
-            <FormattedMessage
-              id="wizard.no_results"
-              defaultMessage="Seems like there are currently no servers that fit your search criteria. Mind that we only display a curated set of servers that currently accept new sign-ups."
-            />
-          </p>
-        </div>
-      ) : (
-        <div className="grid gap-gutter sm:grid-cols-2 xl:grid-cols-3">
-          {servers.isLoading
-            ? Array(8)
-                .fill(null)
-                .map((_el, i) => <ServerCard key={i} />)
-            : servers.data
-                .sort((a, b) => {
-                  if (a.approval_required === b.approval_required) {
-                    return b.last_week_users - a.last_week_users
-                  } else if (a.approval_required) {
-                    return 1
-                  } else if (b.approval_required) {
-                    return -1
-                  } else {
-                    return b.last_week_users - a.last_week_users
-                  }
-                })
-                .map((server) => (
-                  <ServerCard key={server.domain} server={server} />
-                ))}
-        </div>
-      )}
+      <div className="grid gap-gutter sm:grid-cols-2 xl:grid-cols-3">
+        {servers
+          .sort((a, b) => {
+            if (a.approval_required === b.approval_required) {
+              return b.last_week_users - a.last_week_users;
+            } else if (a.approval_required) {
+              return 1;
+            } else if (b.approval_required) {
+              return -1;
+            } else {
+              return b.last_week_users - a.last_week_users;
+            }
+          })
+          .map((server) => (
+            <ServerCard key={server.domain} server={server} />
+          ))}
+      </div>
     </div>
-  )
-}
+  );
+};
+
 
 const ServerStats = ({ days }) => {
   const intl = useIntl()
@@ -624,7 +674,7 @@ const ServerFilters = ({
             <li key={i}>
               <label
                 className={classnames(
-                  "b2 flex cursor-pointer gap-1 rounded p-3 focus-visible-within:outline focus-visible-within:outline-2 focus-visible-within:outline-blurple-500",
+                  "b2 flex cursor-pointer gap-1 rounded p-3 focus-visible-within:outline focus-visible-within:outline-2 focus-visible-within:outline-chakragreen-300",
                   isActive && "bg-nightshade-50 !font-extrabold"
                 )}
               >
@@ -674,7 +724,7 @@ const ServerFilters = ({
                 <li key={i}>
                   <label
                     className={classnames(
-                      "b2 flex cursor-pointer gap-1 rounded p-3 focus-visible-within:outline focus-visible-within:outline-2 focus-visible-within:outline-blurple-500",
+                      "b2 flex cursor-pointer gap-1 rounded p-3 focus-visible-within:outline focus-visible-within:outline-2 focus-visible-within:outline-chakragreen-300",
                       isActive && "bg-nightshade-50 !font-extrabold",
                       item.servers_count === 0 && "text-gray-2"
                     )}

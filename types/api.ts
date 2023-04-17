@@ -23,6 +23,9 @@ export type Server = {
   approval_required: boolean
   language: string
   category: string
+  url: string
+  ownershipOptions: string
+  registrationsOptions: string
 }
 
 export type Day = {

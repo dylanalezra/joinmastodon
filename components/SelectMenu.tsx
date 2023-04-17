@@ -28,7 +28,7 @@ export const SelectMenu = ({
     <Listbox value={value} onChange={onChange}>
       <div className="b3 inline-flex w-full sm:w-auto">
         <div className="relative w-full sm:w-auto">
-          <Listbox.Button className="relative w-full cursor-pointer rounded-md border border-gray-3 py-4 pl-4 pr-10 text-left focus:outline-none focus:ring-1 focus:ring-blurple-500 sm:w-auto">
+          <Listbox.Button className="relative w-full cursor-pointer rounded-md border border-gray-3 py-4 pl-4 pr-10 text-left focus:outline-none focus:ring-1 focus:ring-chakragreen-300 sm:w-auto">
             <span className="block truncate text-gray-1">
               <span className="font-medium">{label}: </span>
               <span className="font-bold">{selectedLabel}</span>
@@ -49,7 +49,7 @@ export const SelectMenu = ({
                 value={optionValue}
                 className={({ active }) =>
                   classNames(
-                    active ? "bg-blurple-500 text-white" : "text-gray-1",
+                    active ? "bg-chakragreen-300 text-white" : "text-gray-1",
                     "relative cursor-pointer select-none py-3 px-4 font-medium text-gray-1"
                   )
                 }
