@@ -25,25 +25,25 @@ const Header = ({ transparent = true }: HeaderProps) => {
   const navigationItems = [
     {
       value: "/servers",
-      label: <FormattedMessage id="nav.servers.title" defaultMessage="Servers" />,
+      label: <FormattedMessage id="nav.servers.title" defaultMessage="Les contenus" />,
     }, {
       value: "/apps",
-      label: <FormattedMessage id="nav.apps.title" defaultMessage="Apps" />,
+      label: <FormattedMessage id="nav.apps.title" defaultMessage="Applications" />,
     }, {
       value: "/sponsors",
-      label: <FormattedMessage id="nav.sponsors.title" defaultMessage="Sponsors" />,
+      label: <FormattedMessage id="nav.sponsors.title" defaultMessage="Soutenir" />,
     }, {
       key: "resources",
-      label: <FormattedMessage id="nav.resources.title" defaultMessage="Resources" />,
+      label: <FormattedMessage id="nav.resources.title" defaultMessage="Ressources" />,
       childItems: [
         {
           value: "https://blog.joinmastodon.org/",
           label: <FormattedMessage id="nav.blog.title" defaultMessage="Blog" />,
-          description: <FormattedMessage id="nav.blog.description" defaultMessage="Get the latest news about the platform" />,
+          description: <FormattedMessage id="nav.blog.description" defaultMessage="Obtenir l'actualité de Prepalib" />,
         }, {
           value: "https://docs.joinmastodon.org",
-          label: <FormattedMessage id="nav.docs.title" defaultMessage="Documentation" />,
-          description: <FormattedMessage id="nav.docs.description" defaultMessage="Learn how Mastodon works in-depth" />,
+          label: <FormattedMessage id="nav.docs.title" defaultMessage="Le jeu de la prépa" />,
+          description: <FormattedMessage id="nav.docs.description" defaultMessage="Comprendre comment la prépa fonctionne" />,
         }, {
           value: "https://github.com/mastodon/mastodon/discussions",
           label: <FormattedMessage id="nav.support.title" defaultMessage="Support" />,
@@ -56,9 +56,9 @@ const Header = ({ transparent = true }: HeaderProps) => {
       ],
       footer: {
         value: "https://github.com/mastodon/mastodon",
-        label: <FormattedMessage id="nav.code.action" defaultMessage="Browse code" />,
-        title: <FormattedMessage id="nav.code.title" defaultMessage="Source code" />,
-        description: <FormattedMessage id="nav.code.description" defaultMessage="Mastodon is free and open-source software" />,
+        label: <FormattedMessage id="nav.code.action" defaultMessage="Tous les contenus" />,
+        title: <FormattedMessage id="nav.code.title" defaultMessage="Accédez à la dropbox" />,
+        description: <FormattedMessage id="nav.code.description" defaultMessage="Tous les contenus dans la dropbox" />,
       },
     }, 
     // {

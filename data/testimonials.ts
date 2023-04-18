@@ -12,9 +12,9 @@ export type Testimonial = {
 }
 const testimonials: Testimonial[] = [
   {
-    text: "I've made so many friends on Mastodon because I can actually talk to people instead of getting buried by algorithms that reward meaningless numbers over actual interaction.",
-    name: "infinite love ⴳ",
-    username: "trwnh@mastodon.social",
+    text: "Avec les cours de Prepalib, je suis devenu première de ma classe en économie, et j'ai eu 19 à l'ESCP.",
+    name: "Clélie",
+    username: "EDHEC 2022",
     avatar: "/testimonials/avatar_trwnh.png",
     profile_url: "https://mastodon.social/@trwnh",
   },

@@ -26,7 +26,7 @@ export const TestimonialCard = ({ testimonial }: TestimonialCardProps) => {
 
       <div className="b2 text-center">
         <span className="block font-bold">{testimonial.name}</span>
-        <span className="font-semibold text-blurple-600">
+        <span className="font-semibold text-chakragreen-300">
           @{testimonial.username}
         </span>
       </div>

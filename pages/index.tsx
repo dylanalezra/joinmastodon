@@ -43,14 +43,14 @@ function Home() {
         <h1 className="h1 mb-4 max-w-[17ch] md:mb-7">
           <FormattedMessage
             id="home.hero.headline"
-            defaultMessage="Social networking that's not for sale."
+            defaultMessage="Une prépa en libre accès."
           />
         </h1>
 
         <p className="sh1 mb-11 max-w-[50ch]">
           <FormattedMessage
             id="home.hero.body"
-            defaultMessage="Your home feed should be filled with what matters to you most, not what a corporation thinks you should see. Radically different social media, back in the hands of the people."
+            defaultMessage="Vous devriez pouvoir préparer vos concours et vos examens dans les meilleures conditions avec des contenus de qualité. Peu importe votre prépa, votre lycée ou votre origine sociale. Donnez-vous les moyens de réussir."
           />
         </p>
 
@@ -85,9 +85,9 @@ function Home() {
 
         <meta
           property="og:title"
-          content={`Mastodon - ${intl.formatMessage({
+          content={`Prepalib - ${intl.formatMessage({
             id: "home.page_title",
-            defaultMessage: "Decentralized social media",
+            defaultMessage: "Une prépa en libre accès",
           })}`}
         />
         <meta
@@ -121,13 +121,13 @@ const Features = () => {
           title: (
             <FormattedMessage
               id="home.features.timeline.title"
-              defaultMessage="Stay in control of your own timeline"
+              defaultMessage="Un contenu de qualité supérieure"
             />
           ),
           body: (
             <FormattedMessage
               id="home.features.timeline.body"
-              defaultMessage="You know best what you want to see on your home feed. No algorithms or ads to waste your time. Follow anyone across any Mastodon server from a single account and receive their posts in chronological order, and make your corner of the internet a little more like you."
+              defaultMessage="Pourquoi devoir subir votre mauvaise prépa ou de mauvais professeurs ? Pourquoi payer des sommes exorbitantes pour accéder à de l’information qui aurait dû être fournie gratuitement ? Face à ces défaillances, accédez directement à tout ce dont vous avez besoin pour préparer vos concours et examens. Ne perdez plus de temps."
             />
           ),
           button: (
@@ -137,7 +137,7 @@ const Features = () => {
             >
               <FormattedMessage
                 id="home.features.button.learn_more"
-                defaultMessage="Learn more"
+                defaultMessage="Voir les contenus"
               />
             </LinkButton>
           ),
@@ -147,13 +147,13 @@ const Features = () => {
           title: (
             <FormattedMessage
               id="home.features.audience.title"
-              defaultMessage="Build your audience in confidence"
+              defaultMessage="Rejoignez une communauté de prépas"
             />
           ),
           body: (
             <FormattedMessage
               id="home.features.audience.body"
-              defaultMessage="Mastodon provides you with a unique possibility of managing your audience without middlemen. Mastodon deployed on your own infrastructure allows you to follow and be followed from any other Mastodon server online and is under no one's control but yours."
+              defaultMessage="Notre serveur rassemble une communauté d'élèves de classes prépas. Ensemble, nous partageons nos connaissances, nos astuces et nos conseils pour réussir dans ces parcours exigeants. Nous organisons également des points hebdomadaires en vocal pour discuter de sujets de concours. Venez échanger avec nous !"
             />
           ),
           button: (
@@ -163,7 +163,7 @@ const Features = () => {
             >
               <FormattedMessage
                 id="home.features.button.learn_more"
-                defaultMessage="Learn more"
+                defaultMessage="Rejoindre le Discord"
               />
             </LinkButton>
           ),
@@ -173,20 +173,20 @@ const Features = () => {
           title: (
             <FormattedMessage
               id="home.features.moderation.title"
-              defaultMessage="Moderating the way it should be"
+              defaultMessage="L'intelligence artificielle pour instruire"
             />
           ),
           body: (
             <FormattedMessage
               id="home.features.moderation.body"
-              defaultMessage="Mastodon puts decision making back in your hands. Each server creates their own rules and regulations, which are enforced locally and not top-down like corporate social media, making it the most flexible in responding to the needs of different groups of people. Join a server with the rules you agree with, or host your own."
+              defaultMessage="Prepalib développe un ensemble d’outils à l’aide de la révolution actuelle en IA pour aider les élèves à préparer leurs épreuves, que ce soit pour apprendre le cours, résoudre des problèmes de mathématiques ou encore rédiger une dissertation dans n’importe quelle matière. Ces projets sont encore en développement, et vous pouvez en suivre l’avancement."
             />
           ),
           button: (
             <LinkButton size="large" href="/servers">
               <FormattedMessage
                 id="home.features.button.find_a_server"
-                defaultMessage="Find a server"
+                defaultMessage="Voir les applications"
               />
             </LinkButton>
           ),
@@ -196,13 +196,13 @@ const Features = () => {
           title: (
             <FormattedMessage
               id="home.features.self_expression.title"
-              defaultMessage="Unparalleled creativity"
+              defaultMessage="Le jeu de la prépa"
             />
           ),
           body: (
             <FormattedMessage
               id="home.features.self_expression.body"
-              defaultMessage="Mastodon supports audio, video and picture posts, accessibility descriptions, polls, content warnings, animated avatars, custom emojis, thumbnail crop control, and more, to help you express yourself online. Whether you're publishing your art, your music, or your podcast, Mastodon is there for you."
+              defaultMessage="Prepalib cherche à développer la compréhension du système scolaire, proposer une nouvelle vision et la communiquer au plus grand nombre. Ne vous contentez pas de subir votre prépa, devenez en un acteur ! Comprenez comment le système fonctionne pour en tirer le plus de bénéfices pour vous. Posez-vous les bonnes questions. C’est ce que le livre le jeu de la prépa vous aide à faire."
             />
           ),
           button: (
@@ -212,7 +212,7 @@ const Features = () => {
             >
               <FormattedMessage
                 id="home.features.button.learn_more"
-                defaultMessage="Learn more"
+                defaultMessage="Lire le livre"
               />
             </LinkButton>
           ),
@@ -280,26 +280,26 @@ const WhyMastodon = () => {
   return (
     <section className="py-20">
       <h3 className="h3 pb-16 text-center">
-        <FormattedMessage id="home.why.title" defaultMessage="Why Mastodon?" />
+        <FormattedMessage id="home.why.title" defaultMessage="Pourquoi faire confiance à Prepalib ?" />
       </h3>
       <div dir="ltr">
         <div
           ref={sliderRef}
-          className="keen-slider mb-8 md:mb-0 md:grid md:grid-cols-2 md:gap-gutter lg:grid-cols-4"
+          className="keen-slider mb-8 md:mb-0 md:grid md:grid-cols-2 md:gap-gutter lg:grid-cols-3"
         >
           <IconCard
             className="keen-slider__slide shadow-none md:border md:border-gray-3"
             title={
               <FormattedMessage
                 id="home.why.decentralized.title"
-                defaultMessage="Decentralized"
+                defaultMessage="Expérience"
               />
             }
             icon="decentralized"
             copy={
               <FormattedMessage
                 id="home.why.decentralized.copy"
-                defaultMessage="Instant global communication is too important to belong to one company. Each Mastodon server is a completely independent entity, able to interoperate with others to form one global social network."
+                defaultMessage="Nous nous appuyons sur l’expérience et les ressources de candidats ayant réussi les plus grandes écoles (HEC, ENS Ulm, IEP, etc.) pour construire un service d’une qualité importante. Dans chaque matière, soyez assuré de trouver les meilleurs contenus possibles."
               />
             }
           />
@@ -315,7 +315,7 @@ const WhyMastodon = () => {
             copy={
               <FormattedMessage
                 id="home.why.opensource.copy"
-                defaultMessage="Mastodon is free and open-source software. We believe in your right to use, copy, study and change Mastodon as you see fit, and we benefit from contributions from the community."
+                defaultMessage="Prepalib est une association loi 1901. Les services fournis par Prepalib et leurs développement sont pour vous mais aussi grâce à vous. Nous développons un maximum de contenus de façon complètement open-source, de sorte à ce que chacun puisse en bénéficier, et éventuellement à son tour y contribuer."
               />
             }
           />
@@ -324,30 +324,14 @@ const WhyMastodon = () => {
             title={
               <FormattedMessage
                 id="home.why.not_for_sale.title"
-                defaultMessage="Not for Sale"
+                defaultMessage="Résoudre vos problèmes"
               />
             }
             icon="price-tag"
             copy={
               <FormattedMessage
                 id="home.why.not_for_sale.copy"
-                defaultMessage="We respect your agency. Your feed is curated and created by you. We will never serve ads or push profiles for you to see. That means your data and your time are yours and yours alone."
-              />
-            }
-          />
-          <IconCard
-            className="keen-slider__slide shadow-none md:border md:border-gray-3"
-            title={
-              <FormattedMessage
-                id="home.why.interoperability.title"
-                defaultMessage="Interoperable"
-              />
-            }
-            icon="move"
-            copy={
-              <FormattedMessage
-                id="home.why.interoperability.copy"
-                defaultMessage="Built on open web protocols, Mastodon can speak with any other platform that implements ActivityPub. With one account you get access to a whole universe of social apps—the fediverse."
+                defaultMessage="Les concours et les examens sont une source d'anxiété lorsqu'on ne comprend pas ou que l'on a pas à sa disposition les bons contenus. Nous cherchons avant tout à résoudre les problèmes associés au milieu scolaire, et notamment le manque terrible d'égalité des chances entre élèves."
               />
             }
           />
@@ -409,7 +393,7 @@ const Testimonials = ({ testimonials }) => {
         <h2 className="h3 pb-16 text-center">
           <FormattedMessage
             id="home.testimonials.title"
-            defaultMessage="What our users are saying"
+            defaultMessage="Ce qu'en disent les élèves"
           />
         </h2>
 
@@ -435,7 +419,7 @@ const Testimonials = ({ testimonials }) => {
                     }}
                     className={
                       "rounded-[50%] p-1.5 " +
-                      (currentSlide === idx ? "bg-blurple-500" : "bg-gray-3")
+                      (currentSlide === idx ? "bg-chakragreen-300" : "bg-gray-3")
                     }
                   ></button>
                 )
@@ -453,24 +437,20 @@ const Sponsors = ({ sponsors }) => {
     <section className="grid gap-x-gutter text-center lg:grid-cols-12">
       <div className="py-20 lg:col-span-12 lg:grid lg:grid-cols-12 lg:gap-x-gutter lg:py-28">
         <div className="mx-auto mb-12 max-w-lg lg:col-span-4 lg:col-start-5 lg:mb-10 lg:w-full">
-          <Image
-            src={illoWorld}
-            alt="Illustration of elephant characters on a globe."
-          />
         </div>
 
         <div className=" lg:col-span-8 lg:col-start-3">
           <h2 className="h2 mb-6">
             <FormattedMessage
               id="home.sponsors.title"
-              defaultMessage="Independent always"
+              defaultMessage="Préserver la gratuité"
             />
           </h2>
 
           <p className="b1 lg:sh1 mb-12 lg:mb-10">
             <FormattedMessage
               id="home.sponsors.body"
-              defaultMessage="Mastodon is free and open-source software developed by a non-profit organization. Public support directly sustains development and evolution."
+              defaultMessage="Prepalib est une association loi 1901 d'intérêt général. Les services fournis par Prepalib et leurs développement sont pour vous mais aussi grâce à vous."
             />
           </p>
 
@@ -478,14 +458,14 @@ const Sponsors = ({ sponsors }) => {
             <LinkButton href="https://sponsor.joinmastodon.org/" size="large">
               <FormattedMessage
                 id="sponsors.become_a_sponsor"
-                defaultMessage="Become a sponsor"
+                defaultMessage="Soutenir Prepalib"
               />
             </LinkButton>
 
             <LinkButton href="/sponsors" light size="large">
               <FormattedMessage
                 id="credits.view_sponsors"
-                defaultMessage="View sponsors"
+                defaultMessage="Voir les partenaires"
               />
             </LinkButton>
           </div>
@@ -495,32 +475,13 @@ const Sponsors = ({ sponsors }) => {
       <h3 className="h5 mb-8 text-center lg:col-span-12">
         <FormattedMessage
           id="sponsors.supported_by"
-          defaultMessage="Supported by"
+          defaultMessage="Soutenu par"
         />
       </h3>
 
       <div className="lg:col-start-2 lg:col-end-12">
         <SponsorLogoGroup sponsors={sponsors.platinum} />
       </div>
-
-      {sponsors.additionalFunding.length > 0 && (
-        <>
-          <h4 className="h5 mb-8 pt-20 text-center lg:col-span-12">
-            <FormattedMessage
-              id="home.additional_support_from"
-              defaultMessage="Additional support from"
-            />
-          </h4>
-
-          <div className="lg:col-start-4 lg:col-end-10 lg:mb-16">
-            <SponsorLogoGroup sponsors={sponsors.additionalFunding} />
-          </div>
-        </>
-      )}
-
-      <p className="mt-8 text-gray-2 lg:col-span-12 lg:mb-16">
-        Sponsorship does not equal influence. Mastodon is fully independent.
-      </p>
     </section>
   )
 }
