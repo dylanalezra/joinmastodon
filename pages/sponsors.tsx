@@ -121,15 +121,6 @@ function Sponsors() {
           />
         </h2>
         <div className="grid grid-cols-[repeat(auto-fill,minmax(11rem,1fr))] gap-1">
-          {sponsors.generalHighlighted.map((sponsor) => {
-            return (
-              <SponsorCard
-                key={sponsor}
-                sponsor={sponsor}
-                tier="generalHighlighted"
-              />
-            )
-          })}
           {sponsors.general.map((sponsor, i) => {
             return (
               <SponsorCard

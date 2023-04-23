@@ -28,22 +28,18 @@ const sponsors = {
 
   ],
   generalHighlighted: [{
-    url: "",
+    url: "https://www.linkedin.com/in/jean-baptiste-roux-0b1b2b1a",
     name: "Gauthier J.",
-  },
-  {
-    url: "",
-    name: "Emma D.",
-  },
-  {
-    url: "",
-    name: "Jo'",
   }
   ],
   general: [{
     url: "https://www.linkedin.com/in/jean-baptiste-roux-0b1b2b1a/",
     name: "Heyyy",
-    }
+    },
+    {
+      url: "https://www.linkedin.com/in/jean-baptiste-roux-0b1b2b1a/",
+      name: "Joan",
+      }
   ]
 }
 
