@@ -13,19 +13,14 @@ export type Server = {
   domain: string
   version: string
   description: string
-  languages: string[]
-  region: string
-  categories: string[]
-  proxied_thumbnail: string
-  blurhash?: string
-  last_week_users: number
-  total_users: number
   approval_required: boolean
-  language: string
-  category: string
+  category: string[]
   url: string
-  ownershipOptions: string
-  registrationsOptions: string
+  concoursOptions: string[]
+  niveauOptions: string
+  natureOptions: string
+  local_image: string
+  formatOptions: string
 }
 
 export type Day = {

@@ -24,12 +24,12 @@ export const Footer = () => (
 
     <nav className="full-width-bg__inner relative z-10">
       <div className="grid gap-x-4 gap-y-16 md:grid-cols-12 md:gap-x-5">
-        <div className="flex flex-col items-center gap-8 text-nightshade-50 md:col-start-1 md:col-end-5 md:items-start lg:col-start-1 lg:col-end-5">
+        <div className="flex flex-col items-center gap-8 text-white md:col-start-1 md:col-end-5 md:items-start lg:col-start-1 lg:col-end-5">
           <LogoWhite className="w-20 max-w-full" fill="currentColor" />
           <p className="mt-2 max-w-[28ch]">
             <FormattedMessage
               id="footer.quip"
-              defaultMessage="Free, open-source decentralized social media platform."
+              defaultMessage="Donnez-vous les moyens de réussir !"
             />
           </p>
         </div>
@@ -40,7 +40,7 @@ export const Footer = () => (
               heading: (
                 <FormattedMessage
                   id="nav.product.title"
-                  defaultMessage="Product"
+                  defaultMessage="Produits"
                 />
               ),
               links: [
@@ -48,7 +48,7 @@ export const Footer = () => (
                   <a className="inline-block py-2 hover:underline">
                     <FormattedMessage
                       id="nav.servers.title"
-                      defaultMessage="Servers"
+                      defaultMessage="Les contenus"
                     />
                   </a>
                 </Link>,
@@ -56,7 +56,7 @@ export const Footer = () => (
                   <a className="inline-block py-2 hover:underline">
                     <FormattedMessage
                       id="nav.apps.title"
-                      defaultMessage="Apps"
+                      defaultMessage="Applications"
                     />
                   </a>
                 </Link>,
@@ -64,7 +64,7 @@ export const Footer = () => (
                   <a className="inline-block py-2 hover:underline">
                     <FormattedMessage
                       id="nav.sponsors.title"
-                      defaultMessage="Sponsors"
+                      defaultMessage="Soutenir"
                     />
                   </a>
                 </Link>,
@@ -72,7 +72,7 @@ export const Footer = () => (
                   <a className="inline-block py-2 hover:underline">
                     <FormattedMessage
                       id="nav.roadmap.title"
-                      defaultMessage="Roadmap"
+                      defaultMessage="Feuille de route"
                     />
                   </a>
                 </Link>,
@@ -95,7 +95,7 @@ export const Footer = () => (
                 >
                   <FormattedMessage
                     id="nav.code.title"
-                    defaultMessage="Source code"
+                    defaultMessage="Toute la Dropbox"
                   />
                 </a>,
                 <a
@@ -128,7 +128,7 @@ export const Footer = () => (
                 >
                   <FormattedMessage
                     id="nav.support.title"
-                    defaultMessage="Support"
+                    defaultMessage="Contact"
                   />
                 </a>,
               ],
@@ -137,7 +137,7 @@ export const Footer = () => (
               heading: (
                 <FormattedMessage
                   id="nav.company.title"
-                  defaultMessage="Company"
+                  defaultMessage="Prepalib"
                 />
               ),
               links: [
@@ -145,31 +145,7 @@ export const Footer = () => (
                   <a className="inline-block py-2 hover:underline">
                     <FormattedMessage
                       id="nav.about_us.title"
-                      defaultMessage="About us"
-                    />
-                  </a>
-                </Link>,
-                <Link key="/branding" href="/branding">
-                  <a className="inline-block py-2 hover:underline">
-                    <FormattedMessage
-                      id="nav.branding.title"
-                      defaultMessage="Branding"
-                    />
-                  </a>
-                </Link>,
-                <Link key="/careers" href="/careers">
-                  <a className="inline-block py-2 hover:underline">
-                    <FormattedMessage
-                      id="nav.careers.title"
-                      defaultMessage="Careers"
-                    />
-                  </a>
-                </Link>,
-                <Link key="/impressum" href="/about#impressum">
-                  <a className="inline-block py-2 hover:underline">
-                    <FormattedMessage
-                      id="nav.impressum.title"
-                      defaultMessage="Impressum"
+                      defaultMessage="A propos"
                     />
                   </a>
                 </Link>,
@@ -192,34 +168,17 @@ export const Footer = () => (
 
       <div className="sm:flex sm:items-center sm:justify-between">
         <span className="text-center text-black md:text-start">
-          Copyright © 2023 Mastodon gGmbH.{" "}
-
-          <Link href="/trademark">
-            <a className="sm:ml-4 sm:pl-4 sm:border-l border-nightshade-600 hover:underline">
-              <FormattedMessage
-                id="nav.trademark_policy.title"
-                defaultMessage="Trademark Policy"
-              />
-            </a>
-          </Link>
+          Copyright © 2023 Prepalib.{" "}
           <span aria-hidden>{" • "}</span>
           <Link href="/privacy-policy">
             <a className="hover:underline">
               <FormattedMessage
                 id="nav.privacy_policy.title"
-                defaultMessage="Privacy Policy"
+                defaultMessage="Politique de confidentialité"
               />
             </a>
           </Link>
           <span aria-hidden>{" • "}</span>
-          <Link href="https://joinmastodon.instatus.com">
-            <a className="hover:underline">
-              <FormattedMessage
-                id="nav.status.title"
-                defaultMessage="Status"
-              />
-            </a>
-          </Link>
         </span>
 
         <div className="mt-4 flex space-x-2 justify-center md:mt-0 md:space-x-6">
@@ -228,7 +187,7 @@ export const Footer = () => (
             rel="me"
             className="text-nightshade-100 hover:text-nightshade-50"
           >
-            <FaYoutube className="h-5 w-5" fill="currentColor" />
+            <FaYoutube className="h-5 w-5" fill="white" />
             <span className="sr-only">
               GitHub
             </span>
@@ -238,7 +197,7 @@ export const Footer = () => (
             rel="me"
             className="text-nightshade-100 hover:text-nightshade-50"
           >
-            <FaDiscord className="h-5 w-5" fill="currentColor" />
+            <FaDiscord className="h-5 w-5" fill="white" />
             <span className="sr-only">
               GitHub
             </span>

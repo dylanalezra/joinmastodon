@@ -19,7 +19,7 @@ const TwoUpFeature = ({ features, padding }: TwoUpFeatureProps) => {
           className={`grid justify-items-center py-8 text-center lg:grid-cols-6 lg:py-32 ${padding}`}
           key={i}
         >
-          <Icon className="-ml-2 h-auto w-20 text-blurple-500 md:-ml-4 md:w-32 lg:col-span-6" />
+          <Icon className="-ml-2 h-auto w-20 text-chakragreen-300 md:-ml-4 md:w-32 lg:col-span-6" />
           <h2 className="h4 mb-5 mt-4 lg:col-span-6">{title}</h2>
           <h2 className="sh1 mb-8 lg:col-span-6 lg:col-start-1 xl:col-span-4 xl:col-start-2">
             {copy}

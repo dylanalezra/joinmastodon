@@ -13,8 +13,8 @@ export const Category = ({ onChange, value, currentValue, label }: CategoryProps
       className={classNames(
         "b3 block cursor-pointer whitespace-nowrap rounded-md border-2 p-4 text-center !font-semibold transition-all md:w-full",
         value === currentValue
-          ? "border-blurple-500 bg-blurple-500 text-white hover:border-blurple-600 hover:bg-blurple-600 focus-visible-within:border-blurple-600 focus-visible-within:bg-blurple-600"
-          : "border-blurple-500 bg-white text-blurple-500 hover:border-blurple-600 hover:text-blurple-600"
+          ? "border-chakragreen-300 bg-chakragreen-300 text-white hover:border-chakragreen-400 hover:bg-chakragreen-400 focus-visible-within:border-chakragreen-400 focus-visible-within:bg-chakragreen-400"
+          : "border-chakragreen-300 bg-white text-chakaragreen-300 hover:border-chakragreen-400 hover:text-chakragreen-400"
       )}
     >
       <input

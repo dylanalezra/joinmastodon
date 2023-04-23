@@ -18,23 +18,23 @@ const Roadmap = () => {
           <div className="grid gap-x-gutter gap-y-16 lg:grid-cols-12">
             <div className="full-width-bg__inner lg:col-span-5 lg:text-end">
               <h1 className="h1 mb-8 pt-16">
-                <FormattedMessage id="roadmap.title" defaultMessage="Roadmap" />
+                <FormattedMessage id="roadmap.title" defaultMessage="Feuille de route" />
               </h1>
               <p className="sh1 mb-11">
                 <FormattedMessage
                   id="roadmap.lead"
-                  defaultMessage="This is a glimpse into what we're working on and what we're planning to work on."
+                  defaultMessage="Voici un aperçu de ce sur quoi nous travaillons !"
                 />
               </p>
 
               <div className="flex justify-center lg:justify-end">
                 <LinkButton
                   size="large"
-                  href="https://github.com/mastodon/mastodon/issues"
+                  href="mailto:dylan.alezra@cepremap.org"
                 >
                   <FormattedMessage
                     id="roadmap.suggest_a_feature"
-                    defaultMessage="Suggest a feature"
+                    defaultMessage="Suggérez un projet"
                   />
                 </LinkButton>
               </div>
@@ -50,30 +50,30 @@ const Roadmap = () => {
           <title>
             {intl.formatMessage({
               id: "roadmap.page_title",
-              defaultMessage: "Public Roadmap",
+              defaultMessage: "Feuille de route",
             })}{" "}
-            - Mastodon
+            - Prepalib
           </title>
 
           <meta
             property="og:title"
             content={intl.formatMessage({
               id: "roadmap.page_title",
-              defaultMessage: "Public Roadmap",
+              defaultMessage: "Feuille de route",
             })}
           />
           <meta
             name="description"
             content={intl.formatMessage({
               id: "roadmap.page_description",
-              defaultMessage: "Learn what we are working on in Mastodon",
+              defaultMessage: "Découvrez nos projets",
             })}
           />
           <meta
             name="og:description"
             content={intl.formatMessage({
               id: "roadmap.page_description",
-              defaultMessage: "Learn what we are working on in Mastodon",
+              defaultMessage: "Découvrez nos projets",
             })}
           />
         </Head>

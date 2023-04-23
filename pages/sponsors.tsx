@@ -18,62 +18,62 @@ function Sponsors() {
     <Layout>
       <Hero>
         <h1 className="h1 mb-5 lg:col-start-2">
-          <FormattedMessage id="sponsors" defaultMessage="Sponsors" />
+          <FormattedMessage id="sponsors" defaultMessage="Soutenir" />
         </h1>
         <p className="sh1 lg:col-start-2 lg:col-end-6">
           <FormattedMessage
             id="sponsors.hero.body"
-            defaultMessage="You can back us on a monthly basis through Patreon or pledge to become a sponsor through our own platform. We are grateful for the companies and people who make Mastodon possible."
+            defaultMessage="Vous pouvez nous soutenir en faisant un don sur HelloAsso ou bien établir un partenariat pour afficher votre logo sur le site. Les ressources collectées permettent de financer le fonctionnement de l'association."
           />
         </p>
       </Hero>
 
       <TwoUpFeature
-        padding="md:!pt-16"
+        padding="md:!pt-1"
         features={[
           {
             Icon: DonateIcon,
             title: (
               <FormattedMessage
                 id="sponsors.sponsorship.title"
-                defaultMessage="Sponsorship"
+                defaultMessage="Partenariat"
               />
             ),
             copy: (
               <FormattedMessage
                 id="sponsors.sponsorship.body"
-                defaultMessage="If you would like to see your company's logo with a go follow link on this site, you can become a sponsor directly through our own platform!"
+                defaultMessage="Si vous souhaitez voir le logo de votre entreprise affiché, n'hésitez pas à nous contacter pour établir un partenariat !"
               />
             ),
             cta: (
               <FormattedMessage
                 id="sponsors.become_a_sponsor"
-                defaultMessage="Become a sponsor"
+                defaultMessage="Devenir partenaire"
               />
             ),
-            cta_link: "https://sponsor.joinmastodon.org/",
+            cta_link: "mailto:dylan.alezra@cepremap.org",
           },
           {
             Icon: DonateBoxIcon,
             title: (
               <FormattedMessage
                 id="sponsors.patreon.title"
-                defaultMessage="Support us on Patreon"
+                defaultMessage="Faire un don"
               />
             ),
             copy: (
               <FormattedMessage
                 id="sponsors.patreon.body"
-                defaultMessage="Making a contribution through our Patreon will reward you with access to our development Discord and your name listed on this page."
+                defaultMessage="Faire un don sur HelloAsso vous permettra d'avoir accès à certaines comepensations, en plus d'être dans les remerciements du site."
               />
             ),
             cta: (
               <FormattedMessage
                 id="sponsors.patreon.cta"
-                defaultMessage="Go to Patreon"
+                defaultMessage="Aller sur HelloAsso"
               />
             ),
-            cta_link: "https://patreon.com/mastodon",
+            cta_link: "https://www.helloasso.com/associations/prepalib",
           },
         ]}
       />
@@ -82,7 +82,7 @@ function Sponsors() {
         <h2 className="h4 mb-10 text-center">
           <FormattedMessage
             id="sponsors.supported_by"
-            defaultMessage="Supported by"
+            defaultMessage="Soutenu par"
           />
         </h2>
         <SponsorLogoGroup
@@ -92,7 +92,7 @@ function Sponsors() {
 
       <section className="silver-sponsors mb-32">
         <h2 className="h5 mb-8">
-          <FormattedMessage id="sponsors" defaultMessage="Sponsors" />
+          <FormattedMessage id="sponsors" defaultMessage="Partenaires" />
         </h2>
         <div className="grid grid-cols-[repeat(auto-fill,minmax(16rem,1fr))] gap-gutter">
           {sponsorData.silver.map((sponsor, i) => {
@@ -117,7 +117,7 @@ function Sponsors() {
         <h2 className="h5 mb-8">
           <FormattedMessage
             id="sponsors.additional_thanks_to"
-            defaultMessage="Additional thanks to"
+            defaultMessage="Nous remercions également"
           />
         </h2>
         <div className="grid grid-cols-[repeat(auto-fill,minmax(11rem,1fr))] gap-1">
@@ -140,24 +140,20 @@ function Sponsors() {
             )
           })}
         </div>
-
-        <p className="mt-8 text-gray-2 lg:mt-16">
-          Sponsorship does not equal influence. Mastodon is fully independent.
-        </p>
       </section>
       <Head>
         <title>
           {intl.formatMessage({
             id: "sponsors.page_title",
-            defaultMessage: "Sponsors of Mastodon",
+            defaultMessage: "Partnaires de Prepalib",
           })}{" "}
-          - Mastodon
+          - Prepalib
         </title>
         <meta
           property="og:title"
           content={intl.formatMessage({
             id: "sponsors.page_title",
-            defaultMessage: "Sponsors of Mastodon",
+            defaultMessage: "Partenaires de Prepalib",
           })}
         />
         <meta
@@ -165,7 +161,7 @@ function Sponsors() {
           content={intl.formatMessage({
             id: "sponsors.page_description",
             defaultMessage:
-              "View people and companies who crowdfund the development of the decentralized, open-source social media platform Mastodon.",
+              "Voir les personnes et les entreprises qui ont participé au développement de Prepalib.",
           })}
         />
         <meta
@@ -173,7 +169,7 @@ function Sponsors() {
           content={intl.formatMessage({
             id: "sponsors.page_description",
             defaultMessage:
-              "View people and companies who crowdfund the development of the decentralized, open-source social media platform Mastodon.",
+              "Voir les personnes et les entreprises qui ont participé au développement de Prepalib.",
           })}
         />
       </Head>

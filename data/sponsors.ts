@@ -10,6 +10,7 @@ const sponsors = {
     },
   ],
   gold: [
+
   ],
   silver: [
     {
@@ -20,15 +21,28 @@ const sponsors = {
     },
     {
       url: "https://www.linkedin.com/in/david-colle-41784057/",
-      logo: require("../public/sponsors/davidcolle.jpeg"),
+      logo : require("../public/sponsors/davidcolle.jpeg"),
       name: "David Colle / Weid",
       nofollow: false
     }
 
   ],
-  generalHighlighted: [
+  generalHighlighted: [{
+    url: "",
+    name: "Gauthier J.",
+  },
+  {
+    url: "",
+    name: "Emma D.",
+  },
+  {
+    url: "",
+    name: "Jo'",
+  }
   ],
   general: [{
+    url: "https://www.linkedin.com/in/jean-baptiste-roux-0b1b2b1a/",
+    name: "Heyyy",
     }
   ]
 }

@@ -8,12 +8,12 @@ const SponsorCard = ({ sponsor, tier }) => {
     <div
       className={classNames(
         "grid grid-cols-[auto_1fr] gap-4 rounded p-4",
-        tier === "generalHighlighted" && "bg-nightshade-900 text-white",
+        tier === "generalHighlighted" && "bg-chakragreen-300 text-white",
         tier === "silver" && "border border-gray-3 hover:bg-gray-4"
       )}
     >
       {tier === "silver" && (
-        <div className="relative h-[56px] w-[56px] overflow-hidden rounded-md bg-blurple-gradient">
+        <div className="relative h-[56px] w-[56px] overflow-hidden rounded-md bg-chakragrey-gradient">
           {sponsor.logo && (
             <Image src={sponsor.logo} alt="" layout="fill" objectFit="cover" />
           )}
@@ -27,17 +27,17 @@ const SponsorCard = ({ sponsor, tier }) => {
           className={classNames(
             "b3 !leading-[2]",
             tier === "generalHighlighted"
-              ? "text-nightshade-100"
+              ? "text-white"
               : "text-gray-1"
           )}
         >
           {tier === "silver" ? (
             <FormattedMessage
               id="silver_sponsor"
-              defaultMessage="Silver sponsor"
+              defaultMessage="Super Soutien"
             />
           ) : (
-            <FormattedMessage id="sponsor" defaultMessage="Sponsor" />
+            <FormattedMessage id="sponsor" defaultMessage="Donateur" />
           )}
         </span>
 

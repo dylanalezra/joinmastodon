@@ -50,33 +50,7 @@ export const apps: appsList = {
       name: "Tusky",
       icon: tusky,
       url: "https://play.google.com/store/apps/details?id=com.keylesspalace.tusky",
-    },
-    {
-      released_on: "Apr 23, 2017",
-      name: "Subway Tooter",
-      icon: subwayTooter,
-      url: "https://play.google.com/store/apps/details?id=jp.juggler.subwaytooter",
-    },
-    {
-      released_on: "May 18, 2019",
-      name: "Fedilab",
-      icon: fedilab,
-      url: "https://play.google.com/store/apps/details?id=app.fedilab.android",
-      paid: true,
-    },
-    {
-      released_on: "Apr 16, 2021",
-      name: "tooot",
-      icon: tooot,
-      url: "https://play.google.com/store/apps/details?id=com.xmflsct.app.tooot",
-    },
-    {
-      released_on: "Jan 31st, 2023",
-      name: "Buffer",
-      icon: buffer,
-      url: "https://play.google.com/store/apps/details?id=org.buffer.android",
-      hidden_from_all: true,
-    },
+    }
   ],
   ios: [
     {
@@ -85,111 +59,14 @@ export const apps: appsList = {
       url: "https://apps.apple.com/app/toot/id1229021451",
       paid: true,
     },
-    {
-      name: "Mast",
-      icon: mast,
-      url: "https://apps.apple.com/app/mast-for-mastodon/id1437429129",
-      paid: true,
-    },
-    {
-      name: "iMast",
-      icon: imast,
-      url: "https://apps.apple.com/app/imast/id1229461703",
-    },
-    {
-      name: "Mercury",
-      icon: mercury,
-      url: "https://apps.apple.com/app/mercury-for-mastodon/id1486749200",
-    },
-    {
-      name: "Metatext",
-      icon: metatext,
-      url: "https://apps.apple.com/app/metatext/id1523996615",
-    },
-    {
-      released_on: "Apr 16, 2021",
-      name: "tooot",
-      icon: tooot,
-      url: "https://apps.apple.com/app/tooot/id1549772269",
-    },
-    {
-      released_on: "Jan 19, 2023",
-      name: "Ice Cubes",
-      icon: icecubes,
-      url: "https://apps.apple.com/app/ice-cubes-for-mastodon/id6444915884",
-    },
-    {
-      released_on: "Jan 31st, 2023",
-      name: "Buffer",
-      icon: buffer,
-      url: "https://apps.apple.com/app/buffer-plan-schedule-posts/id490474324",
-      hidden_from_all: true,
-    },
-    {
-      released_on: "Jan 24, 2023",
-      name: "Ivory",
-      icon: ivory,
-      url: "https://apps.apple.com/app/ivory-for-mastodon-by-tapbots/id6444602274",
-      paid: true
-    },
-    {
-      released_on: "Feb 24, 2023",
-      name: "Mammoth",
-      icon: mammoth,
-      url: "https://apps.apple.com/app/mammoth-for-mastodon/id1667573899",
-      paid: false
-    },
-    {
-      released_on: "Mar 24, 2023",
-      name: "Woolly",
-      icon: woolly,
-      url: "https://apps.apple.com/us/app/woolly-for-mastodon/id6444360628",
-      paid: true
-    }
   ],
   web: [
     { name: "Pinafore", icon: pinafore, url: "https://pinafore.social" },
-    { name: "Cuckoo+", icon: cuckooPlus, url: "https://www.cuckoo.social" },
-    { name: "Elk", icon: elk, url: "https://elk.zone" },
-    { name: "Buffer", icon: buffer, url: "https://buffer.com" },
   ],
   desktop: [
     { name: "Tokodon", icon: tokodon, url: "https://apps.kde.org/tokodon/" },
     { name: "Whalebird", icon: whalebird, url: "https://whalebird.social" },
-    { name: "TheDesk", icon: thedesk, url: "https://thedesk.top/en" },
-    {
-      name: "Hyper­space",
-      icon: hyperspace,
-      url: "https://hyperspace.marquiskurt.net/",
-    },
-    {
-      name: "Mast (Mac)",
-      icon: mast,
-      url: "https://apps.apple.com/app/mast-for-mastodon/id1437429129",
-      paid: true,
-    },
-    {
-      name: "Mastonaut (Mac)",
-      icon: mastonaut,
-      url: "https://itunes.apple.com/us/app/mastonaut/id1450757574",
-    },
-    {
-      name: "Sengi",
-      icon: sengi,
-      url: "https://nicolasconstant.github.io/sengi/",
-    },
-    {
-      name: "Bitlbee-Mastodon",
-      icon: bitlbee,
-      url: "https://alexschroeder.ch/cgit/bitlbee-mastodon/about/",
-    },
-    { name: "Elk", icon: elk, url: "https://github.com/elk-zone/elk-native/releases" },
-    {
-      released_on: "Mar 23, 2023",
-      name: "Tuba",
-      icon: tuba,
-      url: "https://flathub.org/apps/details/dev.geopjr.Tuba",
-    },
+
   ],
   sailfish: [
     {

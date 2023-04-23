@@ -30,14 +30,14 @@ const AppsPage = () => {
           <div className="container">
             <div className="app-intro__hero">
               <div className="app-intro__hero__unit">
-                <h1 className="h1 ">
-                  <FormattedMessage id="apps.title" defaultMessage="Apps" />
+                <h1 className="h1 mb-4">
+                  <FormattedMessage id="apps.title" defaultMessage="Applications" />
                 </h1>
 
                 <p className="sh1">
                   <FormattedMessage
                     id="apps.lead"
-                    defaultMessage="The best way to get started with Mastodon is through our official apps for iOS and Android, but many third-party apps are also available below."
+                    defaultMessage="Prepalib cherche à utiliser au mieux l'intelligence artificielle pour aider les élèves. Nous développons actuellement un projet d'IA pour les examens et les concours. Par ailleurs, nous centralisons les meilleures instructions pour utiliser les IA dans le cadre de votre préparation."
                   />
                 </p>
               </div>
@@ -46,7 +46,7 @@ const AppsPage = () => {
         </div>
       </Hero>
 
-      <div className="grid justify-center gap-x-gutter gap-y-16 pt-10 pb-8 text-center md:grid-cols-12 md:text-start">
+      <div className="grid justify-center gap-x-gutter gap-y-16 pt-1 pb-1 text-center md:grid-cols-12 md:text-start">
         <div className="md:col-span-6 lg:col-span-5 xl:col-span-4 xl:col-start-2">
           <h2 className="h4 mb-4">
           </h2>
@@ -71,65 +71,60 @@ const AppsPage = () => {
             title: (
               <FormattedMessage
                 id="browse_apps.progressive_web_app"
-                defaultMessage="Progressive web app"
+                defaultMessage="Study Bot"
               />
             ),
             copy: (
               <FormattedMessage
                 id="browse_apps.you_can_use_it_from_desktop"
-                defaultMessage="You can always use Mastodon from the browser on your desktop or phone! It can be added to your home screen and some browsers even support push notifications, just like a native app!"
+                defaultMessage="Créer une sorte de super-professeur pouvant enseigner et traiter tous les sujets."
               />
             ),
             cta: (
               <FormattedMessage
                 id="browse_apps.pwa_feature.cta"
-                defaultMessage="Join a server"
+                defaultMessage="En développement"
               />
             ),
-            cta_link: "/servers",
+            cta_link: "/roadmap",
           },
           {
             Icon: ApiGearIcon,
             title: (
               <FormattedMessage
                 id="browse_apps.open_api"
-                defaultMessage="Open API"
+                defaultMessage="Prompt-tutoring"
               />
             ),
             copy: (
               <FormattedMessage
                 id="browse_apps.make_your_own"
-                defaultMessage="Mastodon is open-source and has an elegant, well-documented API that is available to everyone. Make your own app, or use one of the many third-party apps made by other developers!"
+                defaultMessage="Nous créons une documentation pour recenser les meilleures façons d'utiliser l'IA dans le cadre de vos études."
               />
             ),
             cta: (
               <FormattedMessage
                 id="browse_apps.api_docs"
-                defaultMessage="API documentation"
+                defaultMessage="En développement"
               />
             ),
-            cta_link: "https://docs.joinmastodon.org/client/intro/",
+            cta_link: "/roadmap",
           },
         ]}
       />
-      <AppsGrid apps={appsList} />
-      {/* <AppHero
-        backgroundImage={footer_festival}
-        backgroundImagePosition="left center"
-      /> */}
       <Head>
         <title>
           {intl.formatMessage({
             id: "browse_apps.page_title",
-            defaultMessage: "Get an app for Mastodon",
+            defaultMessage: "Utiliser l'IA pour vos études",
           })}{" "}
-          - Mastodon
+          - Prepalib
         </title>
         <meta
           property="og:title"
           content={intl.formatMessage({
             id: "browse_apps.page_title",
-            defaultMessage: "Get an app for Mastodon",
+            defaultMessage: "Utiliser l'IA pour vos études",
           })}
         />
         <meta
@@ -137,7 +132,7 @@ const AppsPage = () => {
           content={intl.formatMessage({
             id: "browse_apps.page_description",
             defaultMessage:
-              "Browse official and third-party apps for the decentralized social network Mastodon",
+              "Utiliser l'IA pour vos études",
           })}
         />
         <meta
@@ -145,7 +140,7 @@ const AppsPage = () => {
           content={intl.formatMessage({
             id: "browse_apps.page_description",
             defaultMessage:
-              "Browse official and third-party apps for the decentralized social network Mastodon",
+              "Utiliser l'IA pour vos études",
           })}
         />
       </Head>

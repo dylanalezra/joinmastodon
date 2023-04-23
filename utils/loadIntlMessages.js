@@ -1,19 +1,7 @@
-import fs from "fs/promises"
-import path from "path"
-
 export default async function loadI18nMessages({ locale, defaultLocale }) {
-  // If the default locale is being used we can skip it
-  if (locale === defaultLocale) {
-    return {}
-  }
+  // Ignorer la valeur de locale et utiliser directement "en"
+  locale = "en";
 
-  if (locale !== defaultLocale) {
-    const languagePath = path.join(process.cwd(), `locales/${locale}.json`)
-    try {
-      const contents = await fs.readFile(languagePath, "utf-8")
-      return JSON.parse(contents)
-    } catch (error) {
-      console.error(error)
-    }
-  }
+  // Always return an empty object, no matter the locale
+  return {};
 }

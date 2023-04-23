@@ -1,12 +1,5 @@
-const { locales, defaultLocale } = require("./data/locales.js")
-
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  i18n: {
-    locales: locales.map((l) => l.code),
-    defaultLocale,
-  },
   images: {
     domains: [
       "proxy.joinmastodon.org",
@@ -77,4 +70,4 @@ const nextConfig = {
   output: "standalone",
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;

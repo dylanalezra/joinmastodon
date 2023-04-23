@@ -9,7 +9,7 @@ import { IconCard } from "../components/IconCard"
 import SelectMenu from "../components/SelectMenu"
 import Statistic from "../components/Statistic"
 import { categoriesMessages } from "../data/categories"
-import type { Server, Category, Language, Day, Region } from "../types/api"
+import type { Server, Category, Region } from "../types/api"
 import Hero from "../components/Hero"
 import { withDefaultStaticProps } from "../utils/defaultStaticProps"
 import { formatNumber } from "../utils/numbers"
@@ -17,13 +17,13 @@ import { fetchEndpoint } from "../utils/api"
 
 import serverHeroMobile from "../public/illustrations/servers_hero_mobile.png"
 import serverHeroDesktop from "../public/illustrations/servers_hero_desktop.png"
-import PersonIcon from "../public/ui/person.svg?inline"
-import FiltersIcon from "../public/ui/filters.svg?inline"
 import SkeletonText from "../components/SkeletonText"
 import Head from "next/head"
 import Layout from "../components/Layout"
 import Link from "next/link"
 import servers1 from "../data/servers"
+import { categoriesData } from '../data/categoriesData';
+
 
 const DUNBAR = Math.log(800)
 const Pagination = ({
@@ -49,7 +49,7 @@ const Pagination = ({
         } bg-chakragreen-300 text-white py-2 px-4 rounded-l focus:outline-none`}
         disabled={currentPage === 1}
       >
-        Previous
+        Précédent
       </button>
       <div className="border border-chakragreen-300 mx-1 w-16 text-center">
         {currentPage}
@@ -61,7 +61,7 @@ const Pagination = ({
         } bg-chakragreen-300 text-white py-2 px-4 rounded-r focus:outline-none`}
         disabled={currentPage === totalPages}
       >
-        Next
+        Suivant
       </button>
     </div>
   );
@@ -74,13 +74,14 @@ const Servers = () => {
   const [filters, setFilters] = useState({
     language: locale === "en" ? "en" : "",
     category: "",
-    region: "",
-    ownership: "",
-    registrations: "",
+    concours: "",
+    niveau: "",
+    nature: "",
+    format: ""
   })
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const serversPerPage = 12; 
+  const serversPerPage = 12;
 
   const params = new URLSearchParams(filters)
 
@@ -88,39 +89,30 @@ const Servers = () => {
     cacheTime: 30 * 60 * 1000, // 30 minutes
   }
 
-  const allCategories = useQuery<Category[]>(
-    ["categories", ""],
-    () => fetchEndpoint("categories", {}),
-    { select: (data) => _orderBy(data, "servers_count", "desc") }
-  )
-
-  const apiCategories = useQuery<Category[]>(
-    ["categories", filters.language],
-    () => fetchEndpoint("categories", params),
-    {
-      ...queryOptions,
-      keepPreviousData: true,
-      select: (data) => {
-        let updated = allCategories.data.map(({ category }) => {
-          let match = data.find((el) => {
-            return el.category === category
-          })
-
-          return { category, servers_count: match ? match.servers_count : 0 }
-        })
-
-        const totalServersCount =
-          updated?.reduce((acc, el) => acc + el.servers_count, 0) ?? 0
-
-        updated = [
-          { category: "", servers_count: totalServersCount },
-          ...updated,
-        ]
-
-        return updated
-      },
-    }
-  )
+  function mergeCategoryData(categoriesData) {
+    return categoriesData.map((categoryData) => {
+      const message = categoriesMessages[categoryData.category];
+      return {
+        ...categoryData,
+        displayName: message ? message.defaultMessage : categoryData.category,
+      };
+    });
+  }
+  const mergedCategoriesData = mergeCategoryData(categoriesData);
+ 
+  const allCategories = {
+    data: _orderBy(mergedCategoriesData, "servers_count", "desc"),
+    isLoading: false,
+    isError: false
+  };
+ 
+  const apiCategories = {
+    data: allCategories.data,
+    isLoading: false,
+    isError: false
+  };
+ 
+ 
 
   let defaultOption = {
     value: "",
@@ -130,53 +122,156 @@ const Servers = () => {
     }),
   }
 
-  const registrationsOptions = [
+  const concoursOptions = [
     {
       value: "",
       label: intl.formatMessage({
         id: "wizard.filter.sign_up.all",
-        defaultMessage: "All",
+        defaultMessage: "Tous",
       }),
     },
     {
-      value: "instant",
+      value: "ecg",
       label: intl.formatMessage({
         id: "wizard.filter.sign_up.instant",
-        defaultMessage: "Instant",
+        defaultMessage: "ECG",
       }),
     },
     {
-      value: "manual",
+      value: "iep",
       label: intl.formatMessage({
         id: "wizard.filter.sign_up.manual",
-        defaultMessage: "Manual review",
+        defaultMessage: "IEP",
+      }),
+    },
+{
+      value: "bl",
+      label: intl.formatMessage({
+        id: "wizard.filter.sign_up.manual",
+        defaultMessage: "B/L",
+      }),
+    },
+{
+      value: "administratif",
+      label: intl.formatMessage({
+        id: "wizard.filter.sign_up.manual",
+        defaultMessage: "Administratifs",
       }),
     },
   ]
 
-  const ownershipOptions = [
+  const niveauOptions = [
     {
       value: "",
       label: intl.formatMessage({
-        id: "wizard.filter.ownership.all",
-        defaultMessage: "All",
+        id: "wizard.filter.concours.all",
+        defaultMessage: "Tous",
       }),
     },
     {
-      value: "juridicial",
+      value: "terminale",
       label: intl.formatMessage({
-        id: "wizard.filter.ownership.juridicial",
-        defaultMessage: "Public organization",
+        id: "wizard.filter.concours.juridicial",
+        defaultMessage: "Terminale",
       }),
     },
     {
-      value: "natural",
+      value: "una",
       label: intl.formatMessage({
-        id: "wizard.filter.ownership.natural",
-        defaultMessage: "Private individual",
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "1A",
+      }),
+    },
+  {
+      value: "deuza",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "2A",
       }),
     },
   ]
+
+  const natureOptions = [
+    {
+      value: "",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.all",
+        defaultMessage: "Tous",
+      }),
+    },
+    {
+      value: "cours",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.juridicial",
+        defaultMessage: "Cours",
+      }),
+    },
+    {
+      value: "fiches",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "Fiches",
+      }),
+    },
+ {
+      value: "methodes",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "Méthodes",
+      }),
+    },
+ {
+      value: "annales",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "Annales",
+      }),
+    },
+
+  ]
+
+
+  const formatOptions = [
+    {
+      value: "",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.all",
+        defaultMessage: "Tous",
+      }),
+    },
+    {
+      value: "cours",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.juridicial",
+        defaultMessage: "Exercices",
+      }),
+    },
+    {
+      value: "fiches",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "Sujets",
+      }),
+    },
+ {
+      value: "methodes",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "Corrigés",
+      }),
+    },
+ {
+      value: "annales",
+      label: intl.formatMessage({
+        id: "wizard.filter.concours.natural",
+        defaultMessage: "Bonnes copies",
+      }),
+    },
+
+  ]
+
+
+
 
   const apiLanguages = useQuery<any[]>(
     ["languages", filters.category],
@@ -198,11 +293,11 @@ const Servers = () => {
   )
 
   const filteredServers = servers1.data.filter(server =>
-    (!filters.language || server.language === filters.language) &&
-    (!filters.category || server.category === filters.category) &&
-    (!filters.region || server.region === filters.region) &&
-    (!filters.ownership || server.ownershipOptions === filters.ownership) &&
-    (!filters.registrations || server.registrationsOptions === filters.registrations) &&
+    (!filters.category || filters.category.split(',').some(c => server.category.includes(c))) &&
+    (!filters.concours || server.concoursOptions.includes(filters.concours)) &&
+    (!filters.niveau || server.niveauOptions === filters.niveau) &&
+    (!filters.nature || server.natureOptions === filters.nature) &&
+    (!filters.format || server.formatOptions === filters.format) &&
     (searchTerm === "" ||
     server.domain.toLowerCase().includes(searchTerm.toLowerCase()) ||
     server.description.toLowerCase().includes(searchTerm.toLowerCase()))
@@ -218,21 +313,25 @@ const paginatedServers = filteredServers.slice(
       "servers",
       filters.language,
       filters.category,
-      filters.ownership,
-      filters.registrations,
-      filters.region,
+      filters.concours,
+      filters.niveau,
+      filters.concours,
+      filters.nature,
+      filters.format
     ],
-    () => Promise.resolve(filteredServers),queryOptions
-  )
-
-
-
-
-  const days = useQuery<Day[]>(
-    ["statistics"],
-    () => fetchEndpoint("statistics", ""),
+    () =>
+      Promise.resolve(
+        filteredServers.map(server => ({
+          ...server,
+          approval_required: false // assign the appropriate value here
+        }))
+      ),
     queryOptions
-  )
+  );
+  
+
+
+
 
   const regions = [
     {
@@ -290,13 +389,13 @@ const paginatedServers = filteredServers.slice(
     <Layout>
       <Hero mobileImage={serverHeroMobile} desktopImage={serverHeroDesktop}>
         <h1 className="h2 mb-5">
-          <FormattedMessage id="servers" defaultMessage="Economics for ECG" />
+          <FormattedMessage id="servers" defaultMessage="Les contenus" />
         </h1>
 
         <p className="sh1 mb-14 max-w-[36ch]">
           <FormattedMessage
             id="servers.hero.body"
-            defaultMessage="Mastodon is not a single website. To use it, you need to make an account with a provider—we call them <b>servers</b>—that lets you connect with other people across Mastodon."
+            defaultMessage="Nous fournissons des contenus propres à Prepalib pour de nombreux concours et de nombreuses matières. Nous centralisons également toutes les ressources de qualité trouvables sur Internet pour vous éviter de chercher."
             values={{
               b: (text) => <b>{text}</b>,
             }}
@@ -312,7 +411,7 @@ const paginatedServers = filteredServers.slice(
   type="text"
   placeholder={intl.formatMessage({
     id: "search.placeholder",
-    defaultMessage: "Search...",
+    defaultMessage: "Cherchez...",
   })}
   value={searchTerm}
   onChange={(e) => setSearchTerm(e.target.value)}
@@ -322,49 +421,62 @@ const paginatedServers = filteredServers.slice(
             <SelectMenu
               label={
                 <FormattedMessage
-                  id="wizard.filter_by_registrations"
-                  defaultMessage="Sign-up process"
+                  id="wizard.filter_by_niveau"
+                  defaultMessage="Concours"
                 />
               }
               onChange={(v) => {
-                setFilters({ ...filters, registrations: v })
+                setFilters({ ...filters, concours: v })
               }}
-              value={filters.registrations}
-              options={registrationsOptions}
+              value={filters.concours}
+              options={concoursOptions}
+            />
+
+
+ <SelectMenu
+              label={
+                <FormattedMessage
+                  id="wizard.filter_by_niveau"
+                  defaultMessage="Niveau"
+                />
+              }
+              onChange={(v) => {
+                setFilters({ ...filters, niveau: v })
+              }}
+              value={filters.niveau}
+              options={niveauOptions}
+            />
+
+
+<SelectMenu
+              label={
+                <FormattedMessage
+                  id="wizard.filter_by_niveau"
+                  defaultMessage="Nature"
+                />
+              }
+              onChange={(v) => {
+                setFilters({ ...filters, nature: v })
+              }}
+              value={filters.nature}
+              options={natureOptions}
             />
 
             <SelectMenu
               label={
                 <FormattedMessage
                   id="wizard.filter_by_structure"
-                  defaultMessage="Legal structure"
+                  defaultMessage="Type"
                 />
               }
               onChange={(v) => {
-                setFilters({ ...filters, ownership: v })
+                setFilters({ ...filters, format: v })
               }}
-              value={filters.ownership}
-              options={ownershipOptions}
+              value={filters.format}
+              options={formatOptions}
             />
           </div>
           <div className="col-span-4 mb-8 md:col-span-3 md:mb-0">
-            <h3 className="h5 mb-4">
-              <FormattedMessage id="server.safety" defaultMessage="Safety" />
-            </h3>
-
-            <p className="b2 mb-8 text-gray-1">
-              <FormattedMessage
-                id="covenant.learn_more"
-                defaultMessage="All servers listed here have committed to the <link>Mastodon Server Covenant</link>."
-                values={{
-                  link: (chunks) => (
-                    <Link href="/covenant">
-                      <a className="underline">{chunks}</a>
-                    </Link>
-                  ),
-                }}
-              />
-            </p>
 
             <ServerFilters
               initialCategories={allCategories.data}
@@ -373,8 +485,6 @@ const paginatedServers = filteredServers.slice(
               filters={filters}
               setFilters={setFilters}
             />
-
-            <ServerStats days={days} />
           </div>
           <div className="col-span-4 md:col-start-4 md:col-end-13">
             <ServerList servers={paginatedServers} />
@@ -390,15 +500,15 @@ const paginatedServers = filteredServers.slice(
         <title>
           {intl.formatMessage({
             id: "servers.page_title",
-            defaultMessage: "Servers",
+            defaultMessage: "Les contenus",
           })}{" "}
-          - Mastodon
+          - Prepalib
         </title>
         <meta
           property="og:title"
           content={intl.formatMessage({
             id: "servers.page_title",
-            defaultMessage: "Servers",
+            defaultMessage: "Les contenus",
           })}
         />
         <meta
@@ -406,7 +516,7 @@ const paginatedServers = filteredServers.slice(
           content={intl.formatMessage({
             id: "servers.page_description",
             defaultMessage:
-              "Find where to sign up for the decentralized social network Mastodon.",
+              "Retrouvez tous les contenus proposés ou recensés par Prepalib !",
           })}
         />
         <meta
@@ -414,7 +524,7 @@ const paginatedServers = filteredServers.slice(
           content={intl.formatMessage({
             id: "servers.page_description",
             defaultMessage:
-              "Find where to sign up for the decentralized social network Mastodon.",
+              "Retrouvez tous les contenus proposés ou recensés par Prepalib !",
           })}
         />
       </Head>
@@ -440,26 +550,16 @@ const GettingStartedCards = () => {
       <h2 className="h3 mb-8 text-center">
         <FormattedMessage
           id="servers.getting_started.headline"
-          defaultMessage="Getting started with Mastodon is easy"
+          defaultMessage="Les contenus sur Prepalib"
         />
       </h2>
-      <div className="grid gap-gutter sm:grid-cols-2 xl:grid-cols-4">
-        <IconCard
-          title={<FormattedMessage id="servers" defaultMessage="Servers" />}
-          icon="servers"
-          className="md:border md:border-gray-3"
-          copy={
-            <FormattedMessage
-              id="servers.getting_started.servers"
-              defaultMessage="The first step is deciding which server you’d like to make your account on. Every server is operated by an independent organization or individual and may differ in moderation policies."
-            />
-          }
-        />
+      <div className="grid gap-gutter sm:grid-cols-2 xl:grid-cols-2">
+   
         <IconCard
           title={
             <FormattedMessage
               id="servers.getting_started.feed.title"
-              defaultMessage="Your feed"
+              defaultMessage="Contenus de qualité"
             />
           }
           icon="feed"
@@ -467,31 +567,16 @@ const GettingStartedCards = () => {
           copy={
             <FormattedMessage
               id="servers.getting_started.feed.body"
-              defaultMessage="With an account on your server, you can follow any other person on the network, regardless of where their account is hosted. You will see their posts in your home feed, and if they follow you, they will see yours in theirs."
+              defaultMessage="Facilitez votre travail, vos révisions, votre recherche d'information. Le but de Prepalib, c'est de centraliser tous les meilleurs contenus pour que vous vous posiez le moins de questions possibles."
             />
           }
         />
-        <IconCard
-          title={
-            <FormattedMessage
-              id="servers.getting_started.flexible.title"
-              defaultMessage="Flexible"
-            />
-          }
-          icon="move-servers"
-          className="md:border md:border-gray-3"
-          copy={
-            <FormattedMessage
-              id="servers.getting_started.flexible.body"
-              defaultMessage="Find a different server you'd prefer? With Mastodon, you can easily move your profile to a different server at any time without losing any followers. To be in complete control, you can create your own server."
-            />
-          }
-        />
+
         <IconCard
           title={
             <FormattedMessage
               id="servers.getting_started.safe_for_all.title"
-              defaultMessage="Safe for all"
+              defaultMessage="Collaboratif"
             />
           }
           icon="safety-1"
@@ -499,7 +584,7 @@ const GettingStartedCards = () => {
           copy={
             <FormattedMessage
               id="servers.getting_started.safe_for_all.body"
-              defaultMessage="We can't control the servers, but we can control what we promote on this page. Our organization will only point you to servers that are consistently committed to moderation against racism, sexism, and transphobia."
+              defaultMessage="Prepalib est un site associatif et collaboratif. Nous fournissons un maximum de ressources pour vous aider, et nous cherchons à récupérer les contenus des élèves ayant intégré les meilleures écoles pour pouvoir améliorer l'offre en permanence."
             />
           }
         />
@@ -509,20 +594,20 @@ const GettingStartedCards = () => {
 }
 
 const ServerList = ({ servers }) => {
-  
+ 
   if (servers.length === 0) {
     return (
       <div className="b2 flex justify-center rounded bg-gray-5 p-4 text-gray-1 md:p-8 md:py-20">
         <p className="max-w-[48ch] text-center">
           <FormattedMessage
             id="wizard.no_results"
-            defaultMessage="Seems like there are currently no servers that fit your search criteria. Mind that we only display a curated set of servers that currently accept new sign-ups."
+            defaultMessage="Il semble qu'aucun contenu ne corresponde à votre votre recherche."
           />
         </p>
       </div>
     );
   }
-  
+ 
   return (
     <div className="col-span-4 md:col-start-4 md:col-end-13">
       <div className="grid gap-gutter sm:grid-cols-2 xl:grid-cols-3">
@@ -547,95 +632,6 @@ const ServerList = ({ servers }) => {
 };
 
 
-const ServerStats = ({ days }) => {
-  const intl = useIntl()
-
-  if (days.isError) {
-    return null
-  }
-
-  if (days.isLoading) {
-    return (
-      <div>
-        <h3 className="h5 mb-4">
-          <FormattedMessage
-            id="stats.network"
-            defaultMessage="Network health"
-          />
-        </h3>
-
-        <div className="space-y-4">
-          <Statistic key="mau" />
-          <Statistic key="servers" />
-        </div>
-
-        <p className="b3 mt-4 text-gray-2">
-          <SkeletonText className="w-[20ch]" />
-          <br />
-          <SkeletonText className="w-[16ch]" />
-        </p>
-      </div>
-    )
-  }
-
-  if (days.data.length < 3) {
-    return null
-  }
-
-  const currentDay = days.data[days.data.length - 2]
-  const compareDay = days.data[0]
-
-  return (
-    <div>
-      <h3 className="h5 mb-4">
-        <FormattedMessage id="stats.network" defaultMessage="Network health" />
-      </h3>
-
-      <div className="space-y-4">
-        <Statistic
-          key="mau"
-          Icon={PersonIcon}
-          label={
-            <FormattedMessage
-              id="stats.monthly_active_users"
-              defaultMessage="Monthly Active Users"
-            />
-          }
-          currentValue={parseInt(currentDay.active_user_count)}
-          prevValue={parseInt(compareDay.active_user_count)}
-        />
-
-        <Statistic
-          key="servers"
-          Icon={FiltersIcon}
-          label={
-            <FormattedMessage id="stats.servers" defaultMessage="Servers Up" />
-          }
-          currentValue={parseInt(currentDay.server_count)}
-          prevValue={parseInt(compareDay.server_count)}
-        />
-      </div>
-
-      <p className="b3 mt-4 text-gray-2">
-        <FormattedMessage
-          id="stats.disclaimer"
-          defaultMessage="Data collected by crawling all accessible Mastodon servers on {date}."
-          values={{
-            date: (
-              <FormattedDate
-                value={currentDay.period}
-                year="numeric"
-                month="short"
-                day="2-digit"
-              />
-            ),
-          }}
-        />
-      </p>
-    </div>
-  )
-}
-
 const ServerFilters = ({
   filters,
   setFilters,
@@ -654,61 +650,10 @@ const ServerFilters = ({
     <div className="mb-8">
       <h3 className="h5 mb-4" id="category-group-label">
         <FormattedMessage
-          id="server.filter_by.region"
-          defaultMessage="Region"
-        />
-      </h3>
-
-      <p className="b3 mb-4 text-gray-2">
-        <FormattedMessage
-          id="server.filter_by.region.lead"
-          defaultMessage="Where the provider is legally based."
-        />
-      </p>
-
-      <ul className="mb-8 grid grid-cols-[repeat(auto-fill,minmax(11rem,1fr))] gap-1 md:-ml-3 md:grid-cols-1 md:gap-x-3">
-        {regions?.map((item, i) => {
-          const isActive = filters.region === item.value
-
-          return (
-            <li key={i}>
-              <label
-                className={classnames(
-                  "b2 flex cursor-pointer gap-1 rounded p-3 focus-visible-within:outline focus-visible-within:outline-2 focus-visible-within:outline-chakragreen-300",
-                  isActive && "bg-nightshade-50 !font-extrabold"
-                )}
-              >
-                <input
-                  className="sr-only"
-                  type="checkbox"
-                  name="filters-region"
-                  onChange={() => {
-                    setFilters({
-                      ...filters,
-                      region: isActive ? "" : item.value,
-                    })
-                  }}
-                />
-                {item.label}
-              </label>
-            </li>
-          )
-        })}
-      </ul>
-
-      <h3 className="h5 mb-4" id="category-group-label">
-        <FormattedMessage
           id="server.filter_by.category"
-          defaultMessage="Topic"
+          defaultMessage="Matières"
         />
       </h3>
-
-      <p className="b3 mb-4 text-gray-2">
-        <FormattedMessage
-          id="server.filter_by.category.lead"
-          defaultMessage="Some providers specialize in hosting accounts from specific communities."
-        />
-      </p>
 
       <ul className="grid grid-cols-[repeat(auto-fill,minmax(11rem,1fr))] gap-1 md:-ml-3 md:grid-cols-1 md:gap-x-3">
         {!initialCategories
@@ -725,7 +670,7 @@ const ServerFilters = ({
                   <label
                     className={classnames(
                       "b2 flex cursor-pointer gap-1 rounded p-3 focus-visible-within:outline focus-visible-within:outline-2 focus-visible-within:outline-chakragreen-300",
-                      isActive && "bg-nightshade-50 !font-extrabold",
+                      isActive && "bg-chakragrey-300 !font-extrabold",
                       item.servers_count === 0 && "text-gray-2"
                     )}
                   >
@@ -743,16 +688,15 @@ const ServerFilters = ({
                     {item.category === ""
                       ? intl.formatMessage({
                           id: "wizard.filter.all_categories",
-                          defaultMessage: "All topics",
+                          defaultMessage: "Toutes les matières",
                         })
                       : (categoriesMessages[item.category] ? intl.formatMessage(categoriesMessages[item.category]) : item.category)}
 
                     <span
                       className={
-                        isActive ? "text-nightshade-100" : "text-gray-2"
+                        isActive ? "text-chakragreen-300" : "text-gray-2"
                       }
                     >
-                      ({item.servers_count})
                     </span>
                   </label>
                 </li>

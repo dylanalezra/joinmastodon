@@ -1,16 +1,14 @@
-import Document, { Html, Head, Main, NextScript } from "next/document"
-import { getDirForLocale } from "../utils/locales"
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
+    const initialProps = await Document.getInitialProps(ctx);
+    return { ...initialProps };
   }
 
   render() {
-    const dir = getDirForLocale(this.props?.locale)
     return (
-      <Html dir={dir}>
+      <Html>
         <Head>
           <meta name="apple-itunes-app" content="app-id=1571998974" />
           <meta name="twitter:site" content="@joinmastodon" />
@@ -20,8 +18,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;

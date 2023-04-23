@@ -14,19 +14,20 @@ import SkeletonText from "./SkeletonText"
  */
 const ServerCard = ({ server }: { server?: Server }) => {
   const intl = useIntl()
+  const localImageSrc = server ? `/public/servers/${server.local_image}` : ""
+
   return (
     <div className="grid grid-rows-[auto_1fr_auto] rounded-md border border-gray-3 p-4">
       <div className="relative h-26 lg:h-40 rounded-md overflow-hidden bg-gray-2">
         {server ? (
           <>
-            {server.blurhash && <Blurhash hash={server.blurhash} width='100%' height='100%' />}
-
             <Image
-              src={server.proxied_thumbnail}
+              src={server.local_image}
               layout="fill"
               objectFit="cover"
               alt=""
               unoptimized
+              loading = "lazy"
             />
           </>
         ) : (
@@ -39,9 +40,9 @@ const ServerCard = ({ server }: { server?: Server }) => {
           {server ? (
             <>
               <span>
-                {server.category in categoriesMessages
-                  ? intl.formatMessage(categoriesMessages[server.category])
-                  : server.category}
+              {server.category[0] in categoriesMessages
+  ? intl.formatMessage(categoriesMessages[server.category[0]])
+  : server.category[0]}
               </span>
               {server?.approval_required && (
                 <span className="before:px-1 before:content-['·']">
@@ -88,7 +89,7 @@ const ServerCard = ({ server }: { server?: Server }) => {
             ) : (
               <FormattedMessage
                 id="servers.create_account"
-                defaultMessage="Access"
+                defaultMessage="Accédez"
               />
             )}
           </LinkButton>
