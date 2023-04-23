@@ -1939,8 +1939,8664 @@ const servers = {
             ],
             "url": "https://ankiweb.net/shared/info/1838086449",
             "local_image": require("../public/servers/anglais/anglais_flahscards.jpg")
+        },
+        {
+            "domain": "HEC 2 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2022.pdf",
+            "local_image": require('../public/servers/maths/appro/1.png')
+        },
+        {
+            "domain": "HEC 2 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2023/02/2022_HEC2_ECS_corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/2.png')
+        },
+        {
+            "domain": "HEC 2 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2021.pdf",
+            "local_image": require('../public/servers/maths/appro/3.png')
+        },
+        {
+            "domain": "HEC 2 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/KErrCqFNfLG_MII-2021-ECS-compresse.pdf",
+            "local_image": require('../public/servers/maths/appro/4.png')
+        },
+        {
+            "domain": "HEC 2 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2020.pdf",
+            "local_image": require('../public/servers/maths/appro/5.png')
+        },
+        {
+            "domain": "HEC 2 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.myprepa.fr/news/wp-content/uploads/2020/07/Maths-2-ECS-HEC-ESCP-2020-Corrige%CC%81-MyPrepa_.pdf",
+            "local_image": require('../public/servers/maths/appro/6.png')
+        },
+        {
+            "domain": "HEC 2 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2019.pdf",
+            "local_image": require('../public/servers/maths/appro/7.png')
+        },
+        {
+            "domain": "HEC 2 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/BCE2019-MATHS2-HEC_ESCP-ECS-CORRIGE.pdf",
+            "local_image": require('../public/servers/maths/appro/8.png')
+        },
+        {
+            "domain": "HEC 2 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2018.pdf",
+            "local_image": require('../public/servers/maths/appro/9.png')
+        },
+        {
+            "domain": "HEC 2 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/2018_maths2-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/10.png')
+        },
+        {
+            "domain": "HEC 2 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/11.png')
+        },
+        {
+            "domain": "HEC 2 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.ipesup.fr/wp-content/uploads/2019/04/Maths-II-2017-ECS.pdf",
+            "local_image": require('../public/servers/maths/appro/12.png')
+        },
+        {
+            "domain": "HEC 2 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/13.png')
+        },
+        {
+            "domain": "HEC 2 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/2016_maths2-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/14.png')
+        },
+        {
+            "domain": "HEC 2 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/15.png')
+        },
+        {
+            "domain": "HEC 2 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/corrige-hec-ccip-maths-2015-ecs-bce.pdf",
+            "local_image": require('../public/servers/maths/appro/16.png')
+        },
+        {
+            "domain": "HEC 2 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/17.png')
+        },
+        {
+            "domain": "HEC 2 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/S-sujet-Math-2-HEC-ESCP-2014-et-corrige-mesrevisions-doc-1342-revisermonconcours.fr_.pdf",
+            "local_image": require('../public/servers/maths/appro/18.png')
+        },
+        {
+            "domain": "HEC 2 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2013.pdf",
+            "local_image": require('../public/servers/maths/appro/19.png')
+        },
+        {
+            "domain": "HEC 2 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2013_MII_Cor-2.pdf",
+            "local_image": require('../public/servers/maths/appro/20.png')
+        },
+        {
+            "domain": "HEC 2 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2012.pdf",
+            "local_image": require('../public/servers/maths/appro/21.png')
+        },
+        {
+            "domain": "HEC 2 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2012_MII_COR_I_II.pdf",
+            "local_image": require('../public/servers/maths/appro/22.png')
+        },
+        {
+            "domain": "HEC 2 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2011.pdf",
+            "local_image": require('../public/servers/maths/appro/23.png')
+        },
+        {
+            "domain": "HEC 2 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2011_MII_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/24.png')
+        },
+        {
+            "domain": "HEC 2 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2010.pdf",
+            "local_image": require('../public/servers/maths/appro/25.png')
+        },
+        {
+            "domain": "HEC 2 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_20010_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/26.png')
+        },
+        {
+            "domain": "HEC 2 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2009.pdf",
+            "local_image": require('../public/servers/maths/appro/27.png')
+        },
+        {
+            "domain": "HEC 2 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2009_E_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/28.png')
+        },
+        {
+            "domain": "HEC 2 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2008.pdf",
+            "local_image": require('../public/servers/maths/appro/29.png')
+        },
+        {
+            "domain": "HEC 2 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2008_E_C.pdf",
+            "local_image": require('../public/servers/maths/appro/30.png')
+        },
+        {
+            "domain": "HEC 2 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2007.pdf",
+            "local_image": require('../public/servers/maths/appro/31.png')
+        },
+        {
+            "domain": "HEC 2 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2007_MII_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/32.png')
+        },
+        {
+            "domain": "HEC 2 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2006.pdf",
+            "local_image": require('../public/servers/maths/appro/33.png')
+        },
+        {
+            "domain": "HEC 2 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2006_MII_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/34.png')
+        },
+        {
+            "domain": "HEC 2 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2005.pdf",
+            "local_image": require('../public/servers/maths/appro/35.png')
+        },
+        {
+            "domain": "HEC 2 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2005_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/36.png')
+        },
+        {
+            "domain": "HEC 2 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2004.pdf",
+            "local_image": require('../public/servers/maths/appro/37.png')
+        },
+        {
+            "domain": "HEC 2 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2004_MII_E_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/38.png')
+        },
+        {
+            "domain": "HEC 2 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2003.pdf",
+            "local_image": require('../public/servers/maths/appro/39.png')
+        },
+        {
+            "domain": "HEC 2 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2003_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/40.png')
+        },
+        {
+            "domain": "HEC 2 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2002.pdf",
+            "local_image": require('../public/servers/maths/appro/41.png')
+        },
+        {
+            "domain": "HEC 2 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2002_E_cor.pdf",
+            "local_image": require('../public/servers/maths/appro/42.png')
+        },
+        {
+            "domain": "HEC 2 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2001.pdf",
+            "local_image": require('../public/servers/maths/appro/43.png')
+        },
+        {
+            "domain": "HEC 2 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2001_MII_E_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/44.png')
+        },
+        {
+            "domain": "HEC 2 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-2S-HEC-ESCP-2000.pdf",
+            "local_image": require('../public/servers/maths/appro/45.png')
+        },
+        {
+            "domain": "HEC 2 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/HEC_2000_MII_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/46.png')
+        },
+        {
+            "domain": "HEC 1 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-ESSEC-2022.pdf",
+            "local_image": require('../public/servers/maths/appro/47.png')
+        },
+        {
+            "domain": "HEC 1 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://cahier-de-prepa.fr/ecs2-saint-just/download?id=267",
+            "local_image": require('../public/servers/maths/appro/48.png')
+        },
+        {
+            "domain": "HEC 1 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-ESSEC-2021.pdf",
+            "local_image": require('../public/servers/maths/appro/49.png')
+        },
+        {
+            "domain": "HEC 1 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/KErrobl5qKG_MI-2021-ECS.pdf",
+            "local_image": require('../public/servers/maths/appro/50.png')
+        },
+        {
+            "domain": "HEC 1 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-ESSEC-2020.pdf",
+            "local_image": require('../public/servers/maths/appro/51.png')
+        },
+        {
+            "domain": "HEC 1 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/BCE_CORRIGE_MATHS_HEC_ECS.pdf",
+            "local_image": require('../public/servers/maths/appro/52.png')
+        },
+        {
+            "domain": "HEC 1 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-ESSEC-2019.pdf",
+            "local_image": require('../public/servers/maths/appro/53.png')
+        },
+        {
+            "domain": "HEC 1 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2019/2019_hec-essec-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/54.png')
+        },
+        {
+            "domain": "HEC 1 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appro/55.png')
+        },
+        {
+            "domain": "HEC 1 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2018/2018_hec-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/56.png')
+        },
+        {
+            "domain": "HEC 1 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/57.png')
+        },
+        {
+            "domain": "HEC 1 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2017/2017_hec-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/58.png')
+        },
+        {
+            "domain": "HEC 1 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/59.png')
+        },
+        {
+            "domain": "HEC 1 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/Corrige-du-sujet-dannale-de-maths-1-HEC-ECS-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/60.png')
+        },
+        {
+            "domain": "HEC 1 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/61.png')
+        },
+        {
+            "domain": "HEC 1 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/CORRIGE-MATHS-BCE-HEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/62.png')
+        },
+        {
+            "domain": "HEC 1 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/63.png')
+        },
+        {
+            "domain": "HEC 1 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/CORRIGE-MATHS-BCE-HEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/64.png')
+        },
+        {
+            "domain": "HEC 1 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appro/65.png')
+        },
+        {
+            "domain": "HEC 1 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2013_MI-2.pdf",
+            "local_image": require('../public/servers/maths/appro/66.png')
+        },
+        {
+            "domain": "HEC 1 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appro/67.png')
+        },
+        {
+            "domain": "HEC 1 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2012_MI.pdf",
+            "local_image": require('../public/servers/maths/appro/68.png')
+        },
+        {
+            "domain": "HEC 1 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appro/69.png')
+        },
+        {
+            "domain": "HEC 1 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://rblld.fr/ecs2lb/docs/annales/2011/2011_hec-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/70.png')
+        },
+        {
+            "domain": "HEC 1 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appro/71.png')
+        },
+        {
+            "domain": "HEC 1 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2010_MI_Scan_cor.pdf",
+            "local_image": require('../public/servers/maths/appro/72.png')
+        },
+        {
+            "domain": "HEC 1 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2009.pdf",
+            "local_image": require('../public/servers/maths/appro/73.png')
+        },
+        {
+            "domain": "HEC 1 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "",
+            "local_image": require('../public/servers/maths/appro/74.png')
+        },
+        {
+            "domain": "HEC 1 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2008.pdf",
+            "local_image": require('../public/servers/maths/appro/75.png')
+        },
+        {
+            "domain": "HEC 1 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2008/2008_hec-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/76.png')
+        },
+        {
+            "domain": "HEC 1 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2007.pdf",
+            "local_image": require('../public/servers/maths/appro/77.png')
+        },
+        {
+            "domain": "HEC 1 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2007_MI_Scan_cor.pdf",
+            "local_image": require('../public/servers/maths/appro/78.png')
+        },
+        {
+            "domain": "HEC 1 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2006.pdf",
+            "local_image": require('../public/servers/maths/appro/79.png')
+        },
+        {
+            "domain": "HEC 1 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2006_MI_Scan_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/80.png')
+        },
+        {
+            "domain": "HEC 1 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appro/81.png')
+        },
+        {
+            "domain": "HEC 1 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2005_MI_Scan_Cor_V2.pdf",
+            "local_image": require('../public/servers/maths/appro/82.png')
+        },
+        {
+            "domain": "HEC 1 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appro/83.png')
+        },
+        {
+            "domain": "HEC 1 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2004_MI_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/84.png')
+        },
+        {
+            "domain": "HEC 1 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appro/85.png')
+        },
+        {
+            "domain": "HEC 1 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2003_MI_Nuage-2.pdf",
+            "local_image": require('../public/servers/maths/appro/86.png')
+        },
+        {
+            "domain": "HEC 1 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appro/87.png')
+        },
+        {
+            "domain": "HEC 1 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2002_MI_Scan_cor_bis.pdf",
+            "local_image": require('../public/servers/maths/appro/88.png')
+        },
+        {
+            "domain": "HEC 1 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appro/89.png')
+        },
+        {
+            "domain": "HEC 1 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2001_MI_Scan_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/90.png')
+        },
+        {
+            "domain": "HEC 1 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-HEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appro/91.png')
+        },
+        {
+            "domain": "HEC 1 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/HEC_2000_Cor_Ly.pdf",
+            "local_image": require('../public/servers/maths/appro/92.png')
+        },
+        {
+            "domain": "ESSEC 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appro/93.png')
+        },
+        {
+            "domain": "ESSEC 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2018/2018_essec-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/94.png')
+        },
+        {
+            "domain": "ESSEC 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/95.png')
+        },
+        {
+            "domain": "ESSEC 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2017/05/Corrig%C3%A9-maths-ESSEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/96.png')
+        },
+        {
+            "domain": "ESSEC 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/97.png')
+        },
+        {
+            "domain": "ESSEC 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/08/Corrige-du-sujet-dannale-de-maths-1-HEC-ECS-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/98.png')
+        },
+        {
+            "domain": "ESSEC 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/99.png')
+        },
+        {
+            "domain": "ESSEC 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/Corrige-du-sujet-dannale-de-maths-ESSEC-ECS-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/100.png')
+        },
+        {
+            "domain": "ESSEC 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/101.png')
+        },
+        {
+            "domain": "ESSEC 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-ESSEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/102.png')
+        },
+        {
+            "domain": "ESSEC 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appro/103.png')
+        },
+        {
+            "domain": "ESSEC 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2013-2-1.pdf",
+            "local_image": require('../public/servers/maths/appro/104.png')
+        },
+        {
+            "domain": "ESSEC 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appro/105.png')
+        },
+        {
+            "domain": "ESSEC 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2012-2-1.pdf",
+            "local_image": require('../public/servers/maths/appro/106.png')
+        },
+        {
+            "domain": "ESSEC 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appro/107.png')
+        },
+        {
+            "domain": "ESSEC 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2011_A_V2-1.pdf",
+            "local_image": require('../public/servers/maths/appro/108.png')
+        },
+        {
+            "domain": "ESSEC 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appro/109.png')
+        },
+        {
+            "domain": "ESSEC 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2010_Cor-1.pdf",
+            "local_image": require('../public/servers/maths/appro/110.png')
+        },
+        {
+            "domain": "ESSEC 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2009.pdf",
+            "local_image": require('../public/servers/maths/appro/111.png')
+        },
+        {
+            "domain": "ESSEC 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2009_Cor-1.pdf",
+            "local_image": require('../public/servers/maths/appro/112.png')
+        },
+        {
+            "domain": "ESSEC 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2008.pdf",
+            "local_image": require('../public/servers/maths/appro/113.png')
+        },
+        {
+            "domain": "ESSEC 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2008_Cor-1.pdf",
+            "local_image": require('../public/servers/maths/appro/114.png')
+        },
+        {
+            "domain": "ESSEC 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2007.pdf",
+            "local_image": require('../public/servers/maths/appro/115.png')
+        },
+        {
+            "domain": "ESSEC 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2007_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/116.png')
+        },
+        {
+            "domain": "ESSEC 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2006.pdf",
+            "local_image": require('../public/servers/maths/appro/117.png')
+        },
+        {
+            "domain": "ESSEC 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2006_Cor_I.pdf",
+            "local_image": require('../public/servers/maths/appro/118.png')
+        },
+        {
+            "domain": "ESSEC 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appro/119.png')
+        },
+        {
+            "domain": "ESSEC 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2005_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/120.png')
+        },
+        {
+            "domain": "ESSEC 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appro/121.png')
+        },
+        {
+            "domain": "ESSEC 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSE04MI.pdf",
+            "local_image": require('../public/servers/maths/appro/122.png')
+        },
+        {
+            "domain": "ESSEC 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appro/123.png')
+        },
+        {
+            "domain": "ESSEC 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2003_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/124.png')
+        },
+        {
+            "domain": "ESSEC 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appro/125.png')
+        },
+        {
+            "domain": "ESSEC 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2002_C_Scan.pdf",
+            "local_image": require('../public/servers/maths/appro/126.png')
+        },
+        {
+            "domain": "ESSEC 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appro/127.png')
+        },
+        {
+            "domain": "ESSEC 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2001_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/128.png')
+        },
+        {
+            "domain": "ESSEC 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-ESSEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appro/129.png')
+        },
+        {
+            "domain": "ESSEC 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/04/ESSEC_2000_Cor.pdf",
+            "local_image": require('../public/servers/maths/appro/130.png')
+        },
+        {
+            "domain": "EM Lyon 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2022.pdf",
+            "local_image": require('../public/servers/maths/appro/131.png')
+        },
+        {
+            "domain": "EM Lyon 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/05/correction-maths-emlyon-ECS-2022-by-JSeb-V.1.pdf",
+            "local_image": require('../public/servers/maths/appro/132.png')
+        },
+        {
+            "domain": "EM Lyon 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2021.pdf",
+            "local_image": require('../public/servers/maths/appro/133.png')
+        },
+        {
+            "domain": "EM Lyon 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2021/09/EML-2021-S-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appro/134.png')
+        },
+        {
+            "domain": "EM Lyon 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2020.pdf",
+            "local_image": require('../public/servers/maths/appro/135.png')
+        },
+        {
+            "domain": "EM Lyon 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/10/EML-2020-S-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appro/136.png')
+        },
+        {
+            "domain": "EM Lyon 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2019.pdf",
+            "local_image": require('../public/servers/maths/appro/137.png')
+        },
+        {
+            "domain": "EM Lyon 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2019/2019_emlyon-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/138.png')
+        },
+        {
+            "domain": "EM Lyon 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2018.pdf",
+            "local_image": require('../public/servers/maths/appro/139.png')
+        },
+        {
+            "domain": "EM Lyon 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2018/2018_emlyon-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/140.png')
+        },
+        {
+            "domain": "EM Lyon 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/141.png')
+        },
+        {
+            "domain": "EM Lyon 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2017/04/Corrig%C3%A9-maths-emlyon-2017-ECS-2-.pdf",
+            "local_image": require('../public/servers/maths/appro/142.png')
+        },
+        {
+            "domain": "EM Lyon 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/143.png')
+        },
+        {
+            "domain": "EM Lyon 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2016/2016_emlyon-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/144.png')
+        },
+        {
+            "domain": "EM Lyon 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/145.png')
+        },
+        {
+            "domain": "EM Lyon 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2015/2015_emlyon-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/146.png')
+        },
+        {
+            "domain": "EM Lyon 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/147.png')
+        },
+        {
+            "domain": "EM Lyon 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon14-2.pdf",
+            "local_image": require('../public/servers/maths/appro/148.png')
+        },
+        {
+            "domain": "EM Lyon 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2013.pdf",
+            "local_image": require('../public/servers/maths/appro/149.png')
+        },
+        {
+            "domain": "EM Lyon 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon13-2.pdf",
+            "local_image": require('../public/servers/maths/appro/150.png')
+        },
+        {
+            "domain": "EM Lyon 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2012.pdf",
+            "local_image": require('../public/servers/maths/appro/151.png')
+        },
+        {
+            "domain": "EM Lyon 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon12-2.pdf",
+            "local_image": require('../public/servers/maths/appro/152.png')
+        },
+        {
+            "domain": "EM Lyon 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2011.pdf",
+            "local_image": require('../public/servers/maths/appro/153.png')
+        },
+        {
+            "domain": "EM Lyon 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon11.pdf",
+            "local_image": require('../public/servers/maths/appro/154.png')
+        },
+        {
+            "domain": "EM Lyon 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2010.pdf",
+            "local_image": require('../public/servers/maths/appro/155.png')
+        },
+        {
+            "domain": "EM Lyon 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon10.pdf",
+            "local_image": require('../public/servers/maths/appro/156.png')
+        },
+        {
+            "domain": "EM Lyon 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2009.pdf",
+            "local_image": require('../public/servers/maths/appro/157.png')
+        },
+        {
+            "domain": "EM Lyon 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon09.pdf",
+            "local_image": require('../public/servers/maths/appro/158.png')
+        },
+        {
+            "domain": "EM Lyon 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2008.pdf",
+            "local_image": require('../public/servers/maths/appro/159.png')
+        },
+        {
+            "domain": "EM Lyon 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon08-2.pdf",
+            "local_image": require('../public/servers/maths/appro/160.png')
+        },
+        {
+            "domain": "EM Lyon 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2007.pdf",
+            "local_image": require('../public/servers/maths/appro/161.png')
+        },
+        {
+            "domain": "EM Lyon 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon07-2.pdf",
+            "local_image": require('../public/servers/maths/appro/162.png')
+        },
+        {
+            "domain": "EM Lyon 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2006.pdf",
+            "local_image": require('../public/servers/maths/appro/163.png')
+        },
+        {
+            "domain": "EM Lyon 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon06-2.pdf",
+            "local_image": require('../public/servers/maths/appro/164.png')
+        },
+        {
+            "domain": "EM Lyon 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2005.pdf",
+            "local_image": require('../public/servers/maths/appro/165.png')
+        },
+        {
+            "domain": "EM Lyon 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon05-2.pdf",
+            "local_image": require('../public/servers/maths/appro/166.png')
+        },
+        {
+            "domain": "EM Lyon 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appro/167.png')
+        },
+        {
+            "domain": "EM Lyon 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/LYON04-3.pdf",
+            "local_image": require('../public/servers/maths/appro/168.png')
+        },
+        {
+            "domain": "EM Lyon 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2003.pdf",
+            "local_image": require('../public/servers/maths/appro/169.png')
+        },
+        {
+            "domain": "EM Lyon 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/LYON03-3.pdf",
+            "local_image": require('../public/servers/maths/appro/170.png')
+        },
+        {
+            "domain": "EM Lyon 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2002.pdf",
+            "local_image": require('../public/servers/maths/appro/171.png')
+        },
+        {
+            "domain": "EM Lyon 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/LYON02-2.pdf",
+            "local_image": require('../public/servers/maths/appro/172.png')
+        },
+        {
+            "domain": "EM Lyon 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2001.pdf",
+            "local_image": require('../public/servers/maths/appro/173.png')
+        },
+        {
+            "domain": "EM Lyon 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon01-3.pdf",
+            "local_image": require('../public/servers/maths/appro/174.png')
+        },
+        {
+            "domain": "EM Lyon 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-emlyon-2000.pdf",
+            "local_image": require('../public/servers/maths/appro/175.png')
+        },
+        {
+            "domain": "EM Lyon 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Lyon00-3.pdf",
+            "local_image": require('../public/servers/maths/appro/176.png')
+        },
+        {
+            "domain": "EDHEC 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2022.pdf",
+            "local_image": require('../public/servers/maths/appro/177.png')
+        },
+        {
+            "domain": "EDHEC 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/05/Corrige-maths-EDHEC-ECS-2022-by-JSeb-V1..pdf",
+            "local_image": require('../public/servers/maths/appro/178.png')
+        },
+        {
+            "domain": "EDHEC 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2021.pdf",
+            "local_image": require('../public/servers/maths/appro/179.png')
+        },
+        {
+            "domain": "EDHEC 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/concours/ecrits/corrige-maths-edhec-ecs-2021/",
+            "local_image": require('../public/servers/maths/appro/180.png')
+        },
+        {
+            "domain": "EDHEC 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2020.pdf",
+            "local_image": require('../public/servers/maths/appro/181.png')
+        },
+        {
+            "domain": "EDHEC 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2020.pdf",
+            "local_image": require('../public/servers/maths/appro/182.png')
+        },
+        {
+            "domain": "EDHEC 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2019.pdf",
+            "local_image": require('../public/servers/maths/appro/183.png')
+        },
+        {
+            "domain": "EDHEC 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2019.pdf",
+            "local_image": require('../public/servers/maths/appro/184.png')
+        },
+        {
+            "domain": "EDHEC 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appro/185.png')
+        },
+        {
+            "domain": "EDHEC 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.rblld.fr/ecs2lb/docs/annales/2018/2018_edhec2-corrige.pdf",
+            "local_image": require('../public/servers/maths/appro/186.png')
+        },
+        {
+            "domain": "EDHEC 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/187.png')
+        },
+        {
+            "domain": "EDHEC 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/188.png')
+        },
+        {
+            "domain": "EDHEC 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/189.png')
+        },
+        {
+            "domain": "EDHEC 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/190.png')
+        },
+        {
+            "domain": "EDHEC 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/191.png')
+        },
+        {
+            "domain": "EDHEC 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/192.png')
+        },
+        {
+            "domain": "EDHEC 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/193.png')
+        },
+        {
+            "domain": "EDHEC 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/194.png')
+        },
+        {
+            "domain": "EDHEC 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appro/195.png')
+        },
+        {
+            "domain": "EDHEC 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appro/196.png')
+        },
+        {
+            "domain": "EDHEC 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appro/197.png')
+        },
+        {
+            "domain": "EDHEC 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appro/198.png')
+        },
+        {
+            "domain": "EDHEC 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appro/199.png')
+        },
+        {
+            "domain": "EDHEC 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/EDHEC_2011_S-2.pdf",
+            "local_image": require('../public/servers/maths/appro/200.png')
+        },
+        {
+            "domain": "EDHEC 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appro/201.png')
+        },
+        {
+            "domain": "EDHEC 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-EDHEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appro/202.png')
+        },
+        {
+            "domain": "EDHEC 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2009.pdf",
+            "local_image": require('../public/servers/maths/appro/203.png')
+        },
+        {
+            "domain": "EDHEC 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Edhec09.pdf",
+            "local_image": require('../public/servers/maths/appro/204.png')
+        },
+        {
+            "domain": "EDHEC 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2008.pdf",
+            "local_image": require('../public/servers/maths/appro/205.png')
+        },
+        {
+            "domain": "EDHEC 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Edhec08.pdf",
+            "local_image": require('../public/servers/maths/appro/206.png')
+        },
+        {
+            "domain": "EDHEC 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2007.pdf",
+            "local_image": require('../public/servers/maths/appro/207.png')
+        },
+        {
+            "domain": "EDHEC 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Edhec07-2.pdf",
+            "local_image": require('../public/servers/maths/appro/208.png')
+        },
+        {
+            "domain": "EDHEC 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2006.pdf",
+            "local_image": require('../public/servers/maths/appro/209.png')
+        },
+        {
+            "domain": "EDHEC 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Edhec06-3.pdf",
+            "local_image": require('../public/servers/maths/appro/210.png')
+        },
+        {
+            "domain": "EDHEC 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appro/211.png')
+        },
+        {
+            "domain": "EDHEC 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Edhec05-2.pdf",
+            "local_image": require('../public/servers/maths/appro/212.png')
+        },
+        {
+            "domain": "EDHEC 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appro/213.png')
+        },
+        {
+            "domain": "EDHEC 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/EDHEC04S-2.pdf",
+            "local_image": require('../public/servers/maths/appro/214.png')
+        },
+        {
+            "domain": "EDHEC 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appro/215.png')
+        },
+        {
+            "domain": "EDHEC 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Edhec03s-2.pdf",
+            "local_image": require('../public/servers/maths/appro/216.png')
+        },
+        {
+            "domain": "EDHEC 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appro/217.png')
+        },
+        {
+            "domain": "EDHEC 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/Edhec02s-2.pdf",
+            "local_image": require('../public/servers/maths/appro/218.png')
+        },
+        {
+            "domain": "EDHEC 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appro/219.png')
+        },
+        {
+            "domain": "EDHEC 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/EDHEC01S-2.pdf",
+            "local_image": require('../public/servers/maths/appro/220.png')
+        },
+        {
+            "domain": "EDHEC 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-EDHEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appro/221.png')
+        },
+        {
+            "domain": "EDHEC 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://jfcossutta.lycee-berthelot.fr/IMG/pdf/EDHEC00S-2.pdf",
+            "local_image": require('../public/servers/maths/appro/222.png')
+        },
+        {
+            "domain": "ECRICOME 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2022.pdf",
+            "local_image": require('../public/servers/maths/appro/223.png')
+        },
+        {
+            "domain": "ECRICOME 2022",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/correction-maths-ecricome-ECS-2022-by-JSeb-V4.pdf",
+            "local_image": require('../public/servers/maths/appro/224.png')
+        },
+        {
+            "domain": "ECRICOME 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2021.pdf",
+            "local_image": require('../public/servers/maths/appro/225.png')
+        },
+        {
+            "domain": "ECRICOME 2021",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-Ecricome-2021.pdf",
+            "local_image": require('../public/servers/maths/appro/226.png')
+        },
+        {
+            "domain": "ECRICOME 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2020.pdf",
+            "local_image": require('../public/servers/maths/appro/227.png')
+        },
+        {
+            "domain": "ECRICOME 2020",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-Ecricome-2020.pdf",
+            "local_image": require('../public/servers/maths/appro/228.png')
+        },
+        {
+            "domain": "ECRICOME 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2019.pdf",
+            "local_image": require('../public/servers/maths/appro/229.png')
+        },
+        {
+            "domain": "ECRICOME 2019",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-Ecricome-2019.pdf",
+            "local_image": require('../public/servers/maths/appro/230.png')
+        },
+        {
+            "domain": "ECRICOME 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2018.pdf",
+            "local_image": require('../public/servers/maths/appro/231.png')
+        },
+        {
+            "domain": "ECRICOME 2018",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-Ecricome-2018.pdf",
+            "local_image": require('../public/servers/maths/appro/232.png')
+        },
+        {
+            "domain": "ECRICOME 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/233.png')
+        },
+        {
+            "domain": "ECRICOME 2017",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-Ecricome-2017.pdf",
+            "local_image": require('../public/servers/maths/appro/234.png')
+        },
+        {
+            "domain": "ECRICOME 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/235.png')
+        },
+        {
+            "domain": "ECRICOME 2016",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-S-Ecricome-2016.pdf",
+            "local_image": require('../public/servers/maths/appro/236.png')
+        },
+        {
+            "domain": "ECRICOME 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2015.pdf",
+            "local_image": require('../public/servers/maths/appro/237.png')
+        },
+        {
+            "domain": "ECRICOME 2015",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ecricome_2015_s-cor.pdf",
+            "local_image": require('../public/servers/maths/appro/238.png')
+        },
+        {
+            "domain": "ECRICOME 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2014.pdf",
+            "local_image": require('../public/servers/maths/appro/239.png')
+        },
+        {
+            "domain": "ECRICOME 2014",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO14-2.pdf",
+            "local_image": require('../public/servers/maths/appro/240.png')
+        },
+        {
+            "domain": "ECRICOME 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2013.pdf",
+            "local_image": require('../public/servers/maths/appro/241.png')
+        },
+        {
+            "domain": "ECRICOME 2013",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO13.pdf",
+            "local_image": require('../public/servers/maths/appro/242.png')
+        },
+        {
+            "domain": "ECRICOME 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2012.pdf",
+            "local_image": require('../public/servers/maths/appro/243.png')
+        },
+        {
+            "domain": "ECRICOME 2012",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO12-2.pdf",
+            "local_image": require('../public/servers/maths/appro/244.png')
+        },
+        {
+            "domain": "ECRICOME 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2011.pdf",
+            "local_image": require('../public/servers/maths/appro/245.png')
+        },
+        {
+            "domain": "ECRICOME 2011",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO11.pdf",
+            "local_image": require('../public/servers/maths/appro/246.png')
+        },
+        {
+            "domain": "ECRICOME 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2010.pdf",
+            "local_image": require('../public/servers/maths/appro/247.png')
+        },
+        {
+            "domain": "ECRICOME 2010",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO10-2.pdf",
+            "local_image": require('../public/servers/maths/appro/248.png')
+        },
+        {
+            "domain": "ECRICOME 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2009.pdf",
+            "local_image": require('../public/servers/maths/appro/249.png')
+        },
+        {
+            "domain": "ECRICOME 2009",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO09-2.pdf",
+            "local_image": require('../public/servers/maths/appro/250.png')
+        },
+        {
+            "domain": "ECRICOME 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2008.pdf",
+            "local_image": require('../public/servers/maths/appro/251.png')
+        },
+        {
+            "domain": "ECRICOME 2008",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO08.pdf",
+            "local_image": require('../public/servers/maths/appro/252.png')
+        },
+        {
+            "domain": "ECRICOME 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2007.pdf",
+            "local_image": require('../public/servers/maths/appro/253.png')
+        },
+        {
+            "domain": "ECRICOME 2007",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO07.pdf",
+            "local_image": require('../public/servers/maths/appro/254.png')
+        },
+        {
+            "domain": "ECRICOME 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2006.pdf",
+            "local_image": require('../public/servers/maths/appro/255.png')
+        },
+        {
+            "domain": "ECRICOME 2006",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO06.pdf",
+            "local_image": require('../public/servers/maths/appro/256.png')
+        },
+        {
+            "domain": "ECRICOME 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2005.pdf",
+            "local_image": require('../public/servers/maths/appro/257.png')
+        },
+        {
+            "domain": "ECRICOME 2005",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO05.pdf",
+            "local_image": require('../public/servers/maths/appro/258.png')
+        },
+        {
+            "domain": "ECRICOME 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2004.pdf",
+            "local_image": require('../public/servers/maths/appro/259.png')
+        },
+        {
+            "domain": "ECRICOME 2004",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO04.pdf",
+            "local_image": require('../public/servers/maths/appro/260.png')
+        },
+        {
+            "domain": "ECRICOME 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2003.pdf",
+            "local_image": require('../public/servers/maths/appro/261.png')
+        },
+        {
+            "domain": "ECRICOME 2003",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO03.pdf",
+            "local_image": require('../public/servers/maths/appro/262.png')
+        },
+        {
+            "domain": "ECRICOME 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2002.pdf",
+            "local_image": require('../public/servers/maths/appro/263.png')
+        },
+        {
+            "domain": "ECRICOME 2002",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/Ecricome_2002_C_Scan.pdf",
+            "local_image": require('../public/servers/maths/appro/264.png')
+        },
+        {
+            "domain": "ECRICOME 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2001.pdf",
+            "local_image": require('../public/servers/maths/appro/265.png')
+        },
+        {
+            "domain": "ECRICOME 2001",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO01.pdf",
+            "local_image": require('../public/servers/maths/appro/266.png')
+        },
+        {
+            "domain": "ECRICOME 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-Maths-S-Ecricome-2000.pdf",
+            "local_image": require('../public/servers/maths/appro/267.png')
+        },
+        {
+            "domain": "ECRICOME 2000",
+            "version": "Approfondies",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/ECRICO00.pdf",
+            "local_image": require('../public/servers/maths/appro/268.png')
+        },
+        {
+            "domain": "HEC 2 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-HEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appli/1.png')
+        },
+        {
+            "domain": "HEC 2 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2005_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/2.png')
+        },
+        {
+            "domain": "HEC 2 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-HEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appli/3.png')
+        },
+        {
+            "domain": "HEC 2 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-HEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appli/4.png')
+        },
+        {
+            "domain": "HEC 2 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2003_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/5.png')
+        },
+        {
+            "domain": "HEC 2 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-HEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appli/6.png')
+        },
+        {
+            "domain": "HEC 2 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2002_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/7.png')
+        },
+        {
+            "domain": "HEC 2 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-HEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appli/8.png')
+        },
+        {
+            "domain": "HEC 2 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2001_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/9.png')
+        },
+        {
+            "domain": "HEC 2 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-HEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appli/10.png')
+        },
+        {
+            "domain": "HEC 2 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2000_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/11.png')
+        },
+        {
+            "domain": "HEC 1 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-ESSEC-2022.pdf",
+            "local_image": require('../public/servers/maths/appli/12.png')
+        },
+        {
+            "domain": "HEC 1 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/05/HEC-ESSEC-Maths-I-E-2022-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appli/13.png')
+        },
+        {
+            "domain": "HEC 1 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-ESSEC-2021.pdf",
+            "local_image": require('../public/servers/maths/appli/14.png')
+        },
+        {
+            "domain": "HEC 1 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1275p1hM_e4jPc9ubcnlSI9pcQdtI0mEX/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/15.png')
+        },
+        {
+            "domain": "HEC 1 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-ESSEC-2020.pdf",
+            "local_image": require('../public/servers/maths/appli/16.png')
+        },
+        {
+            "domain": "HEC 1 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1QmsWJpYiZKjX2IkDaMFJTAAxWp3qIrr-/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/17.png')
+        },
+        {
+            "domain": "HEC 1 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-ESSEC-2019.pdf",
+            "local_image": require('../public/servers/maths/appli/18.png')
+        },
+        {
+            "domain": "HEC 1 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1bsLjyQ0le9TunVUS4LO5D7LB3CqhiZ9K/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/19.png')
+        },
+        {
+            "domain": "HEC 1 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/20.png')
+        },
+        {
+            "domain": "HEC 1 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/open?id=16ThsNJhdqxQc3JdaAc31WLax4pO19oLl",
+            "local_image": require('../public/servers/maths/appli/21.png')
+        },
+        {
+            "domain": "HEC 1 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/22.png')
+        },
+        {
+            "domain": "HEC 1 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPZGdVRldtQ1BjTFE/view?usp=sharing&resourcekey=0-BEGwQQBQ-JrBIzvGP78stw",
+            "local_image": require('../public/servers/maths/appli/23.png')
+        },
+        {
+            "domain": "HEC 1 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/24.png')
+        },
+        {
+            "domain": "HEC 1 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1aoXCNvDQFfczYkwQjUgdYrUCiEeYhiKy/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/25.png')
+        },
+        {
+            "domain": "HEC 1 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appli/26.png')
+        },
+        {
+            "domain": "HEC 1 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1_zjDCHgJu74WNhnN4ajbP_nV18cCZUBL/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/27.png')
+        },
+        {
+            "domain": "HEC 1 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appli/28.png')
+        },
+        {
+            "domain": "HEC 1 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1pq89Ae5xVJj-W6tNgVktM2WGRFd5tT_-/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/29.png')
+        },
+        {
+            "domain": "HEC 1 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appli/30.png')
+        },
+        {
+            "domain": "HEC 1 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/14RlOpWIngeh2rpJ3gLXpq1Rh_bETZI8n/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/31.png')
+        },
+        {
+            "domain": "HEC 1 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appli/32.png')
+        },
+        {
+            "domain": "HEC 1 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1tZQLbpaZxIWspsCXZoN-tm4l3krrL7vu/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/33.png')
+        },
+        {
+            "domain": "HEC 1 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appli/34.png')
+        },
+        {
+            "domain": "HEC 1 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1vd74HCSvC-YQ36oaobuliH07fZXQOTVw/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/35.png')
+        },
+        {
+            "domain": "HEC 1 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appli/36.png')
+        },
+        {
+            "domain": "HEC 1 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2010_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/37.png')
+        },
+        {
+            "domain": "HEC 1 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2009.pdf",
+            "local_image": require('../public/servers/maths/appli/38.png')
+        },
+        {
+            "domain": "HEC 1 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2009_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/39.png')
+        },
+        {
+            "domain": "HEC 1 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2008.pdf",
+            "local_image": require('../public/servers/maths/appli/40.png')
+        },
+        {
+            "domain": "HEC 1 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2008_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/41.png')
+        },
+        {
+            "domain": "HEC 1 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2007.pdf",
+            "local_image": require('../public/servers/maths/appli/42.png')
+        },
+        {
+            "domain": "HEC 1 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2007_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/43.png')
+        },
+        {
+            "domain": "HEC 1 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2006.pdf",
+            "local_image": require('../public/servers/maths/appli/44.png')
+        },
+        {
+            "domain": "HEC 1 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2006_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/45.png')
+        },
+        {
+            "domain": "HEC 1 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appli/46.png')
+        },
+        {
+            "domain": "HEC 1 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2005_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/47.png')
+        },
+        {
+            "domain": "HEC 1 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appli/48.png')
+        },
+        {
+            "domain": "HEC 1 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2004_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/49.png')
+        },
+        {
+            "domain": "HEC 1 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appli/50.png')
+        },
+        {
+            "domain": "HEC 1 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2003_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/51.png')
+        },
+        {
+            "domain": "HEC 1 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appli/52.png')
+        },
+        {
+            "domain": "HEC 1 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2002_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/53.png')
+        },
+        {
+            "domain": "HEC 1 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appli/54.png')
+        },
+        {
+            "domain": "HEC 1 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2001_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/55.png')
+        },
+        {
+            "domain": "HEC 1 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-HEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appli/56.png')
+        },
+        {
+            "domain": "HEC 1 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/HEC_2000_3_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/57.png')
+        },
+        {
+            "domain": "ESSEC 2 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2022.pdf",
+            "local_image": require('../public/servers/maths/appli/58.png')
+        },
+        {
+            "domain": "ESSEC 2 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://frederic.gaunard.com/2122/ESSEC2-22cor.pdf",
+            "local_image": require('../public/servers/maths/appli/59.png')
+        },
+        {
+            "domain": "ESSEC 2 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2021.pdf",
+            "local_image": require('../public/servers/maths/appli/60.png')
+        },
+        {
+            "domain": "ESSEC 2 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1XbXht0kfXk__UuV_w6ttaDUfRhEGAbaY/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/61.png')
+        },
+        {
+            "domain": "ESSEC 2 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2020.pdf",
+            "local_image": require('../public/servers/maths/appli/62.png')
+        },
+        {
+            "domain": "ESSEC 2 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2020/06/ESSEC-MathsII-E-2020-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appli/63.png')
+        },
+        {
+            "domain": "ESSEC 2 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2019.pdf",
+            "local_image": require('../public/servers/maths/appli/64.png')
+        },
+        {
+            "domain": "ESSEC 2 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1q8n0TCvXMPcBBSZDF75jAeEAN6lmvS1n/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/65.png')
+        },
+        {
+            "domain": "ESSEC 2 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/66.png')
+        },
+        {
+            "domain": "ESSEC 2 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1_get43kcvot4qwYGOyB4neQ86YqKKHNO/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/67.png')
+        },
+        {
+            "domain": "ESSEC 2 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/68.png')
+        },
+        {
+            "domain": "ESSEC 2 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPSWhmaGVORmU5dm8/view?usp=sharing&resourcekey=0--rJkuoNHd3POHuxf5W0dRg",
+            "local_image": require('../public/servers/maths/appli/69.png')
+        },
+        {
+            "domain": "ESSEC 2 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/70.png')
+        },
+        {
+            "domain": "ESSEC 2 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPUnYyWElvZW9vSFk/view?usp=sharing&resourcekey=0-Wklhc9D53GDeugV45V01lg",
+            "local_image": require('../public/servers/maths/appli/71.png')
+        },
+        {
+            "domain": "ESSEC 2 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appli/72.png')
+        },
+        {
+            "domain": "ESSEC 2 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPblk5RUJ2SmVYVUk/view?usp=sharing&resourcekey=0-CuoKrZatAHOGfOFZZECT5Q",
+            "local_image": require('../public/servers/maths/appli/73.png')
+        },
+        {
+            "domain": "ESSEC 2 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appli/74.png')
+        },
+        {
+            "domain": "ESSEC 2 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPTF9SWEFsaVFkQ3c/view?usp=sharing&resourcekey=0-VUKu4KCG3Kxq6PW8sxHH0w",
+            "local_image": require('../public/servers/maths/appli/75.png')
+        },
+        {
+            "domain": "ESSEC 2 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appli/76.png')
+        },
+        {
+            "domain": "ESSEC 2 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2020/03/ESSEC-MathsII-E-2013-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appli/77.png')
+        },
+        {
+            "domain": "ESSEC 2 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appli/78.png')
+        },
+        {
+            "domain": "ESSEC 2 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1xTVFQzUrRXMs9Zqph71Nzmaq49fwrn7c/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/79.png')
+        },
+        {
+            "domain": "ESSEC 2 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appli/80.png')
+        },
+        {
+            "domain": "ESSEC 2 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1rjecqIFpbY4jBeexj_f62DfVEBLywWj3/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/81.png')
+        },
+        {
+            "domain": "ESSEC 2 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appli/82.png')
+        },
+        {
+            "domain": "ESSEC 2 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2010_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/83.png')
+        },
+        {
+            "domain": "ESSEC 2 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2009.pdf",
+            "local_image": require('../public/servers/maths/appli/84.png')
+        },
+        {
+            "domain": "ESSEC 2 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2009_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/85.png')
+        },
+        {
+            "domain": "ESSEC 2 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2008.pdf",
+            "local_image": require('../public/servers/maths/appli/86.png')
+        },
+        {
+            "domain": "ESSEC 2 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2008_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/87.png')
+        },
+        {
+            "domain": "ESSEC 2 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2007.pdf",
+            "local_image": require('../public/servers/maths/appli/88.png')
+        },
+        {
+            "domain": "ESSEC 2 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2007_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/89.png')
+        },
+        {
+            "domain": "ESSEC 2 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2006.pdf",
+            "local_image": require('../public/servers/maths/appli/90.png')
+        },
+        {
+            "domain": "ESSEC 2 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2006_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/91.png')
+        },
+        {
+            "domain": "ESSEC 2 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appli/92.png')
+        },
+        {
+            "domain": "ESSEC 2 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2005_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/93.png')
+        },
+        {
+            "domain": "ESSEC 2 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appli/94.png')
+        },
+        {
+            "domain": "ESSEC 2 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appli/95.png')
+        },
+        {
+            "domain": "ESSEC 2 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2003_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/96.png')
+        },
+        {
+            "domain": "ESSEC 2 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appli/97.png')
+        },
+        {
+            "domain": "ESSEC 2 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2002_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/98.png')
+        },
+        {
+            "domain": "ESSEC 2 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appli/99.png')
+        },
+        {
+            "domain": "ESSEC 2 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2001_E_2-c.pdf",
+            "local_image": require('../public/servers/maths/appli/100.png')
+        },
+        {
+            "domain": "ESSEC 2 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-2E-ESSEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appli/101.png')
+        },
+        {
+            "domain": "ESSEC 1 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/102.png')
+        },
+        {
+            "domain": "ESSEC 1 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1xCOFW2hd2B7Ig5lOfIycDH3WCM8el9iN/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/103.png')
+        },
+        {
+            "domain": "ESSEC 1 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/104.png')
+        },
+        {
+            "domain": "ESSEC 1 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1_E2KjUTUC-SnYS3dw8_A4E5U86Lt_MzE/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/105.png')
+        },
+        {
+            "domain": "ESSEC 1 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/106.png')
+        },
+        {
+            "domain": "ESSEC 1 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1ajpan_BJVN17LG8vhgUj_QjC-OMjSwNn/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/107.png')
+        },
+        {
+            "domain": "ESSEC 1 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appli/108.png')
+        },
+        {
+            "domain": "ESSEC 1 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1Vh_aSPCMAWrTQC71hTuXqHGo3odqjkQg/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/109.png')
+        },
+        {
+            "domain": "ESSEC 1 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appli/110.png')
+        },
+        {
+            "domain": "ESSEC 1 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1qNpmnD3UW_zP5ZqrafiJD5rZsmifKcHi/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/111.png')
+        },
+        {
+            "domain": "ESSEC 1 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appli/112.png')
+        },
+        {
+            "domain": "ESSEC 1 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/18oQy38t8KpoCW6n4KEhrv0ZiJiOKZA-_/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/113.png')
+        },
+        {
+            "domain": "ESSEC 1 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appli/114.png')
+        },
+        {
+            "domain": "ESSEC 1 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1ux-6ThSgPeR4_m8j78r2DCCBfy7Hkzxd/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/115.png')
+        },
+        {
+            "domain": "ESSEC 1 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appli/116.png')
+        },
+        {
+            "domain": "ESSEC 1 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/15X_tWuM6QoaoMGO5l9kawT8ATxY6HoO7/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/117.png')
+        },
+        {
+            "domain": "ESSEC 1 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appli/118.png')
+        },
+        {
+            "domain": "ESSEC 1 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2010_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/119.png')
+        },
+        {
+            "domain": "ESSEC 1 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2009.pdf",
+            "local_image": require('../public/servers/maths/appli/120.png')
+        },
+        {
+            "domain": "ESSEC 1 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://maths-concours.fr/wp-content/uploads/2018/11/ESSEC-2009-correction-GD.pdf",
+            "local_image": require('../public/servers/maths/appli/121.png')
+        },
+        {
+            "domain": "ESSEC 1 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2008.pdf",
+            "local_image": require('../public/servers/maths/appli/122.png')
+        },
+        {
+            "domain": "ESSEC 1 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2008_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/123.png')
+        },
+        {
+            "domain": "ESSEC 1 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2007.pdf",
+            "local_image": require('../public/servers/maths/appli/124.png')
+        },
+        {
+            "domain": "ESSEC 1 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2007_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/125.png')
+        },
+        {
+            "domain": "ESSEC 1 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2006.pdf",
+            "local_image": require('../public/servers/maths/appli/126.png')
+        },
+        {
+            "domain": "ESSEC 1 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appli/127.png')
+        },
+        {
+            "domain": "ESSEC 1 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appli/128.png')
+        },
+        {
+            "domain": "ESSEC 1 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2004_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/129.png')
+        },
+        {
+            "domain": "ESSEC 1 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appli/130.png')
+        },
+        {
+            "domain": "ESSEC 1 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2003_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/131.png')
+        },
+        {
+            "domain": "ESSEC 1 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appli/132.png')
+        },
+        {
+            "domain": "ESSEC 1 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ESSEC_2002_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/133.png')
+        },
+        {
+            "domain": "ESSEC 1 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appli/134.png')
+        },
+        {
+            "domain": "ESSEC 1 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-ESSEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appli/135.png')
+        },
+        {
+            "domain": "EM Lyon 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2022.pdf",
+            "local_image": require('../public/servers/maths/appli/136.png')
+        },
+        {
+            "domain": "EM Lyon 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2021/05/EMLyon-2022-E-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appli/137.png')
+        },
+        {
+            "domain": "EM Lyon 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2021.pdf",
+            "local_image": require('../public/servers/maths/appli/138.png')
+        },
+        {
+            "domain": "EM Lyon 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1QDE5BkhMy2goB_Oi48vlGsSpSQeYJqcW/view",
+            "local_image": require('../public/servers/maths/appli/139.png')
+        },
+        {
+            "domain": "EM Lyon 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2020.pdf",
+            "local_image": require('../public/servers/maths/appli/140.png')
+        },
+        {
+            "domain": "EM Lyon 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1SYpZq1-q_1lDAz63T32jqya1HQGWPpMu/view",
+            "local_image": require('../public/servers/maths/appli/141.png')
+        },
+        {
+            "domain": "EM Lyon 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2019.pdf",
+            "local_image": require('../public/servers/maths/appli/142.png')
+        },
+        {
+            "domain": "EM Lyon 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1BgbKJhiNZMWcEmnRD30eNzfzvzeWXyyT/view",
+            "local_image": require('../public/servers/maths/appli/143.png')
+        },
+        {
+            "domain": "EM Lyon 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/144.png')
+        },
+        {
+            "domain": "EM Lyon 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/13U7SfCEhMxHXYFC3ut_3V__kVJ1teP3Z/view",
+            "local_image": require('../public/servers/maths/appli/145.png')
+        },
+        {
+            "domain": "EM Lyon 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/146.png')
+        },
+        {
+            "domain": "EM Lyon 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPSno1X3hhc1FXeGc/view?usp=sharing&resourcekey=0-AVygy82h-z2DYEc2qc0urg",
+            "local_image": require('../public/servers/maths/appli/147.png')
+        },
+        {
+            "domain": "EM Lyon 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/148.png')
+        },
+        {
+            "domain": "EM Lyon 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPcXRSejZjWnVCMXc/view?usp=sharing&resourcekey=0--TknuciUYcuexqW8wMwMjQ",
+            "local_image": require('../public/servers/maths/appli/149.png')
+        },
+        {
+            "domain": "EM Lyon 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2015.pdf",
+            "local_image": require('../public/servers/maths/appli/150.png')
+        },
+        {
+            "domain": "EM Lyon 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPbEhVQ0dxeXpBRE0/view?usp=sharing&resourcekey=0-1vF5xTYg3lWRHhMNmIK5MQ",
+            "local_image": require('../public/servers/maths/appli/151.png')
+        },
+        {
+            "domain": "EM Lyon 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2014.pdf",
+            "local_image": require('../public/servers/maths/appli/152.png')
+        },
+        {
+            "domain": "EM Lyon 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/0B-yKFg0Xh8wPN2hfQzBjV2x6SnM/view?usp=sharing&resourcekey=0-VZ_iCYSXG61wNKHLVcy5Uw",
+            "local_image": require('../public/servers/maths/appli/153.png')
+        },
+        {
+            "domain": "EM Lyon 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2013.pdf",
+            "local_image": require('../public/servers/maths/appli/154.png')
+        },
+        {
+            "domain": "EM Lyon 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2013_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/155.png')
+        },
+        {
+            "domain": "EM Lyon 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2012.pdf",
+            "local_image": require('../public/servers/maths/appli/156.png')
+        },
+        {
+            "domain": "EM Lyon 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/1g6SdeuLyvjakbe8tCJKxI8V7eAv61EBc/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/157.png')
+        },
+        {
+            "domain": "EM Lyon 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2011.pdf",
+            "local_image": require('../public/servers/maths/appli/158.png')
+        },
+        {
+            "domain": "EM Lyon 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://drive.google.com/file/d/165IaIQvALvAqmeT-r6G_jlyWb1qHvo9U/view?usp=sharing",
+            "local_image": require('../public/servers/maths/appli/159.png')
+        },
+        {
+            "domain": "EM Lyon 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2010.pdf",
+            "local_image": require('../public/servers/maths/appli/160.png')
+        },
+        {
+            "domain": "EM Lyon 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2010_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/161.png')
+        },
+        {
+            "domain": "EM Lyon 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2009.pdf",
+            "local_image": require('../public/servers/maths/appli/162.png')
+        },
+        {
+            "domain": "EM Lyon 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2009_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/163.png')
+        },
+        {
+            "domain": "EM Lyon 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2008.pdf",
+            "local_image": require('../public/servers/maths/appli/164.png')
+        },
+        {
+            "domain": "EM Lyon 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2008_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/165.png')
+        },
+        {
+            "domain": "EM Lyon 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2007.pdf",
+            "local_image": require('../public/servers/maths/appli/166.png')
+        },
+        {
+            "domain": "EM Lyon 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2007_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/167.png')
+        },
+        {
+            "domain": "EM Lyon 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2006.pdf",
+            "local_image": require('../public/servers/maths/appli/168.png')
+        },
+        {
+            "domain": "EM Lyon 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2006_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/169.png')
+        },
+        {
+            "domain": "EM Lyon 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2005.pdf",
+            "local_image": require('../public/servers/maths/appli/170.png')
+        },
+        {
+            "domain": "EM Lyon 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2005_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/171.png')
+        },
+        {
+            "domain": "EM Lyon 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2004.pdf",
+            "local_image": require('../public/servers/maths/appli/172.png')
+        },
+        {
+            "domain": "EM Lyon 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2004_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/173.png')
+        },
+        {
+            "domain": "EM Lyon 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2003.pdf",
+            "local_image": require('../public/servers/maths/appli/174.png')
+        },
+        {
+            "domain": "EM Lyon 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2003_E_1-c.pdf",
+            "local_image": require('../public/servers/maths/appli/175.png')
+        },
+        {
+            "domain": "EM Lyon 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2002.pdf",
+            "local_image": require('../public/servers/maths/appli/176.png')
+        },
+        {
+            "domain": "EM Lyon 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2002_E_3-c.pdf",
+            "local_image": require('../public/servers/maths/appli/177.png')
+        },
+        {
+            "domain": "EM Lyon 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2001.pdf",
+            "local_image": require('../public/servers/maths/appli/178.png')
+        },
+        {
+            "domain": "EM Lyon 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2001_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/179.png')
+        },
+        {
+            "domain": "EM Lyon 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-emlyon-2000.pdf",
+            "local_image": require('../public/servers/maths/appli/180.png')
+        },
+        {
+            "domain": "EM Lyon 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EML_2000_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/181.png')
+        },
+        {
+            "domain": "EDHEC 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2022.pdf",
+            "local_image": require('../public/servers/maths/appli/182.png')
+        },
+        {
+            "domain": "EDHEC 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://frederic.gaunard.com/2122/EDHEC22cor.pdf",
+            "local_image": require('../public/servers/maths/appli/183.png')
+        },
+        {
+            "domain": "EDHEC 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2021.pdf",
+            "local_image": require('../public/servers/maths/appli/184.png')
+        },
+        {
+            "domain": "EDHEC 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2021/09/Edhec-2021-E-corrige-Major-Prepa-2.pdf",
+            "local_image": require('../public/servers/maths/appli/185.png')
+        },
+        {
+            "domain": "EDHEC 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2020.pdf",
+            "local_image": require('../public/servers/maths/appli/186.png')
+        },
+        {
+            "domain": "EDHEC 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2020/07/Edhec-2020-E-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appli/187.png')
+        },
+        {
+            "domain": "EDHEC 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2019.pdf",
+            "local_image": require('../public/servers/maths/appli/188.png')
+        },
+        {
+            "domain": "EDHEC 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2020/01/Edhec-2019-E-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appli/189.png')
+        },
+        {
+            "domain": "EDHEC 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/190.png')
+        },
+        {
+            "domain": "EDHEC 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/191.png')
+        },
+        {
+            "domain": "EDHEC 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/192.png')
+        },
+        {
+            "domain": "EDHEC 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/193.png')
+        },
+        {
+            "domain": "EDHEC 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/194.png')
+        },
+        {
+            "domain": "EDHEC 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/195.png')
+        },
+        {
+            "domain": "EDHEC 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appli/196.png')
+        },
+        {
+            "domain": "EDHEC 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2015.pdf",
+            "local_image": require('../public/servers/maths/appli/197.png')
+        },
+        {
+            "domain": "EDHEC 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appli/198.png')
+        },
+        {
+            "domain": "EDHEC 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2014.pdf",
+            "local_image": require('../public/servers/maths/appli/199.png')
+        },
+        {
+            "domain": "EDHEC 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appli/200.png')
+        },
+        {
+            "domain": "EDHEC 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2013.pdf",
+            "local_image": require('../public/servers/maths/appli/201.png')
+        },
+        {
+            "domain": "EDHEC 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appli/202.png')
+        },
+        {
+            "domain": "EDHEC 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2012.pdf",
+            "local_image": require('../public/servers/maths/appli/203.png')
+        },
+        {
+            "domain": "EDHEC 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appli/204.png')
+        },
+        {
+            "domain": "EDHEC 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2011.pdf",
+            "local_image": require('../public/servers/maths/appli/205.png')
+        },
+        {
+            "domain": "EDHEC 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appli/206.png')
+        },
+        {
+            "domain": "EDHEC 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-EDHEC-2010.pdf",
+            "local_image": require('../public/servers/maths/appli/207.png')
+        },
+        {
+            "domain": "EDHEC 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2009.pdf",
+            "local_image": require('../public/servers/maths/appli/208.png')
+        },
+        {
+            "domain": "EDHEC 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2019/12/Edhec-2009-E-corrige-Major-Prepa-1.pdf",
+            "local_image": require('../public/servers/maths/appli/209.png')
+        },
+        {
+            "domain": "EDHEC 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2008.pdf",
+            "local_image": require('../public/servers/maths/appli/210.png')
+        },
+        {
+            "domain": "EDHEC 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2008_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/211.png')
+        },
+        {
+            "domain": "EDHEC 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2007.pdf",
+            "local_image": require('../public/servers/maths/appli/212.png')
+        },
+        {
+            "domain": "EDHEC 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2007_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/213.png')
+        },
+        {
+            "domain": "EDHEC 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2006.pdf",
+            "local_image": require('../public/servers/maths/appli/214.png')
+        },
+        {
+            "domain": "EDHEC 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2006_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/215.png')
+        },
+        {
+            "domain": "EDHEC 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2005.pdf",
+            "local_image": require('../public/servers/maths/appli/216.png')
+        },
+        {
+            "domain": "EDHEC 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2005_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/217.png')
+        },
+        {
+            "domain": "EDHEC 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2004.pdf",
+            "local_image": require('../public/servers/maths/appli/218.png')
+        },
+        {
+            "domain": "EDHEC 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2004_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/219.png')
+        },
+        {
+            "domain": "EDHEC 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2003.pdf",
+            "local_image": require('../public/servers/maths/appli/220.png')
+        },
+        {
+            "domain": "EDHEC 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2003_E_1-c.pdf",
+            "local_image": require('../public/servers/maths/appli/221.png')
+        },
+        {
+            "domain": "EDHEC 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2002.pdf",
+            "local_image": require('../public/servers/maths/appli/222.png')
+        },
+        {
+            "domain": "EDHEC 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2002_E_1-c.pdf",
+            "local_image": require('../public/servers/maths/appli/223.png')
+        },
+        {
+            "domain": "EDHEC 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2001.pdf",
+            "local_image": require('../public/servers/maths/appli/224.png')
+        },
+        {
+            "domain": "EDHEC 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2001_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/225.png')
+        },
+        {
+            "domain": "EDHEC 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-EDHEC-2000.pdf",
+            "local_image": require('../public/servers/maths/appli/226.png')
+        },
+        {
+            "domain": "EDHEC 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/EDHEC_2000_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/227.png')
+        },
+        {
+            "domain": "ECRICOME 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2022.pdf",
+            "local_image": require('../public/servers/maths/appli/228.png')
+        },
+        {
+            "domain": "ECRICOME 2022",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2022/04/Ecricome-2022-E-corrige-Major-Prepa.pdf",
+            "local_image": require('../public/servers/maths/appli/229.png')
+        },
+        {
+            "domain": "ECRICOME 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2021.pdf",
+            "local_image": require('../public/servers/maths/appli/230.png')
+        },
+        {
+            "domain": "ECRICOME 2021",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://major-prepa.com/wp-content/uploads/2021/04/Ecricome-2021-E-corrige-Major-Prepa-4.pdf",
+            "local_image": require('../public/servers/maths/appli/231.png')
+        },
+        {
+            "domain": "ECRICOME 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2020.pdf",
+            "local_image": require('../public/servers/maths/appli/232.png')
+        },
+        {
+            "domain": "ECRICOME 2020",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-Ecricome-2020.pdf",
+            "local_image": require('../public/servers/maths/appli/233.png')
+        },
+        {
+            "domain": "ECRICOME 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2019.pdf",
+            "local_image": require('../public/servers/maths/appli/234.png')
+        },
+        {
+            "domain": "ECRICOME 2019",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-Ecricome-2019.pdf",
+            "local_image": require('../public/servers/maths/appli/235.png')
+        },
+        {
+            "domain": "ECRICOME 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/236.png')
+        },
+        {
+            "domain": "ECRICOME 2018",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-Ecricome-2018.pdf",
+            "local_image": require('../public/servers/maths/appli/237.png')
+        },
+        {
+            "domain": "ECRICOME 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/238.png')
+        },
+        {
+            "domain": "ECRICOME 2017",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-Ecricome-2017.pdf",
+            "local_image": require('../public/servers/maths/appli/239.png')
+        },
+        {
+            "domain": "ECRICOME 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/240.png')
+        },
+        {
+            "domain": "ECRICOME 2016",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/Corrige-Maths-E-Ecricome-2016.pdf",
+            "local_image": require('../public/servers/maths/appli/241.png')
+        },
+        {
+            "domain": "ECRICOME 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2015.pdf",
+            "local_image": require('../public/servers/maths/appli/242.png')
+        },
+        {
+            "domain": "ECRICOME 2015",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2015_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/243.png')
+        },
+        {
+            "domain": "ECRICOME 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2014.pdf",
+            "local_image": require('../public/servers/maths/appli/244.png')
+        },
+        {
+            "domain": "ECRICOME 2014",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2014_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/245.png')
+        },
+        {
+            "domain": "ECRICOME 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2013.pdf",
+            "local_image": require('../public/servers/maths/appli/246.png')
+        },
+        {
+            "domain": "ECRICOME 2013",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2013_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/247.png')
+        },
+        {
+            "domain": "ECRICOME 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2012.pdf",
+            "local_image": require('../public/servers/maths/appli/248.png')
+        },
+        {
+            "domain": "ECRICOME 2012",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2012_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/249.png')
+        },
+        {
+            "domain": "ECRICOME 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2011.pdf",
+            "local_image": require('../public/servers/maths/appli/250.png')
+        },
+        {
+            "domain": "ECRICOME 2011",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2011_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/251.png')
+        },
+        {
+            "domain": "ECRICOME 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2010.pdf",
+            "local_image": require('../public/servers/maths/appli/252.png')
+        },
+        {
+            "domain": "ECRICOME 2010",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2010_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/253.png')
+        },
+        {
+            "domain": "ECRICOME 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2009.pdf",
+            "local_image": require('../public/servers/maths/appli/254.png')
+        },
+        {
+            "domain": "ECRICOME 2009",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2009_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/255.png')
+        },
+        {
+            "domain": "ECRICOME 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2008.pdf",
+            "local_image": require('../public/servers/maths/appli/256.png')
+        },
+        {
+            "domain": "ECRICOME 2008",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2008_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/257.png')
+        },
+        {
+            "domain": "ECRICOME 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2007.pdf",
+            "local_image": require('../public/servers/maths/appli/258.png')
+        },
+        {
+            "domain": "ECRICOME 2007",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2007_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/259.png')
+        },
+        {
+            "domain": "ECRICOME 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2006.pdf",
+            "local_image": require('../public/servers/maths/appli/260.png')
+        },
+        {
+            "domain": "ECRICOME 2006",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2006-c.pdf",
+            "local_image": require('../public/servers/maths/appli/261.png')
+        },
+        {
+            "domain": "ECRICOME 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2005.pdf",
+            "local_image": require('../public/servers/maths/appli/262.png')
+        },
+        {
+            "domain": "ECRICOME 2005",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2005_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/263.png')
+        },
+        {
+            "domain": "ECRICOME 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2004.pdf",
+            "local_image": require('../public/servers/maths/appli/264.png')
+        },
+        {
+            "domain": "ECRICOME 2004",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2004_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/265.png')
+        },
+        {
+            "domain": "ECRICOME 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2003.pdf",
+            "local_image": require('../public/servers/maths/appli/266.png')
+        },
+        {
+            "domain": "ECRICOME 2003",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2003_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/267.png')
+        },
+        {
+            "domain": "ECRICOME 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2002.pdf",
+            "local_image": require('../public/servers/maths/appli/268.png')
+        },
+        {
+            "domain": "ECRICOME 2002",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2002_E_1-c.pdf",
+            "local_image": require('../public/servers/maths/appli/269.png')
+        },
+        {
+            "domain": "ECRICOME 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2001.pdf",
+            "local_image": require('../public/servers/maths/appli/270.png')
+        },
+        {
+            "domain": "ECRICOME 2001",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2001_E-c.pdf",
+            "local_image": require('../public/servers/maths/appli/271.png')
+        },
+        {
+            "domain": "ECRICOME 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "sujet",
+            "category": [
+                "maths"
+            ],
+            "url": "https://www.annales-prepa.fr/wp-content/uploads/sujet-ecrit-Maths-E-Ecricome-2000.pdf",
+            "local_image": require('../public/servers/maths/appli/272.png')
+        },
+        {
+            "domain": "ECRICOME 2000",
+            "version": "Appliquées",
+            "description": "Tiré du site annales-prépa",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "annales",
+            "formatOptions": "correction",
+            "category": [
+                "maths"
+            ],
+            "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2000-c.pdf",
+            "local_image": require('../public/servers/maths/appli/273.png')
         }
     ]
 };
 
-module.exports = servers;
+export default servers

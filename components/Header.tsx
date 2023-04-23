@@ -38,18 +38,22 @@ const Header = ({ transparent = true }: HeaderProps) => {
       childItems: [
         {
           value: "https://blog.joinmastodon.org/",
+          compact:false,
           label: <FormattedMessage id="nav.blog.title" defaultMessage="Blog" />,
           description: <FormattedMessage id="nav.blog.description" defaultMessage="Obtenir l'actualité de Prepalib" />,
         }, {
           value: "https://docs.joinmastodon.org",
+          compact:false,
           label: <FormattedMessage id="nav.docs.title" defaultMessage="Le jeu de la prépa" />,
           description: <FormattedMessage id="nav.docs.description" defaultMessage="Comprendre comment la prépa fonctionne" />,
         }, {
           value: "https://github.com/mastodon/mastodon/discussions",
+          compact: false,
           label: <FormattedMessage id="nav.support.title" defaultMessage="Support" />,
           description: <FormattedMessage id="nav.support.description" defaultMessage="Get help or suggest a feature on GitHub" />,
         }, {
           value: "/branding",
+          compact: false,
           label: <FormattedMessage id="nav.branding.title" defaultMessage="Branding" />,
           description: <FormattedMessage id="nav.branding.description" defaultMessage="Download our logos and learn how to use them" />,
         },
@@ -61,23 +65,23 @@ const Header = ({ transparent = true }: HeaderProps) => {
         description: <FormattedMessage id="nav.code.description" defaultMessage="Tous les contenus dans la dropbox" />,
       },
     }, 
-    // {
-    //   key: "locale",
-    //   label: <span aria-label={intl.formatMessage({
-    //     id: "translate_site",
-    //     defaultMessage: "文A, Translate site",
-    //   })}>文A</span>,
-    //   compact: true,
-    //   childItems: locales.map((locale) => ({
-    //     key: locale.code,
-    //     locale: locale.code,
-    //     scroll: false,
-    //     small: true,
-    //     value: "", // current page
-    //     label: locale.language,
-    //     active: router.locale === locale.code,
-    //   })),
-    // }
+    {
+    key: "locale",
+     label: <span aria-label={intl.formatMessage({
+       id: "translate_site",
+        defaultMessage: "文A, Translate site",
+      })}>文A</span>,
+     compact: false,
+     childItems: locales.map((locale) => ({
+         key: locale.code,
+         locale: locale.code,
+        scroll: false,
+         small: false,
+         value: "", // current page
+         label: locale.language,
+       active: router.locale === locale.code,
+      })),
+    }
   ]
     // set active status on links
     .map((item) => ({ ...item, active: router.asPath === item.value }))
@@ -130,7 +134,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
               mobileMenuOpen ? "flex" : "hidden md:flex"
             )}
           >
-            {navigationItems.map((item, itemIndex) => (
+            {navigationItems.slice(0,-1).map((item, itemIndex) => (
               <li className="relative" key={item.key || item.value}>
                 {"childItems" in item ? (
                   // Top-level Dropdown
@@ -165,7 +169,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
                           <li key={child.key || child.value}>
                             <Link
                               href={child.value}
-                              locale={child.locale || undefined}
+                              locale={ undefined}
                               scroll={child.scroll ?? true}
                             >
                               <a
