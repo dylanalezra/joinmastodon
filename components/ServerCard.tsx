@@ -27,7 +27,6 @@ const ServerCard = ({ server }: { server?: Server }) => {
               objectFit="cover"
               alt=""
               unoptimized
-              loading = "lazy"
             />
           </>
         ) : (
