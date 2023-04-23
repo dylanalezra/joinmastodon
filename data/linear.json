@@ -4,7 +4,13 @@
     "items": [
       {
         "id": "MAS-88",
-        "title": "Additional search syntax",
+        "title": "Faire une fiche pour les oraux 2023 en ESH",
+        "priority": 2,
+        "parent": null
+      },
+      {
+        "id": "IOS-88",
+        "title": "Créer une base de données pour faire un chatGPT-vPrépa",
         "priority": 2,
         "parent": null
       }
@@ -15,7 +21,19 @@
     "items": [
       {
         "id": "MAS-40",
-        "title": "Explicit controls to fetch more data from origin server",
+        "title": "Créer un polycopié ultime en mathématiques",
+        "priority": 1,
+        "parent": null
+      },
+      {
+        "id": "MAS-40",
+        "title": "Polycopié pour les oraux de mathématiques",
+        "priority": 1,
+        "parent": null
+      },
+      {
+        "id": "MAS-40",
+        "title": "Faire un cours sur la violence",
         "priority": 1,
         "parent": null
       }
@@ -25,10 +43,10 @@
     "type": "completed",
     "items": [
       {
-        "id": "MAS-116",
-        "title": "Add search prompts",
+        "id": "AND-116",
+        "title": "Reconstruire le site internet",
         "priority": 4,
-        "completedAt": "2023-04-01T07:59:12.391Z",
+        "completedAt": "2023-04-23T07:59:12.391Z",
         "parent": null
       }
     ]

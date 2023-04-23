@@ -76,10 +76,10 @@ function Home() {
       <Sponsors sponsors={{ platinum, additionalFunding }} />
       <Head>
         <title>
-          Mastodon -{" "}
+          Prepalib -{" "}
           {intl.formatMessage({
             id: "home.page_title",
-            defaultMessage: "Decentralized social media",
+            defaultMessage: "Une prépa en libre accès",
           })}
         </title>
 
@@ -95,7 +95,7 @@ function Home() {
           content={intl.formatMessage({
             id: "home.page_description",
             defaultMessage:
-              "Learn more about Mastodon, the radically different, free and open-source decentralized social media platform.",
+              "En savoir plus sur Prepalib, un site associatif dédié aux élèves de prépa.",
           })}
         />
         <meta
@@ -103,7 +103,7 @@ function Home() {
           content={intl.formatMessage({
             id: "home.page_description",
             defaultMessage:
-              "Learn more about Mastodon, the radically different, free and open-source decentralized social media platform.",
+              "En savoir plus sur Prepalib, un site associatif dédié aux élèves de prépa.",
           })}
         />
       </Head>

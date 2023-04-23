@@ -5,6 +5,7 @@ const nextConfig = {
       "proxy.joinmastodon.org",
       "c8.patreon.com",
       "c10.patreonusercontent.com",
+      "prepalib.fr"
     ],
   },
   async headers() {

@@ -24,20 +24,19 @@ const About = () => (
   <Layout>
     <div dir="ltr" className="[unicode-bidi:plaintext]">
       <Hero desktopImage={heroImage} mobileImage={heroImage}>
-        <h1 className="h1">We develop Mastodon</h1>
-        <p className="sh1">Free, open-source decentralized social media</p>
+        <h1 className="h1">Prepalib</h1>
+        <p className="sh1">Prepalib est une association dont le but est de fournir le plus de ressources gratuites aux élèves qui préparent des concours et des examens.</p>
       </Hero>
 
       <div className="full-width-bg">
         <div className="full-width-bg__inner">
           <div className="grid grid-cols-12 gap-y-24 py-20 md:gap-x-12">
             <div className="col-span-12 md:col-span-6">
-              <h2 className="h3 mb-6">Our story</h2>
+              <h2 className="h3 mb-6">Concept</h2>
 
               <p className="b1 mb-4">
                 <strong>
-                  Mastodon gGmbH is a non-profit from Germany that develops the
-                  Mastodon software.
+                  Prepalib est une association dont le but est de fournir le plus de ressources gratuites aux élèves qui préparent des concours et des examens.
                 </strong>{" "}
                 Mastodon started in 2016 as an open-source project by Eugen
                 Rochko, who, as an avid user since 2008, was dissatisfied with
@@ -324,8 +323,8 @@ const About = () => (
       </div>
 
       <Head>
-        <title>About - Mastodon</title>
-        <meta property="og:title" content="The company behind Mastodon" />
+        <title>A propos - Prepalib</title>
+        <meta property="og:title" content="Prepalib " />
         <meta
           property="og:description"
           content="Our story, mission, annual reports, interviews, press releases and more."

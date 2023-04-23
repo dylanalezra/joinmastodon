@@ -37,29 +37,24 @@ const Header = ({ transparent = true }: HeaderProps) => {
       label: <FormattedMessage id="nav.resources.title" defaultMessage="Ressources" />,
       childItems: [
         {
-          value: "https://blog.joinmastodon.org/",
+          value: "https://blog.prepalib.fr/",
           compact:false,
           label: <FormattedMessage id="nav.blog.title" defaultMessage="Blog" />,
           description: <FormattedMessage id="nav.blog.description" defaultMessage="Obtenir l'actualité de Prepalib" />,
         }, {
-          value: "https://docs.joinmastodon.org",
+          value: "https://www.dropbox.com/s/7rdy2nf9uyztju5/Le%20jeu%20de%20la%20pr%C3%A9pa.pdf?dl=0",
           compact:false,
           label: <FormattedMessage id="nav.docs.title" defaultMessage="Le jeu de la prépa" />,
           description: <FormattedMessage id="nav.docs.description" defaultMessage="Comprendre comment la prépa fonctionne" />,
         }, {
-          value: "https://github.com/mastodon/mastodon/discussions",
+          value: "mailto:dylan.alezra@cepremap.org",
           compact: false,
-          label: <FormattedMessage id="nav.support.title" defaultMessage="Support" />,
-          description: <FormattedMessage id="nav.support.description" defaultMessage="Get help or suggest a feature on GitHub" />,
-        }, {
-          value: "/branding",
-          compact: false,
-          label: <FormattedMessage id="nav.branding.title" defaultMessage="Branding" />,
-          description: <FormattedMessage id="nav.branding.description" defaultMessage="Download our logos and learn how to use them" />,
+          label: <FormattedMessage id="nav.support.title" defaultMessage="Contact" />,
+          description: <FormattedMessage id="nav.support.description" defaultMessage="Pour nous contacter" />,
         },
       ],
       footer: {
-        value: "https://github.com/mastodon/mastodon",
+        value: "https://www.dropbox.com/sh/ae0rxgflp7irmki/AAD7GYpJA-7g4YheO-2iJQ-0a?dl=0",
         label: <FormattedMessage id="nav.code.action" defaultMessage="Tous les contenus" />,
         title: <FormattedMessage id="nav.code.title" defaultMessage="Accédez à la dropbox" />,
         description: <FormattedMessage id="nav.code.description" defaultMessage="Tous les contenus dans la dropbox" />,

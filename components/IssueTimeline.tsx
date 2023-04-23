@@ -4,10 +4,10 @@ import { useState } from "react"
 import { FormattedMessage, useIntl, defineMessages } from "react-intl"
 
 const messages = defineMessages({
-  started: { id: "roadmap.state.started", defaultMessage: "In Progress" },
-  unstarted: { id: "roadmap.state.unstarted", defaultMessage: "Planned" },
-  backlog: { id: "roadmap.state.backlog", defaultMessage: "Exploring" },
-  completed: { id: "roadmap.state.completed", defaultMessage: "Recently completed" },
+  started: { id: "roadmap.state.started", defaultMessage: "En progrès" },
+  unstarted: { id: "roadmap.state.unstarted", defaultMessage: "Planifié" },
+  backlog: { id: "roadmap.state.backlog", defaultMessage: "Exploration" },
+  completed: { id: "roadmap.state.completed", defaultMessage: "Terminé récemment" },
 })
 
 export const IssueTimeline = ({ roadmap }) => {
@@ -29,10 +29,10 @@ export const IssueTimeline = ({ roadmap }) => {
 
   //prettier-ignore
   const categories = [
-    { key: "all", label: intl.formatMessage({ id: "roadmap.all", defaultMessage: "All" }) },
-    { key: "MAS", label: intl.formatMessage({ id: "roadmap.mastodon", defaultMessage: "Web / API" }) },
-    { key: "IOS", label: intl.formatMessage({ id: "roadmap.ios", defaultMessage: "iOS" }) },
-    { key: "AND", label: intl.formatMessage({ id: "roadmap.android", defaultMessage: "Android" }) },
+    { key: "all", label: intl.formatMessage({ id: "roadmap.all", defaultMessage: "Tous" }) },
+    { key: "MAS", label: intl.formatMessage({ id: "roadmap.mastodon", defaultMessage: "Contenus" }) },
+    { key: "IOS", label: intl.formatMessage({ id: "roadmap.ios", defaultMessage: "Applications" }) },
+    { key: "AND", label: intl.formatMessage({ id: "roadmap.android", defaultMessage: "Site" }) },
   ]
 
   return (

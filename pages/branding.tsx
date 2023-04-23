@@ -83,20 +83,17 @@ const Branding = () => (
   <Layout>
     <div dir="ltr" className="[unicode-bidi:plaintext]">
       <Hero desktopImage={heroImage} mobileImage={heroImage}>
-        <h1 className="h1 mb-4">Brand Toolkit</h1>
+        <h1 className="h1 mb-4">Le jeu de la prépa</h1>
         <p className="sh1">
-          Learn our branding guidelines, download our logos and icons, or use
-          our brand colors for&nbsp;your&nbsp;projects.
+          Découvrez le livre pour vous aider à comprendre le système des concours
         </p>
       </Hero>
       <div className="grid grid-cols-12 gap-gutter">
         <BrandSection
-          title="Wordmark"
+          title="De quoi ça parle ? "
           copy={
             <p>
-              We take pride in the Mastodon logo and hope you do too.
-              Please&nbsp;take a moment to think about how you apply it. If you
-              want to use our art, please keep it tasteful!
+              Si la portée de l'association se veut large et générale, ce livre ne s'adresse pas nécessairement à  la majorité des élèves. Néanmoins, beaucoup de ceux qui l'ont lu sont contents de l'avoir faits et estiment que ça a changé leur rapport à la préparation du concours. Beaucoup trouveront ce livre cynique. Pour autant, c'est aussi ce qui peut vous aider à mieux comprendre comment fonctionnent des concours.
             </p>
           }
           preview={
