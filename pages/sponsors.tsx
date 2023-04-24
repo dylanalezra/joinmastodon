@@ -23,7 +23,7 @@ function Sponsors() {
         <p className="sh1 lg:col-start-2 lg:col-end-6">
           <FormattedMessage
             id="sponsors.hero.body"
-            defaultMessage="Vous pouvez nous soutenir en faisant un don sur HelloAsso (et bénéficier de services liés à la prépa en contrepartie) ou bien établir un partenariat pour afficher votre logo sur le site. Les ressources collectées permettent de financer le fonctionnement de l'association."
+            defaultMessage="Vous pouvez nous soutenir en faisant un don sur HelloAsso (et bénéficier de services liés à la prépa en contrepartie) ou bien établir un partenariat avec votre organisation. Les ressources collectées permettent de financer le fonctionnement de l'association."
           />
         </p>
       </Hero>
@@ -64,7 +64,7 @@ function Sponsors() {
             copy: (
               <FormattedMessage
                 id="sponsors.patreon.body"
-                defaultMessage="Faire un don sur HelloAsso vous permettra d'avoir accès à certaines comepensations (une sorte de prépa en ligne), en plus d'être dans les remerciements du site."
+                defaultMessage="Faire un don sur HelloAsso vous permettra d'avoir accès à certaines compensations (une sorte de prépa en ligne), en plus d'être dans les remerciements du site."
               />
             ),
             cta: (
