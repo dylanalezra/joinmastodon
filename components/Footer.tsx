@@ -171,33 +171,33 @@ export const Footer = () => (
 
         <div className="mt-4 flex space-x-2 justify-center md:mt-0 md:space-x-6">
           <a
-            href="https://github.com/mastodon"
+            href="https://www.youtube.com/channel/UCQyH7onDYssixio1DNcekIA"
             rel="me"
             className="text-nightshade-100 hover:text-nightshade-50"
           >
             <FaYoutube className="h-5 w-5" fill="white" />
             <span className="sr-only">
-              GitHub
+              Youtube
             </span>
           </a>
           <a
-            href="https://github.com/mastodon"
+            href="https://discord.gg/nPpB63Nbby"
             rel="me"
             className="text-nightshade-100 hover:text-nightshade-50"
           >
             <FaDiscord className="h-5 w-5" fill="white" />
             <span className="sr-only">
-              GitHub
+              Discord
             </span>
           </a>
           <a
-            href="https://github.com/mastodon"
+            href="https://www.instagram.com/prepalib/?hl=fr"
             rel="me"
             className="text-nightshade-100 hover:text-nightshade-50"
           >
             <FaInstagram className="h-5 w-5" fill="white" />
             <span className="sr-only">
-              GitHub
+              Instagram
             </span>
           </a>
         </div>
