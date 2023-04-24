@@ -28,7 +28,7 @@ const PrivacyPolicy = () => (
             </strong>
           </p>
           <p className="mt-4">
-            Dans l'éventualité de la mise en place d'une newsletter, vous pourrez vous désinscrire.
+            Dans l&apos;éventualité de la mise en place d&apos;une newsletter, vous pourrez vous désinscrire.
           </p>
           <p className="mt-4">
             

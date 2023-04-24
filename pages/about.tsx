@@ -38,17 +38,17 @@ const About = () => (
                 <strong>
                   Prepalib est une association dont le but est de fournir le plus de ressources gratuites aux élèves qui préparent des concours et des examens.
                 </strong>{" "}
-                Prepalib a débuté en 2021. Le but de Prepalib est simple : répondre à la demande des élèves qui cherchent à avoir de bons cours. Trop de fois, les élèves sont dépendants de mauvais profs, d'un mauvais contexte de travail, d'un manque d'information. 
+                Prepalib a débuté en 2021. Le but de Prepalib est simple : répondre à la demande des élèves qui cherchent à avoir de bons cours. Trop de fois, les élèves sont dépendants de mauvais profs, d&apos;un mauvais contexte de travail, d&apos;un manque d&apos;information. 
               </p>
               <p className="b1 mb-4">
-                Nous pensons que le système scolaire doit non seulement être grandement amélioré en diffusant le plus possible l'information, que ce soit des cours ou des explications sur le fonctionnement du système scolaire.
+                Nous pensons que le système scolaire doit non seulement être grandement amélioré en diffusant le plus possible l&apos;information, que ce soit des cours ou des explications sur le fonctionnement du système scolaire.
               </p>
               <p className="b1 mb-4">
-                Nous pensons également que l'intelligence artificielle représente une révolution pour l'enseignement et l'éducation. Il nous paraît essentiel de parvenir à l'intégrer dans les façons de fonctionner du système scolaire.
+                Nous pensons également que l&apos;intelligence artificielle représente une révolution pour l&apos;enseignement et l&apos;éducation. Il nous paraît essentiel de parvenir à l&apos;intégrer dans les façons de fonctionner du système scolaire.
               </p>
               <p className="b1 mb-6">
                 <strong>
-                L'objectif de Prepalib est de parvenir à complétemenet transformer le système scolaire, au moins pour les classes prépa, d'ici à 2024, en s'appuyant sur des contenus de grande qualité et l'intelligence artificielle.
+                L&apos;objectif de Prepalib est de parvenir à complétemenet transformer le système scolaire, au moins pour les classes prépa, d&apos;ici à 2024, en s&apos;appuyant sur des contenus de grande qualité et l&apos;intelligence artificielle.
                 </strong>
               </p>
             </div>
