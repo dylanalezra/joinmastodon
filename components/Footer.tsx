@@ -91,7 +91,7 @@ export const Footer = () => (
                   key="mastodon/mastodon"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/mastodon/mastodon"
+                  href="https://www.dropbox.com/home/Prepalib"
                 >
                   <FormattedMessage
                     id="nav.code.title"
