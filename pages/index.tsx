@@ -55,14 +55,14 @@ function Home() {
         </p>
 
         <div className="flex justify-center gap-12">
-          <LinkButton size="large" href="/apps">
+          <LinkButton size="large" href="/servers">
             <FormattedMessage
               id="home.get_the_app"
               defaultMessage="Accéder aux contenus"
             />
           </LinkButton>
 
-          <LinkButton size="large" href="/servers" light borderless>
+          <LinkButton size="large" href="https://discord.gg/nPpB63Nbby" light borderless>
             <FormattedMessage
               id="home.create_account"
               defaultMessage="Rejoindre Discord"
@@ -133,7 +133,7 @@ const Features = () => {
           button: (
             <LinkButton
               size="large"
-              href="https://docs.joinmastodon.org/user/moderating/"
+              href="/servers"
             >
               <FormattedMessage
                 id="home.features.button.learn_more"
@@ -159,7 +159,7 @@ const Features = () => {
           button: (
             <LinkButton
               size="large"
-              href="https://docs.joinmastodon.org/user/run-your-own/"
+              href="https://discord.gg/nPpB63Nbby"
             >
               <FormattedMessage
                 id="home.features.button.learn_more"
@@ -183,7 +183,7 @@ const Features = () => {
             />
           ),
           button: (
-            <LinkButton size="large" href="/servers">
+            <LinkButton size="large" href="/apps">
               <FormattedMessage
                 id="home.features.button.find_a_server"
                 defaultMessage="Voir les applications"
@@ -208,7 +208,7 @@ const Features = () => {
           button: (
             <LinkButton
               size="large"
-              href="https://docs.joinmastodon.org/user/posting/"
+              href="https://www.dropbox.com/s/7rdy2nf9uyztju5/Le%20jeu%20de%20la%20pr%C3%A9pa.pdf?dl=0"
             >
               <FormattedMessage
                 id="home.features.button.learn_more"
