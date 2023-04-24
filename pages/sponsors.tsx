@@ -42,7 +42,7 @@ function Sponsors() {
             copy: (
               <FormattedMessage
                 id="sponsors.sponsorship.body"
-                defaultMessage="Si vous souhaitez voir le logo de votre entreprise affiché, n'hésitez pas à nous contacter pour établir un partenariat !"
+                defaultMessage="N'hésitez pas à nous contacter pour établir un partenariat !"
               />
             ),
             cta: (
