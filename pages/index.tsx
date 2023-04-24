@@ -450,7 +450,7 @@ const Sponsors = ({ sponsors }) => {
           <p className="b1 lg:sh1 mb-12 lg:mb-10">
             <FormattedMessage
               id="home.sponsors.body"
-              defaultMessage="Prepalib est une association loi 1901 d'intérêt général. Les services fournis par Prepalib et leurs développement sont pour vous mais aussi grâce à vous."
+              defaultMessage="Prepalib est une association loi 1901. Les services fournis par Prepalib et leurs développement sont pour vous mais aussi grâce à vous."
             />
           </p>
 
