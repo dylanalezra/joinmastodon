@@ -64,7 +64,7 @@ function Sponsors() {
             copy: (
               <FormattedMessage
                 id="sponsors.patreon.body"
-                defaultMessage="Faire un don sur HelloAsso vous permettra d'avoir accès à certaines compensations (une sorte de prépa en ligne), en plus d'être dans les remerciements du site."
+                defaultMessage="Faire un don sur HelloAsso vous permettra d'avoir accès à certaines compensations."
               />
             ),
             cta: (
