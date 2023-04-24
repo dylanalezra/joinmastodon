@@ -179,6 +179,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
                                     "font-extrabold"
                                 )}
                                 aria-current={child.active ? "page" : undefined}
+                                target="_blank" 
                               >
                                 <span
                                   className={classNames(
