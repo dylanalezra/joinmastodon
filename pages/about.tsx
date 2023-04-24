@@ -29,295 +29,30 @@ const About = () => (
       </Hero>
 
       <div className="full-width-bg">
-        <div className="full-width-bg__inner">
-          <div className="grid grid-cols-12 gap-y-24 py-20 md:gap-x-12">
-            <div className="col-span-12 md:col-span-6">
-              <h2 className="h3 mb-6">Concept</h2>
+    <div className="full-width-bg__inner">
+        <div className="grid grid-cols-12 gap-y-24 py-20 md:gap-x-12">
+            <div className="col-span-12 md:col-span-12">
+                <h2 className="h3 mb-6">Concept</h2>
 
               <p className="b1 mb-4">
                 <strong>
                   Prepalib est une association dont le but est de fournir le plus de ressources gratuites aux élèves qui préparent des concours et des examens.
                 </strong>{" "}
-                Mastodon started in 2016 as an open-source project by Eugen
-                Rochko, who, as an avid user since 2008, was dissatisfied with
-                the state and direction of Twitter.
+                Prepalib a débuté en 2021. Le but de Prepalib est simple : répondre à la demande des élèves qui cherchent à avoir de bons cours. Trop de fois, les élèves sont dépendants de mauvais profs, d'un mauvais contexte de travail, d'un manque d'information. 
               </p>
               <p className="b1 mb-4">
-                Believing that instant global communications were too crucial
-                for modern society to belong to a single commercial company, he
-                sought to build a user-friendly microblogging product that would
-                not belong to any central authority, but remain practical for
-                everyday use.
+                Nous pensons que le système scolaire doit non seulement être grandement amélioré en diffusant le plus possible l'information, que ce soit des cours ou des explications sur le fonctionnement du système scolaire.
               </p>
               <p className="b1 mb-4">
-                The first public launch occurred in October 2016. The initial
-                support the project received through Patreon ensured that Eugen
-                could begin working on the project full-time post-graduation. In
-                April 2017 it received its first big break and garnered
-                world-wide attention and press coverage.
+                Nous pensons également que l'intelligence artificielle représente une révolution pour l'enseignement et l'éducation. Il nous paraît essentiel de parvenir à l'intégrer dans les façons de fonctionner du système scolaire.
               </p>
               <p className="b1 mb-6">
-                The project was officially incorporated as a gGmbH (a German
-                form of non-profit LLC) in 2021.
+                <strong>
+                L'objectif de Prepalib est de parvenir à complétemenet transformer le système scolaire, au moins pour les classes prépa, d'ici à 2024, en s'appuyant sur des contenus de grande qualité et l'intelligence artificielle.
+                </strong>
               </p>
-
-              <ul className="b1 space-y-4">
-                <li>
-                  <LinkWithArrow href="/branding">Branding</LinkWithArrow>
-                </li>
-                <li>
-                  <LinkWithArrow href="/trademark">
-                    Trademark Policy
-                  </LinkWithArrow>
-                </li>
-              </ul>
             </div>
 
-            <div className="col-span-12 md:col-span-6">
-              <h2 className="h3 mb-6" id="team">
-                Meet the team
-              </h2>
-
-              <p className="b1 mb-6">
-                <LinkWithArrow href="/careers">Join the team</LinkWithArrow>
-              </p>
-
-              <div className="grid grid-cols-12 gap-gutter">
-                {team.map((member) => (
-                  <div
-                    key={member.name}
-                    className="col-span-12 sm:col-span-6 lg:col-span-4"
-                  >
-                    <div className="relative mb-4 aspect-video w-full overflow-hidden rounded-lg bg-blurple-gradient shadow">
-                      {member.image && (
-                        <Image
-                          src={member.image}
-                          layout="fill"
-                          objectFit="cover"
-                          objectPosition="50% 50%"
-                          alt=""
-                          className="grayscale"
-                        />
-                      )}
-                    </div>
-
-                    <span className="b2 block !font-bold">{member.name}</span>
-
-                    <div className="flex items-center">
-                      <span className="b2 block flex-grow !font-semibold text-gray-1">
-                        {member.position}
-                      </span>
-
-                      {member.socials && (
-                        <a
-                          href={member.socials.mastodon}
-                          className="b2 ml-2 block flex-shrink-0 text-blurple-600 hover:text-blurple-500"
-                        >
-                          <LogoWhite className="h-[1em] w-[1em]" fill="currentColor" />
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            <div className="col-span-12 md:col-span-3">
-              <h2 className="h3 mb-4">Our metrics</h2>
-
-              <Metrics />
-            </div>
-
-            <div className="col-span-12 md:col-span-3">
-              <h2 className="h3 mb-4">Reports</h2>
-
-              <ul className="list-disc pl-3">
-                <li>
-                  <a
-                    href="/reports/Mastodon Annual Report 2021.pdf"
-                    className="b2 block hover:text-blurple-500"
-                  >
-                    <span className="h5 block">2021</span>
-                    <span className="text-gray-2">PDF, 316 KB</span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="col-span-12 md:col-span-6">
-              <h2 className="h3 mb-4">Podcast interviews</h2>
-
-              <div className="space-y-4">
-                {interviews
-                  .sort((a, b) => a.date.localeCompare(b.date) * -1)
-                  .map((interview) => (
-                    <a
-                      key={interview.url}
-                      href={interview.url}
-                      rel="nofollow noopener"
-                      className="group flex max-w-full items-center hover:text-blurple-500"
-                    >
-                      <div className="relative h-20 w-20 shrink-0 overflow-hidden rounded-md ring-blurple-500 group-hover:ring-2">
-                        <Image
-                          src={interview.icon}
-                          alt=""
-                          layout="fill"
-                          objectFit="contain"
-                        />
-                      </div>
-
-                      <div className="truncate px-4">
-                        <span className="b1 block truncate !font-bold">
-                          {interview.title}
-                        </span>
-                        <span className="b2 text-gray-1">
-                          <FormattedDate
-                            value={interview.date}
-                            year="numeric"
-                            month="short"
-                            day="2-digit"
-                          />{" "}
-                          <strong>{interview.show}</strong>
-                        </span>
-                      </div>
-                    </a>
-                  ))}
-              </div>
-            </div>
-
-            <div className="col-span-12">
-              <h2 className="h3 mb-4">In the press</h2>
-              <p className="sh1 mb-8 text-gray-2">
-                What others write about us.
-              </p>
-
-              <div className="grid grid-cols-12 gap-gutter">
-                {press
-                  .sort((a, b) => a.date.localeCompare(b.date) * -1)
-                  .map((story) => (
-                    <PressArticle key={story.url} story={story} />
-                  ))}
-              </div>
-            </div>
-
-            <div className="col-span-12 md:col-span-6">
-              <h2 className="h3 mb-4">Contact us</h2>
-
-              <div className="b1 mb-4">
-                <dt className="font-bold">Press inquiries:</dt>
-                <dd>
-                  <a
-                    href="mailto:press@joinmastodon.org"
-                    className="text-blurple-500 hover:underline"
-                  >
-                    press@joinmastodon.org
-                  </a>
-                </dd>
-              </div>
-
-              <div className="b1 mb-4">
-                <dt className="font-bold">Legal inquiries:</dt>
-                <dd>
-                  <a
-                    href="mailto:legal@joinmastodon.org"
-                    className="text-blurple-500 hover:underline"
-                  >
-                    legal@joinmastodon.org
-                  </a>
-                </dd>
-              </div>
-
-              <div className="b1 mb-4">
-                <dt className="font-bold">Trademark inquiries:</dt>
-                <dd>
-                  <a
-                    href="mailto:trademark@joinmastodon.org"
-                    className="text-blurple-500 hover:underline"
-                  >
-                    trademark@joinmastodon.org
-                  </a>
-                </dd>
-              </div>
-
-              <div className="b1 mb-4">
-                <dt className="font-bold">Security inquiries:</dt>
-                <dd>
-                  <a
-                    href="mailto:security@joinmastodon.org"
-                    className="text-blurple-500 hover:underline"
-                  >
-                    security@joinmastodon.org
-                  </a>
-                </dd>
-              </div>
-
-              <div className="b1 mb-4">
-                <dt className="font-bold">Other inquiries:</dt>
-                <dd>
-                  <a
-                    href="mailto:hello@joinmastodon.org"
-                    className="text-blurple-500 hover:underline"
-                  >
-                    hello@joinmastodon.org
-                  </a>
-                </dd>
-              </div>
-            </div>
-
-            <div className="col-span-12 md:col-span-6" id="impressum">
-              <h2 className="h3 mb-4">Impressum</h2>
-
-              <dl className="b1 grid grid-cols-12 gap-gutter">
-                <div className="col-span-6">
-                  <div className="mb-4">
-                    <dt className="font-bold">Firmenname:</dt>
-                    <dd>Mastodon gGmbH</dd>
-                  </div>
-
-                  <div className="mb-4">
-                    <dt className="font-bold">Anschrift:</dt>
-                    <dd>
-                      <address className="not-italic">
-                        Mühlenstraße 8a
-                        <br />
-                        14167 Berlin
-                        <br />
-                        Germany
-                      </address>
-                    </dd>
-                  </div>
-
-                  <div className="mb-4">
-                    <dt className="font-bold">Kontakt:</dt>
-                    <dd>
-                      <a
-                        href="mailto:hello@joinmastodon.org"
-                        className="text-blurple-500 hover:underline"
-                      >
-                        hello@joinmastodon.org
-                      </a>
-                    </dd>
-                  </div>
-                </div>
-
-                <div className="col-span-6">
-                  <div className="mb-4">
-                    <dt className="font-bold">Handelsregister:</dt>
-                    <dd>HRB 230086 B (Amtsgericht Charlottenburg)</dd>
-                  </div>
-
-                  <div className="mb-4">
-                    <dt className="font-bold">USt-ID:</dt>
-                    <dd>DE344258260</dd>
-                  </div>
-                </div>
-
-                <div className="col-span-12 mb-4">
-                  <dt className="font-bold">Vertretungsberechtigt:</dt>
-                  <dd>Eugen Rochko (Geschäftsführer)</dd>
-                </div>
-              </dl>
-            </div>
           </div>
         </div>
       </div>
