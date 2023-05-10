@@ -47,7 +47,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
           label: <FormattedMessage id="nav.docs.title" defaultMessage="Le jeu de la prépa" />,
           description: <FormattedMessage id="nav.docs.description" defaultMessage="Comprendre comment la prépa fonctionne" />,
         }, {
-          value: "mailto:dylan.alezra@cepremap.org",
+          value: "mailto:dylan.alezra@gmail.com",
           compact: false,
           label: <FormattedMessage id="nav.support.title" defaultMessage="Contact" />,
           description: <FormattedMessage id="nav.support.description" defaultMessage="Pour nous contacter" />,
