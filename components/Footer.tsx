@@ -112,7 +112,7 @@ export const Footer = () => (
                   key="mastodon/discussions"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="mailto:dylan.alezra@cepremap.org"
+                  href="mailto:dylan.alezra@gmail.com"
                 >
                   <FormattedMessage
                     id="nav.support.title"
