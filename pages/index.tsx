@@ -455,7 +455,7 @@ const Sponsors = ({ sponsors }) => {
           </p>
 
           <div className="flex flex-col items-center justify-center gap-6 sm:flex-row">
-            <LinkButton href="https://sponsor.joinmastodon.org/" size="large">
+            <LinkButton href="https://www.helloasso.com/associations/prepalib/" size="large">
               <FormattedMessage
                 id="sponsors.become_a_sponsor"
                 defaultMessage="Soutenir Prepalib"
