@@ -31,7 +31,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
       label: <FormattedMessage id="nav.apps.title" defaultMessage="Applications" />,
     }, {
       value: "/sponsors",
-      label: <FormattedMessage id="nav.sponsors.title" defaultMessage="Soutenir" />,
+      label: <FormattedMessage id="nav.sponsors.title" defaultMessage="Partenaires" />,
     }, {
       key: "resources",
       label: <FormattedMessage id="nav.resources.title" defaultMessage="Ressources" />,
