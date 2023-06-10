@@ -10620,7 +10620,7 @@ const servers = {
                 "ecg"
             ],
             "niveauOptions": "",
-            "natureOptions": "",
+            "natureOptions": "cours",
             "formatOptions": "",
             "category": [
                 "geopolitique"
