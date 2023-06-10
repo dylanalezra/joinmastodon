@@ -10595,6 +10595,54 @@ const servers = {
             ],
             "url": "http://mathsece.free.fr/sujetsentiers/ECRICOME_2000-c.pdf",
             "local_image": require('../public/servers/maths/appli/273.png')
+        },
+         {
+            "domain": "Le Monde",
+            "version": "",
+            "description": "Cours sur Le Monde en Philosophie",
+            "concoursOptions": [
+                "ecg", "bl"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "",
+            "formatOptions": "",
+            "category": [
+                "philosophie"
+            ],
+            "url": "https://www.dropbox.com/s/2wu04937sblv9c5/Th%C3%A8me%202023%20-%20Le%20Monde.pdf?dl=0",
+            "local_image": require('../public/servers/philosophie/lemonde.jpg')
+        },
+        {
+            "domain": "Toute la Géopolitique en flashcards",
+            "version": "",
+            "description": "Programme de 1A et 2A en flashcards",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "",
+            "formatOptions": "",
+            "category": [
+                "geopolitique"
+            ],
+            "url": "https://www.dropbox.com/s/cmw9sudrxxpyh3t/Toute%20la%20G%C3%A9opolitique%20en%20flashcards.apkg?dl=0",
+            "local_image": require('../public/servers/geopo/geopo_flashcards.jpg')
+        },
+        {
+            "domain": "Tout l'Espagnol en flashcards",
+            "version": "",
+            "description": "Programme de 1A et 2A en flashcards",
+            "concoursOptions": [
+                "ecg"
+            ],
+            "niveauOptions": "",
+            "natureOptions": "",
+            "formatOptions": "",
+            "category": [
+                "espagnol"
+            ],
+            "url": "https://www.dropbox.com/s/sftn6lsxjitcdba/Espagnol.apkg?dl=0",
+            "local_image": require('../public/servers/espagnol/espagnol_flashcards.jpg')
         }
     ]
 };
