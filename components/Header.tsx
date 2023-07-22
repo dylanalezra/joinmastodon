@@ -54,7 +54,7 @@ const Header = ({ transparent = true }: HeaderProps) => {
         },
       ],
       footer: {
-        value: "https://www.dropbox.com/sh/ae0rxgflp7irmki/AAD7GYpJA-7g4YheO-2iJQ-0a?dl=0",
+        value: "https://www.dropbox.com/sh/x8uxb1slk6z4hia/AADo0MHCOZI_ZuPr8406trOja?dl=0",
         label: <FormattedMessage id="nav.code.action" defaultMessage="Tous les contenus" />,
         title: <FormattedMessage id="nav.code.title" defaultMessage="Accédez à la dropbox" />,
         description: <FormattedMessage id="nav.code.description" defaultMessage="Tous les contenus dans la dropbox" />,
